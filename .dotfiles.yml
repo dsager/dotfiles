@@ -1,0 +1,13 @@
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.aliases: aliases
+    ~/.profile: profile
+    ~/.path: path
+    ~/.curlrc: curlrc
+    ~/.wgetrc: wgetrc
+    ~/.gvimrc: gvimrc
+    ~/.vimrc: vimrc
+    ~/.zshrc: zshrc
+
