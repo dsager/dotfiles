@@ -5,6 +5,8 @@
     ~/.aliases: aliases
     ~/.profile: profile
     ~/.path: path
+    ~/.gitignore_global: gitignore_global
+    ~/.gitconfig: gitconfig
     ~/.curlrc: curlrc
     ~/.wgetrc: wgetrc
     ~/.gvimrc: gvimrc

@@ -1,0 +1,21 @@
+[user]
+	name = Daniel Sager
+	email = daniel@sager1.de
+[core]
+	excludesfile = /Users/dsager/.gitignore_global
+	autocrlf = input
+[push]
+	default = current
+[alias]
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[color]
+	ui = true
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
+[git-up "fetch"]
+	prune = true
+	all = true
+[git-up "bundler"]
+	check = true
