@@ -2,7 +2,7 @@
 	name = Daniel Sager
 	email = daniel@sager1.de
 [core]
-	excludesfile = /Users/dsager/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	autocrlf = input
 [push]
 	default = current

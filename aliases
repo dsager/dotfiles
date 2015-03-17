@@ -1,6 +1,6 @@
 # directory listing
 alias ll='ls -lFhG'
-alias la='ls -alFhG'
+alias la='ll -a'
 alias l='ll'
 
 # directory changing
@@ -13,41 +13,42 @@ alias cd..='cd ..'
 alias db="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias wp="cd ~/Work/projects"
+alias src="cd ~/src"
 
 # misc
 alias x='exit'
 alias sudo='sudo '
-alias mv='mv -i'
+alias mv='mv -iv'
 alias grep='grep -s --color=auto --exclude-dir=\.svn --exclude-dir=\.git'
 alias rsyncdefault="rsync --verbose  --progress --stats --compress --recursive --times --perms --links --delete --exclude \"\.git\""
 alias realpath="python -c 'import os,sys;print os.path.realpath(sys.argv[1])'"
 alias pws="python -m SimpleHTTPServer"
+alias timestamp='date +%s'
 
-# git aliases
-alias gcd="git checkout develop"
+# git
 alias gf="git fetch -p"
+alias gcd="git checkout develop"
+alias gpud="git pull upstream develop"
+alias gcpud="gcd && gpud"
 
-# devex aliases
+# devex
 alias dvx="cd ~/Work/projects/devex/devex"
 alias gpdd="git pull devex develop"
-alias gcpd="git checkout develop && git pull devex develop"
-
-# date & time
-alias week='date +%V'
-alias timestam='date +%s'
-alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
-
-# Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update --system; sudo gem update; rvm get stable'
-
-# Clean up LaunchServices to remove duplicates in the “Open With” menu
-alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
+alias gcpdd="gcd && git pull devex develop"
+alias gcpd="gcpdd"
 
 # Intuitive map function
 # For example, to list all directories that contain a certain file:
 # find . -name .gitattributes | map dirname
 alias map="xargs -n1"
+
+### OSX specific
+
+# Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update --system; sudo gem update; rvm get stable'
+
+# Clean up LaunchServices to remove duplicates in the "Open With" menu
+alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
 
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
