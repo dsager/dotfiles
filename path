@@ -1,2 +1,0 @@
-export PATH="/usr/local/heroku/bin:$PATH"
-PATH=$PATH:~/.rvm/bin
