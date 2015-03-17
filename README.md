@@ -11,7 +11,7 @@ It's opinionated and a constant WIP, but feel free to take over what you like...
     ./dotfiles/install
 
     # set up workspace
-    cd src && gws update
+    cd ~/src && gws update
 
 ## Acknowledgements
 
