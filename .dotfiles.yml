@@ -4,6 +4,8 @@
     - "git submodule update --init --recursive external/gws"
     - "git submodule update --init --recursive external/oh-my-zsh"
     - "mkdir -p ~/.local/bin"
+    - "mkdir -p ~/src/other"
+    - "mkdir -p ~/src/work"
     - "mkdir -p external/oh-my-zsh/custom/themes"
 
 - link:
@@ -21,3 +23,4 @@
     "~/.oh-my-zsh": "external/oh-my-zsh/"
     "external/oh-my-zsh/custom/themes/agnoster_custom.zsh-theme": "agnoster_custom.zsh-theme"
     "~/.local/bin/gws": "external/gws/src/gws"
+    "~/src/.projects.gws": "src/projects.gws"

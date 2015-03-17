@@ -1,0 +1,24 @@
+## own stuff
+
+das-glaubst-du | ssh://git@bitbucket.org/dsager/das-glaubst-du.git |
+dotfiles | git@github.com:dsager/dotfiles.git |
+google-code-jam | git@github.com:dsager/google-code-jam.git |
+muecken | git@github.com:dsager/muecken.git |
+dsager.github.io | git@github.com:dsager/dsager.github.io.git |
+plugin.video.bvbtv | git@github.com:dsager/plugin.video.bvbtv.git |
+sager-software.eu | ssh://git@bitbucket.org/dsager/sager-software-website.git |
+
+## contribution / 3rd party
+
+other/cloudinary_angular | git@github.com:dsager/cloudinary_angular.git | git@github.com:cloudinary/cloudinary_angular.git
+other/elasticsearch-head | git://github.com/mobz/elasticsearch-head.git |
+other/grape | git@github.com:dsager/grape.git | git@github.com:intridea/grape.git
+other/mackup | git@github.com:dsager/mackup.git | git@github.com:lra/mackup.git
+other/plus-pull | git@github.com:dsager/plus-pull.git | git@github.com:christofdamian/plus-pull.git
+other/rspec_junit_formatter | git://github.com/dsager/rspec_junit_formatter | git@github.com:sj26/rspec_junit_formatter.git
+
+## work
+
+work/devex | git@github.com:dsager/vm-setup.git | git@github.com:Devex/vm-setup.git
+work/blog | git@github.com:dsager/devex.github.io.git | git@github.com:Devex/devex.github.io.git
+work/marvin | git@github.com:dsager/marvin.git | git@github.com:Devex/marvin.git
