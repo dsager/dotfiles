@@ -1,7 +1,8 @@
 - clean: ["~"]
 
 - shell:
-    - "mkdir -p oh-my-zsh/custom/themes"
+    - "git submodule update --init --recursive external/oh-my-zsh"
+    - "mkdir -p external/oh-my-zsh/custom/themes"
 
 - link:
     "~/.dotfiles": ""
@@ -16,6 +17,6 @@
     "~/.gvimrc": "gvimrc"
     "~/.vimrc": "vimrc"
     "~/.zshrc": "zshrc"
-    "~/.oh-my-zsh": "oh-my-zsh/"
-    "oh-my-zsh/custom/themes/agnoster_custom.zsh-theme": "agnoster_custom.zsh-theme"
+    "~/.oh-my-zsh": "external/oh-my-zsh/"
+    "external/oh-my-zsh/custom/themes/agnoster_custom.zsh-theme": "agnoster_custom.zsh-theme"
 

@@ -1,6 +1,6 @@
-[submodule "dotbot"]
-	path = dotbot
-	url = https://github.com/anishathalye/dotbot
-[submodule "oh-my-zsh"]
-	path = oh-my-zsh
+[submodule "external/oh-my-zsh"]
+	path = external/oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "external/dotbot"]
+	path = external/dotbot
+	url = https://github.com/anishathalye/dotbot
