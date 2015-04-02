@@ -7,3 +7,6 @@
 [submodule "external/gws"]
 	path = external/gws
 	url = https://github.com/StreakyCobra/gws
+[submodule "external/xiki"]
+	path = external/xiki
+	url = git@github.com:trogdoro/xiki.git

@@ -1,3 +1,4 @@
-PATH=$PATH:~/.local/bin:~/.rvm/bin:/usr/local/heroku/bin
+PATH=$PATH:$HOME/.local/bin:~/.rvm/bin:/usr/local/heroku/bin
 
-[ -r ~/.aliases ] && [ -f ~/.aliases ] && source ~/.aliases;
+source $HOME/.aliases
+source $HOME/.xsh
