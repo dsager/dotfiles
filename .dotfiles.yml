@@ -4,11 +4,14 @@
     - "git submodule update --init --recursive external/gws"
     - "git submodule update --init --recursive external/oh-my-zsh"
     - "git submodule update --init --recursive external/xiki"
+    - "git submodule update --init --recursive external/vim-pathogen"
+    - "git submodule update --init --recursive external/vim-colors-solarized"
     - "mkdir -p ~/.local/bin"
     - "mkdir -p ~/.local/share"
     - "mkdir -p ~/src/other"
     - "mkdir -p ~/src/work"
     - "mkdir -p external/oh-my-zsh/custom/themes"
+    - "mkdir -p ~/.vim/autoload ~/.vim/bundle"
 
 - link:
     "~/.dotfiles": ""
@@ -21,6 +24,8 @@
     "~/.curlrc": "curlrc"
     "~/.gvimrc": "gvimrc"
     "~/.vimrc": "vimrc"
+    "~/.vim/autoload/pathogen.vim": "external/vim-pathogen/autoload/pathogen.vim"
+    "~/.vim/bundle/vim-colors-solarized": "external/vim-colors-solarized"
     "~/.zshrc": "zshrc"
     "~/.xsh": "xsh"
     "~/.oh-my-zsh": "external/oh-my-zsh/"

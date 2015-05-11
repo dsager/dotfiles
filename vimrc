@@ -1,6 +1,9 @@
+" pathogen.cum runtime path manipulation
+execute pathogen#infect()
+
 " Use the Solarized Dark theme
 set background=dark
-" colorscheme solarized
+colorscheme solarized
 
 " Make Vim more useful
 set nocompatible
