@@ -4,7 +4,6 @@ own/das-glaubst-du | ssh://git@bitbucket.org/dsager/das-glaubst-du.git |
 own/dotfiles | git@github.com:dsager/dotfiles.git |
 own/google-code-jam | git@github.com:dsager/google-code-jam.git |
 own/muecken | git@github.com:dsager/muecken.git |
-own/dsager.github.io | git@github.com:dsager/dsager.github.io.git |
 own/plugin.video.bvbtv | git@github.com:dsager/plugin.video.bvbtv.git |
 own/dsager.github.io | git@github.com:dsager/dsager.github.io.git |
 own/talks | git@github.com:dsager/talks.git |
@@ -17,6 +16,7 @@ other/grape | git@github.com:dsager/grape.git | git@github.com:intridea/grape.gi
 other/mackup | git@github.com:dsager/mackup.git | git@github.com:lra/mackup.git
 other/plus-pull | git@github.com:dsager/plus-pull.git | git@github.com:christofdamian/plus-pull.git
 other/rspec_junit_formatter | git@github.com:dsager/rspec_junit_formatter.git | git@github.com:sj26/rspec_junit_formatter.git
+other/gws | git@github.com:dsager/gws.git | git@github.com:StreakyCobra/gws.git
 
 ## work
 
