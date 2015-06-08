@@ -30,6 +30,7 @@ alias gf="git fetch -p"
 alias gcd="git checkout develop"
 alias gpud="git pull upstream develop"
 alias gcpud="gcd && gpud"
+eval "$(hub alias -s)"
 
 # devex
 alias dvx="cd ~/Work/projects/devex/devex"
@@ -42,13 +43,7 @@ alias gcpd="gcpdd"
 # find . -name .gitattributes | map dirname
 alias map="xargs -n1"
 
-### OSX specific
+### Linux
 
-# Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update --system; sudo gem update; rvm get stable'
-
-# Clean up LaunchServices to remove duplicates in the "Open With" menu
-alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
-
-# Lock the screen (when going AFK)
-alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
