@@ -7,7 +7,7 @@ own/muecken | git@github.com:dsager/muecken.git |
 own/plugin.video.bvbtv | git@github.com:dsager/plugin.video.bvbtv.git |
 own/dsager.github.io | git@github.com:dsager/dsager.github.io.git |
 own/talks | git@github.com:dsager/talks.git |
-own/zocken | git@github.com:dsager/zocken.git
+own/zocken | git@github.com:dsager/zocken.git |
 
 ## contribution / 3rd party
 
@@ -21,6 +21,7 @@ other/gws | git@github.com:dsager/gws.git | git@github.com:StreakyCobra/gws.git
 
 ## work
 
-work/site | git@github.com:dsager/vm-setup.git | git@github.com:Devex/vm-setup.git
-work/blog | git@github.com:dsager/devex.github.io.git | git@github.com:Devex/devex.github.io.git
-work/marvin | git@github.com:dsager/marvin.git | git@github.com:Devex/marvin.git
+work/devex | git@github.com:dsager/vm-setup.git | git@github.com:Devex/vm-setup.git devex
+work/blog | git@github.com:dsager/devex.github.io.git | git@github.com:Devex/devex.github.io.git devex
+work/marvin | git@github.com:dsager/marvin.git | git@github.com:Devex/marvin.git devex
+
