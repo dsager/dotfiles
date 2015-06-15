@@ -8,3 +8,5 @@ plugins=(pip osx git node npm brew ruby rails rvm gem bundler vagrant)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.profile
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

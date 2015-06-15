@@ -30,7 +30,7 @@ alias gf="git fetch -p"
 alias gcd="git checkout develop"
 alias gpud="git pull upstream develop"
 alias gcpud="gcd && gpud"
-eval "$(hub alias -s)"
+#eval "$(hub alias -s)"
 
 # devex
 alias dvx="cd ~/Work/projects/devex/devex"
