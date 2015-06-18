@@ -24,11 +24,11 @@ other/gws | git@github.com:dsager/gws.git | git@github.com:StreakyCobra/gws.git
 work/blog | git@github.com:dsager/devex.github.io.git | git@github.com:Devex/devex.github.io.git devex
 work/marvin | git@github.com:dsager/marvin.git | git@github.com:Devex/marvin.git devex
 work/devex | git@github.com:dsager/vm-setup.git | git@github.com:Devex/vm-setup.git devex
-work/devex/back-end | git@github.com:dsager/grape-api.git | git@github.com:Devex/grape-api.git devex
-work/devex/front-end | git@github.com:dsager/front-end.git | git@github.com:Devex/front-end.git devex
-work/devex/ui-toolbox | git@github.com:dsager/ui-toolbox.git | git@github.com:Devex/ui-toolbox.git devex
-work/devex/qa-automation | git@github.com:dsager/qa-automation.git | git@github.com:Devex/qa-automation.git devex
-work/devex/opsworks | git@github.com:dsager/opsworks.git | git@github.com:Devex/opsworks.git devex
-work/devex/permissions-sso | git@github.com:dsager/permissions-sso.git | git@github.com:Devex/permissions-sso.git devex
-work/devex/config-manage | git@github.com:dsager/config-manage.git | git@github.com:Devex/config-manage.git devex
+work/devex/devex/grape-api | git@github.com:dsager/grape-api.git | git@github.com:Devex/grape-api.git devex
+work/devex/devex/front-end | git@github.com:dsager/front-end.git | git@github.com:Devex/front-end.git devex
+work/devex/devex/ui-toolbox | git@github.com:dsager/ui-toolbox.git | git@github.com:Devex/ui-toolbox.git devex
+work/devex/devex/qa-automation | git@github.com:dsager/qa-automation.git | git@github.com:Devex/qa-automation.git devex
+work/devex/devex/opsworks | git@github.com:dsager/opsworks.git | git@github.com:Devex/opsworks.git devex
+work/devex/devex/permissions-sso | git@github.com:dsager/permissions-sso.git | git@github.com:Devex/permissions-sso.git devex
+work/devex/devex/config-manage | git@github.com:dsager/config-manage.git | git@github.com:Devex/config-manage.git devex
 
