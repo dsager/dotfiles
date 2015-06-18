@@ -11,7 +11,7 @@
     - "mkdir -p ~/src/other"
     - "mkdir -p ~/src/work"
     - "mkdir -p external/oh-my-zsh/custom/themes"
-    - "mkdir -p ~/.vim/autoload ~/.vim/bundle"
+    - "mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/backups ~/.vim/swaps"
 
 - link:
     "~/.dotfiles": ""
