@@ -14,6 +14,7 @@ alias db="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias src="cd ~/src"
+alias dotf="cd ~/src/own/dotfiles"
 
 # misc
 alias x='exit'
@@ -33,7 +34,7 @@ alias gcpud="gcd && gpud"
 #eval "$(hub alias -s)"
 
 # devex
-alias dvx="cd ~/Work/projects/devex/devex"
+alias dvx="cd ~/src/work/devex/devex"
 alias gpdd="git pull devex develop"
 alias gcpdd="gcd && git pull devex develop"
 alias gcpd="gcpdd"
