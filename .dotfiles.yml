@@ -24,6 +24,7 @@
     "~/.curlrc": "curlrc"
     "~/.gvimrc": "gvimrc"
     "~/.vimrc": "vimrc"
+    "~/.tmux.conf": "tmux.conf"
     "~/.vim/autoload/pathogen.vim": "external/vim-pathogen/autoload/pathogen.vim"
     "~/.vim/bundle/vim-colors-solarized": "external/vim-colors-solarized"
     "~/.zshrc": "zshrc"
