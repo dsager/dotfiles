@@ -1,0 +1,24 @@
+# ~/.tmuxinator/devex.yml
+
+name: devex
+root: ~/src/work/devex/devex
+pre: vagrant up
+startup_window: vagrant
+windows:
+  - local:
+    - git status
+  - vagrant:
+      layout: tiled 
+      panes:
+        - front-end:
+          - vagrant ssh
+          - cd /vagrant/devex/front-end 
+        - grape-api:
+          - vagrant ssh
+          - cd /vagrant/devex/grape-api
+        - permissions:
+          - vagrant ssh
+          - perms
+        - misc:
+          - vagrant ssh
+
