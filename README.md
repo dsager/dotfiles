@@ -6,12 +6,25 @@ It's opinionated and a constant WIP, but feel free to take over what you like...
 ## Usage
 
     # load and set up dotfiles
-    mkdir ~/src && cd ~/src
+    mkdir -p ~/src/own && cd ~/src/own
     git clone git@github.com:dsager/dotfiles.git
     ./dotfiles/install
 
-    # set up workspace
+    # set up git workspace
     cd ~/src && gws update
+
+    # install packages
+    ~/.dotfiles/install_scripts/setup.sh
+
+## Special App Settings
+
+### Spotify
+
+To set proper device scaling for HiDPI run client with `--force-device-scale-factor=2`
+
+### IntelliJ IDEA
+
+To set proper device scaling for HiDPI add `-Dhidpi=true` to the file `/opt/idea/bin/idea64.vmoptions`.
 
 ## Acknowledgements
 
