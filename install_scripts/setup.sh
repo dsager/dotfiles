@@ -32,12 +32,13 @@ sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 94558F59 D2C19886
 echo deb http://repository.spotify.com testing non-free \
   | sudo tee /etc/apt/sources.list.d/spotify.list
+# updated graphics driver
+sudo add-apt-repository ppa:oibaf/graphics-drivers
 
 ## install additional packages
 sudo apt-get update
 sudo apt-get install linssid caffeine insync oracle-java8-installer scudcloud \
                      syncthing syncthing-gtk spotify-client
-
 
 ## configuration
 
