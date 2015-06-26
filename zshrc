@@ -1,3 +1,6 @@
+source $HOME/.dotfiles/external/antigen/antigen.zsh
+antigen bundle rimraf/k && antigen apply
+
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="agnoster_custom"
 CASE_SENSITIVE="true"
