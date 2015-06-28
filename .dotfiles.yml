@@ -2,7 +2,6 @@
 
 - shell:
     - "git submodule update --init --recursive external/gws"
-    - "git submodule update --init --recursive external/oh-my-zsh"
     - "git submodule update --init --recursive external/xiki"
     - "git submodule update --init --recursive external/vim-pathogen"
     - "git submodule update --init --recursive external/vim-colors-solarized"
@@ -11,7 +10,6 @@
     - "mkdir -p ~/.local/share"
     - "mkdir -p ~/src/other"
     - "mkdir -p ~/src/work"
-    - "mkdir -p external/oh-my-zsh/custom/themes"
     - "mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/backups ~/.vim/swaps"
 
 - link:
@@ -31,8 +29,6 @@
     "~/.vim/bundle/vim-colors-solarized": "external/vim-colors-solarized"
     "~/.zshrc": "zshrc"
     "~/.xsh": "xsh"
-    "~/.oh-my-zsh": "external/oh-my-zsh"
-    "external/oh-my-zsh/custom/themes/agnoster_custom.zsh-theme": "agnoster_custom.zsh-theme"
     "~/.local/bin/gws": "external/gws/src/gws"
     "~/.local/share/xiki": "external/xiki"
     "~/src/.projects.gws": "src/projects.gws"
