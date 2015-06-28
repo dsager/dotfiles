@@ -14,7 +14,6 @@ alias db="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias src="cd ~/src"
-alias dotf="cd ~/src/own/dotfiles"
 
 # misc
 alias x='exit'
