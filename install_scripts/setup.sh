@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt-get install xclip tree git firefox zsh dconf-editor vim-addon-manager \
                      virtualbox vagrant transmission imagemagick mplayer \
                      gtk-recordmydesktop libxml2-dev rpcbind nfs-kernel-server \
-                     tmux laptop-mode-tools bleachbit
+                     tmux laptop-mode-tools bleachbit nodejs-legacy npm gnupg
 
 ## add additional repositories
 
