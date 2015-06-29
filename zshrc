@@ -7,8 +7,10 @@ source $HOME/.dotfiles/external/antigen/antigen.zsh
 antigen use oh-my-zsh
 
 # OMZ powerlevel theme
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status rbenv time)
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs)
+POWERLEVEL9K_RVM_FOREGROUND='black'
+POWERLEVEL9K_RVM_BACKGROUND='blue'
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status rvm time)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
 antigen theme bhilburn/powerlevel9k powerlevel9k
 
 antigen bundles <<EOBUNDLES
