@@ -9,8 +9,7 @@ antigen use oh-my-zsh
 # OMZ powerlevel theme
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status rbenv time)
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs)
-antigen theme dritter/powerlevel9k powerlevel9k --branch=dritter/prezto
-#antigen theme bhilburn/powerlevel9k powerlevel9k
+antigen theme bhilburn/powerlevel9k powerlevel9k
 
 antigen bundles <<EOBUNDLES
 command-not-found
