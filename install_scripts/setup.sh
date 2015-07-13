@@ -49,6 +49,8 @@ chsh -s /bin/zsh
 gsettings set org.gnome.desktop.interface scaling-factor 2
 # set screenshot folder
 gsettings set org.gnome.gnome-screenshot auto-save-directory "file:///home/dsager/Dropbox/Screenshots/"
+# disable single click in files
+gsettings set org.pantheon.files.preferences single-click false
 
 # change scudcloud image
 wget https://d13yacurqjgara.cloudfront.net/users/48487/screenshots/1400899/attachments/203336/slack-3d.png
