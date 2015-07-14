@@ -36,11 +36,13 @@ echo deb http://repository.spotify.com testing non-free \
 sudo add-apt-repository ppa:oibaf/graphics-drivers
 # solaar for logitech unifying receiver
 sudo add-apt-repository ppa:daniel.pavel/solaar
+# synapse launcher
+sudo add-apt-repository ppa:synapse-core/ppa
 
 ## install additional packages
 sudo apt-get update
 sudo apt-get install linssid caffeine insync oracle-java8-installer scudcloud \
-                     syncthing syncthing-gtk spotify-client solaar
+                     syncthing syncthing-gtk spotify-client solaar synapse
 
 ## configuration
 
