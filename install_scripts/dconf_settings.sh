@@ -15,14 +15,14 @@ gsettings set org.gnome.settings-daemon.peripherals.mouse motion-acceleration 10
 gsettings set org.gnome.mutter workspaces-only-on-primary true
 
 # screenshot folder in dropbox
-gsettings set org.gnome.gnome-screenshot auto-save-directory "file:///home/dsager/Dropbox/Screenshots/"
+gsettings set org.gnome.gnome-screenshot auto-save-directory 'file:///home/dsager/Dropbox/Screenshots/'
 
 # set keys for window management
-gsettings set org.gnome.desktop.wm.keybindings close ['<Primary>q']
-gsettings set org.gnome.desktop.wm.keybindings minimize ['<Super>m']
-gsettings set org.gnome.desktop.wm.keybindings maximize ['<Primary><Super>Up']
-gsettings set org.gnome.desktop.wm.keybindings show-desktop ['<Super>Up']
-gsettings set org.gnome.desktop.wm.keybindings unmaximize ['<Primary><Super>Down']
+gsettings set org.gnome.desktop.wm.keybindings close "['<Primary>q']"
+gsettings set org.gnome.desktop.wm.keybindings minimize "['<Super>m']"
+gsettings set org.gnome.desktop.wm.keybindings maximize "['<Primary><Super>Up']"
+gsettings set org.gnome.desktop.wm.keybindings show-desktop "['<Super>Up']"
+gsettings set org.gnome.desktop.wm.keybindings unmaximize "['<Primary><Super>Down']"
 
 # set desktop scaling to 2 (HiDPI)
 gsettings set org.gnome.desktop.interface scaling-factor 2
@@ -65,7 +65,7 @@ gsettings set org.pantheon.terminal.settings background '#252e32'
 # scratch settings
 gsettings set org.pantheon.scratch.settings style-scheme 'solarized-dark'
 gsettings set org.pantheon.scratch.settings auto-indent false
-gsettings set org.pantheon.scratch.settings plugins-enabled ['folder-manager', 'highlight-word-selection', 'strip-trailing-save', 'filemanager', 'contractor', 'brackets-completion']
+gsettings set org.pantheon.scratch.settings plugins-enabled "['folder-manager', 'highlight-word-selection', 'strip-trailing-save', 'filemanager', 'contractor', 'brackets-completion']"
 gsettings set org.pantheon.scratch.settings use-system-font false
 gsettings set org.pantheon.scratch.settings font 'Droid Sans Mono 10'
 gsettings set org.pantheon.scratch.settings show-right-margin true
