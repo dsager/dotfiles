@@ -40,6 +40,7 @@ gsettings set org.pantheon.desktop.gala.behavior dynamic-workspaces false
 
 # hot corner
 gsettings set org.pantheon.desktop.gala.behavior hotcorner-topright 'show-workspace-view'
+gsettings set org.pantheon.desktop.gala.behavior hotcorner-topleft 'window-overview'
 
 # don't show launcher button
 gsettings set org.pantheon.desktop.wingpanel show-launcher false
