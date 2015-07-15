@@ -38,23 +38,18 @@ sudo add-apt-repository ppa:oibaf/graphics-drivers
 sudo add-apt-repository ppa:daniel.pavel/solaar
 # synapse launcher
 sudo add-apt-repository ppa:synapse-core/ppa
+# birdie twitter client
+sudo add-apt-repository ppa:birdie-team/stable
 
 ## install additional packages
 sudo apt-get update
 sudo apt-get install linssid caffeine insync oracle-java8-installer scudcloud \
-                     syncthing syncthing-gtk spotify-client solaar synapse
+                     syncthing syncthing-gtk spotify-client solaar synapse birdie
 
 ## configuration
 
 # set zsh as default shell
 chsh -s /bin/zsh
-
-# set desktop scaling to 2 (HiDPI)
-gsettings set org.gnome.desktop.interface scaling-factor 2
-# set screenshot folder
-gsettings set org.gnome.gnome-screenshot auto-save-directory "file:///home/dsager/Dropbox/Screenshots/"
-# disable single click in files
-gsettings set org.pantheon.files.preferences single-click false
 
 # change scudcloud image
 wget https://d13yacurqjgara.cloudfront.net/users/48487/screenshots/1400899/attachments/203336/slack-3d.png
