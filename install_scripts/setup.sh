@@ -57,11 +57,17 @@ sudo add-apt-repository ppa:birdie-team/stable
 # atom text editor
 sudo add-apt-repository ppa:webupd8team/atom
 
+# hardware sensors indicator
+sudo add-apt-repository ppa:alexmurray/indicator-sensors
+
+# additional icons
+sudo add-apt-repository ppa:cybre/elementaryplus
+
 ## install additional packages
 sudo apt-get update
 sudo apt-get -y install linssid caffeine insync oracle-java8-installer atom \
                         scudcloud syncthing syncthing-gtk spotify-client solaar \
-                        synapse birdie
+                        synapse birdie indicator-sensors elementaryplus
 
 ## configuration
 
