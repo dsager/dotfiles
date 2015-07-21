@@ -42,6 +42,11 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 94558F59 
 echo deb http://repository.spotify.com testing non-free \
   | sudo tee /etc/apt/sources.list.d/spotify.list
 
+# heroku toolbelt
+curl -s https://toolbelt.heroku.com/apt/release.key | sudo apt-key add -
+echo "deb http://toolbelt.heroku.com/ubuntu ./" \
+  | sudo tee /etc/apt/sources.list.d/heroku.list
+
 # updated graphics driver
 sudo add-apt-repository ppa:oibaf/graphics-drivers
 
@@ -67,7 +72,8 @@ sudo add-apt-repository ppa:cybre/elementaryplus
 sudo apt-get update
 sudo apt-get -y install linssid caffeine insync oracle-java8-installer atom \
                         scudcloud syncthing syncthing-gtk spotify-client solaar \
-                        synapse birdie indicator-sensors elementaryplus
+                        synapse birdie indicator-sensors elementaryplus \
+                        heroku-toolbelt
 
 ## configuration
 
