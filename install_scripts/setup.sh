@@ -68,12 +68,21 @@ sudo add-apt-repository ppa:alexmurray/indicator-sensors
 # additional icons
 sudo add-apt-repository ppa:cybre/elementaryplus
 
+# feed reader
+sudo add-apt-repository ppa:eviltwin1/feedreader-stable
+
+# uber writer
+sudo add-apt-repository ppa:w-vollprecht/ppa
+
+# vocal podcast player
+sudo apt-add-repository ppa:nathandyer/vocal-stable
+
 ## install additional packages
 sudo apt-get update
 sudo apt-get -y install linssid caffeine insync oracle-java8-installer atom \
                         scudcloud syncthing syncthing-gtk spotify-client solaar \
                         synapse birdie indicator-sensors elementaryplus \
-                        heroku-toolbelt
+                        heroku-toolbelt feedreader uberwriter vocal
 
 ## configuration
 
