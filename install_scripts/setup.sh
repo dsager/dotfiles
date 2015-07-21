@@ -77,12 +77,15 @@ sudo add-apt-repository ppa:w-vollprecht/ppa
 # vocal podcast player
 sudo apt-add-repository ppa:nathandyer/vocal-stable
 
+# tomato
+sudo apt-add-repository ppa:tomato-team/tomato-stable
+
 ## install additional packages
 sudo apt-get update
 sudo apt-get -y install linssid caffeine insync oracle-java8-installer atom \
                         scudcloud syncthing syncthing-gtk spotify-client solaar \
                         synapse birdie indicator-sensors elementaryplus \
-                        heroku-toolbelt feedreader uberwriter vocal
+                        heroku-toolbelt feedreader uberwriter vocal tomato
 
 ## configuration
 
