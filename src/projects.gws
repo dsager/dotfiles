@@ -29,6 +29,6 @@ work/devex/devex/front-end | git@github.com:dsager/front-end.git | git@github.co
 work/devex/devex/ui-toolbox | git@github.com:dsager/ui-toolbox.git | git@github.com:Devex/ui-toolbox.git devex
 work/devex/devex/qa-automation | git@github.com:dsager/qa-automation.git | git@github.com:Devex/qa-automation.git devex
 work/devex/devex/opsworks | git@github.com:dsager/opsworks.git | git@github.com:Devex/opsworks.git devex
-work/devex/devex/permissions-sso | git@github.com:dsager/permissions-sso.git | git@github.com:Devex/permissions-sso.git devex
 work/devex/devex/config-manage | git@github.com:dsager/config-manage.git | git@github.com:Devex/config-manage.git devex
+work/devex/devex/procurement | git@github.com:dsager/procurement.git | git@github.com:Devex/procurement.git devex
 

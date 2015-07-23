@@ -16,9 +16,6 @@ windows:
         - grape-api:
           - vagrant ssh
           - cd /vagrant/devex/grape-api
-        - permissions:
-          - vagrant ssh
-          - perms
         - misc:
           - vagrant ssh
 
