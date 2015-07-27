@@ -8,7 +8,7 @@ sudo apt-get upgrade
 sudo apt-get install -y xclip tree git firefox zsh dconf-editor vim-addon-manager \
                         virtualbox vagrant transmission imagemagick mplayer \
                         gtk-recordmydesktop libxml2-dev rpcbind nfs-kernel-server \
-                        tmux laptop-mode-tools bleachbit nodejs-legacy npm gnupg
+                        tmux laptop-mode-tools bleachbit nodejs-legacy npm gnupg jq
 
 ## add additional repositories
 
