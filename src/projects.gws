@@ -31,4 +31,5 @@ work/devex/devex/qa-automation | git@github.com:dsager/qa-automation.git | git@g
 work/devex/devex/opsworks | git@github.com:dsager/opsworks.git | git@github.com:Devex/opsworks.git devex
 work/devex/devex/config-manage | git@github.com:dsager/config-manage.git | git@github.com:Devex/config-manage.git devex
 work/devex/devex/procurement | git@github.com:dsager/procurement.git | git@github.com:Devex/procurement.git devex
+work/devex/devex/neo | git@github.com:dsager/neo.git | git@github.com:Devex/neo.git devex
 
