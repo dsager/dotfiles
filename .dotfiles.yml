@@ -6,6 +6,7 @@
     - "git submodule update --init --recursive external/vim-pathogen"
     - "git submodule update --init --recursive external/vim-colors-solarized"
     - "git submodule update --init --recursive external/antigen"
+    - "mkdir -p ~/.config"
     - "mkdir -p ~/.local/bin"
     - "mkdir -p ~/.local/share"
     - "mkdir -p ~/src/other"
@@ -31,4 +32,5 @@
     "~/.xsh": "xsh"
     "~/.local/bin/gws": "external/gws/src/gws"
     "~/.local/share/xiki": "external/xiki"
+    "~/.config/redshift.conf": "config/redshift.conf"
     "~/src/.projects.gws": "src/projects.gws"
