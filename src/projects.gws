@@ -23,6 +23,7 @@ other/gws | git@github.com:dsager/gws.git | git@github.com:StreakyCobra/gws.git
 
 work/blog | git@github.com:dsager/devex.github.io.git | git@github.com:Devex/devex.github.io.git devex
 work/marvin | git@github.com:dsager/marvin.git | git@github.com:Devex/marvin.git devex
+work/graveyard | git@github.com:Devex/graveyard.git
 work/devex | git@github.com:dsager/vm-setup.git | git@github.com:Devex/vm-setup.git devex
 work/devex/devex/grape-api | git@github.com:dsager/grape-api.git | git@github.com:Devex/grape-api.git devex
 work/devex/devex/front-end | git@github.com:dsager/front-end.git | git@github.com:Devex/front-end.git devex
