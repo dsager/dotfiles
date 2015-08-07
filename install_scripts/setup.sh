@@ -81,12 +81,16 @@ sudo apt-add-repository ppa:nathandyer/vocal-stable
 # tomato
 sudo apt-add-repository ppa:tomato-team/tomato-stable
 
+# variety wallpaper manager
+sudo add-apt-repository ppa:peterlevi/ppa
+
 ## install additional packages
 sudo apt-get update
 sudo apt-get -y install linssid caffeine insync oracle-java8-installer atom \
                         scudcloud syncthing syncthing-gtk spotify-client solaar \
                         synapse birdie indicator-sensors elementaryplus \
-                        heroku-toolbelt feedreader uberwriter vocal tomato
+                        heroku-toolbelt feedreader uberwriter vocal tomato \
+                        variety
 
 ## configuration
 
