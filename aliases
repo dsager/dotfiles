@@ -12,7 +12,6 @@ alias -- -="cd -"
 alias cd..='cd ..'
 alias db="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
 alias src="cd ~/src"
 
 # misc
@@ -31,6 +30,7 @@ alias curl_perf='curl -w "\n      size_download:  %{size_download}\n    time_nam
 # git
 alias gf="git fetch -p"
 alias gcd="git checkout develop"
+alias gcm="git checkout master"
 alias gpud="git pull upstream develop"
 alias gcpud="gcd && gpud"
 #eval "$(hub alias -s)"
@@ -40,6 +40,9 @@ alias dvx="cd ~/src/work/devex/devex"
 alias gpdd="git pull devex develop"
 alias gcpdd="gcd && git pull devex develop"
 alias gcpd="gcpdd"
+alias gpdm="git pull devex master"
+alias gcpdm="gcm && git pull devex master"
+alias gcpm="gcpdm"
 
 # Intuitive map function
 # For example, to list all directories that contain a certain file:
@@ -50,3 +53,6 @@ alias map="xargs -n1"
 
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
+alias empty-trash="gvfs-trash --empty"
+alias apt-update="sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove && sudo apt-get autoclean"
+
