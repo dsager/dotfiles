@@ -1,13 +1,13 @@
 # dotfiles
 
-Some stuff to setup and customize my working environment.
+Some scripts and [notes](NOTES.md) to setup and customize my working environment.
 It's opinionated and a constant WIP, but feel free to take over what you like...
 
 ## Usage
 
     # set up dotfiles folder
     mkdir -p ~/src/own && cd ~/src/own
-    git clone git@github.com:dsager/dotfiles.git
+    git clone https://github.com/dsager/dotfiles.git
 
     # use install & config scripts
     cd ./dotfiles/scripts && ls -l
@@ -15,35 +15,23 @@ It's opinionated and a constant WIP, but feel free to take over what you like...
     # set up git workspace
     cd ~/src && gws update
 
-## Special App Settings
+## Recources
 
-### Firefox
+A brief list of helpful tools and resources:
 
-- [uBlock Origin]](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
-- [LastPass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager)
-- [Pushbullet](https://addons.mozilla.org/en-US/firefox/addon/pushbullet/)
-
-### Spotify
-
-To set proper device scaling for HiDPI run client with `--force-device-scale-factor=2`
-
-### IntelliJ IDEA
-
-- Download archive and extract into `/opt`
-- Run `~/.local/bin/idea.sh`
-- Create desktop entry
-- Edit `~/.local/share/applications/jetbrains-idea.desktop` and point `Exec` to `~/.local/bin/idea.sh`
-
-## Acknowledgements
-
-To get started I copied shamelessly from [mathiasbynens](https://github.com/mathiasbynens/dotfiles)'
-and [anishathalye](https://github.com/anishathalye/dotfiles)'s dotfiles...
-
-Thanks to the authors and contributors of the following awesome tools:
+- [mathiasbynens' dotfiles](https://github.com/mathiasbynens/dotfiles)
+- [anishathalye's dotfiles](https://github.com/anishathalye/dotfiles)
 - [dotbot](https://github.com/anishathalye/dotbot)
-- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)
 - [mackup](https://github.com/lra/mackup)
 - [gws](https://github.com/StreakyCobra/gws)
+- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)
+- [powerlevel9k theme](https://github.com/bhilburn/powerlevel9k)
+- [antigen](https://github.com/zsh-users/antigen.git)
+- [vim-pathogen](https://github.com/tpope/vim-pathogen.git)
+- [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized.git)
+- [tmuxinator](https://github.com/tmuxinator/tmuxinator)
+
+Big thanks to all authors and contributors!
 
 ## License
 
