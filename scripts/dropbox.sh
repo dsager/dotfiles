@@ -1,6 +1,5 @@
 #! /bin/sh
 
-git clone https://github.com/zant95/elementary-dropbox /tmp/elementary-dropbox
-bash /tmp/elementary-dropbox/install.sh
+git clone https://github.com/dsager/elementary-dropbox.git /tmp/elementary-dropbox
+/bin/sh /tmp/elementary-dropbox/install.sh
 rm -rf /tmp/elementary-dropbox
-
