@@ -22,7 +22,7 @@ It's opinionated and a constant WIP, but feel free to take over what you like...
 
 - [uBlock Origin]](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
 - [LastPass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager)
-
+- [Pushbulet](https://addons.mozilla.org/en-US/firefox/addon/pushbullet/)
 
 ### Spotify
 
