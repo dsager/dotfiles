@@ -5,16 +5,15 @@ It's opinionated and a constant WIP, but feel free to take over what you like...
 
 ## Usage
 
-    # load and set up dotfiles
+    # set up dotfiles folder
     mkdir -p ~/src/own && cd ~/src/own
     git clone git@github.com:dsager/dotfiles.git
-    ./dotfiles/install
+
+    # use install & config scripts
+    cd ./dotfiles/scripts && ls -l
 
     # set up git workspace
     cd ~/src && gws update
-
-    # install packages
-    ~/.dotfiles/install_scripts/setup.sh
 
 ## Special App Settings
 
@@ -22,7 +21,7 @@ It's opinionated and a constant WIP, but feel free to take over what you like...
 
 - [uBlock Origin]](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
 - [LastPass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager)
-- [Pushbulet](https://addons.mozilla.org/en-US/firefox/addon/pushbullet/)
+- [Pushbullet](https://addons.mozilla.org/en-US/firefox/addon/pushbullet/)
 
 ### Spotify
 
