@@ -31,6 +31,7 @@
     "~/.zshrc": "zshrc"
     "~/.xsh": "xsh"
     "~/.local/bin/gws": "external/gws/src/gws"
+    "~/.local/bin/idea.sh": "local/bin/idea.sh"
     "~/.local/share/xiki": "external/xiki"
     "~/.config/redshift.conf": "config/redshift.conf"
     "~/src/.projects.gws": "src/projects.gws"

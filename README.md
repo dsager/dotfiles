@@ -30,7 +30,10 @@ To set proper device scaling for HiDPI run client with `--force-device-scale-fac
 
 ### IntelliJ IDEA
 
-To set proper device scaling for HiDPI add `-Dhidpi=true` to the file `/opt/idea/bin/idea64.vmoptions`.
+- Download archive and extract into `/opt`
+- Run `~/.local/bin/idea.sh`
+- Create desktop entry
+- Edit `~/.local/share/applications/jetbrains-idea.desktop` and point `Exec` to `~/.local/bin/idea.sh`
 
 ## Acknowledgements
 
