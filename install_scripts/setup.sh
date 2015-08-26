@@ -9,7 +9,7 @@ sudo apt-get install -y xclip tree git firefox zsh dconf-editor vim-addon-manage
                         virtualbox vagrant transmission imagemagick mplayer \
                         gtk-recordmydesktop libxml2-dev rpcbind nfs-kernel-server \
                         tmux laptop-mode-tools bleachbit nodejs-legacy npm gnupg jq \
-                        geoclue-2.0 redshift redshift-gtk calibre r-base
+                        geoclue-2.0 redshift redshift-gtk calibre chromium-browser
 
 ## add additional repositories
 
@@ -60,9 +60,6 @@ sudo add-apt-repository ppa:synapse-core/ppa
 # birdie twitter client
 sudo add-apt-repository ppa:birdie-team/stable
 
-# atom text editor
-sudo add-apt-repository ppa:webupd8team/atom
-
 # hardware sensors indicator
 sudo add-apt-repository ppa:alexmurray/indicator-sensors
 
@@ -86,11 +83,15 @@ sudo add-apt-repository ppa:peterlevi/ppa
 
 ## install additional packages
 sudo apt-get update
-sudo apt-get -y install linssid caffeine insync oracle-java8-installer atom \
-                        scudcloud syncthing syncthing-gtk spotify-client solaar \
-                        synapse birdie indicator-sensors elementaryplus \
+sudo apt-get upgrade
+sudo apt-get -y install linssid caffeine insync oracle-java8-installer \
+                        scudcloud syncthing syncthing-gtk spotify-client \
+                        solaar synapse birdie indicator-sensors elementaryplus \
                         heroku-toolbelt feedreader uberwriter vocal tomato \
                         variety
+sudo apt-get autoremove
+sudo apt-get autoclean
+
 
 ## configuration
 
@@ -100,5 +101,5 @@ chsh -s /bin/zsh
 # change scudcloud image
 wget https://d13yacurqjgara.cloudfront.net/users/48487/screenshots/1400899/attachments/203336/slack-3d.png
 sudo dpkg-divert --add --rename --divert /opt/scudcloud/resources/scudcloud.png.real /opt/scudcloud/resources/scudcloud.png
-sudo cp ~/.dotfiles/icons/slack-3d.png /opt/scudcloud/resources/scudcloud.png
+sudo mv ~/.dotfiles/icons/slack-3d.png /opt/scudcloud/resources/scudcloud.png
 sudo chmod +r /opt/scudcloud/resources/scudcloud.png
