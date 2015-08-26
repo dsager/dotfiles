@@ -6,7 +6,7 @@ DCONF SETTINGS
 
 "
 
-MONO_FONT="Ubuntu Mono derivative Powerline"
+MONO_FONT="Liberation Mono for Powerline"
 
 echo "- dim screen when idle"
 gsettings set org.gnome.settings-daemon.plugins.power idle-dim true
