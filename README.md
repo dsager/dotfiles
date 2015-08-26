@@ -18,6 +18,12 @@ It's opinionated and a constant WIP, but feel free to take over what you like...
 
 ## Special App Settings
 
+### Firefox
+
+- [uBlock Origin]](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
+- [LastPass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager)
+
+
 ### Spotify
 
 To set proper device scaling for HiDPI run client with `--force-device-scale-factor=2`
