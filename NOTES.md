@@ -7,6 +7,7 @@ Various notes on all kinds of things related to OS setup...
 - [uBlock Origin]](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
 - [LastPass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager)
 - [Pushbullet](https://addons.mozilla.org/en-US/firefox/addon/pushbullet/)
+- [JSONView](https://addons.mozilla.org/en-US/firefox/addon/jsonview)
 
 ### HiDPI
 
