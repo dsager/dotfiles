@@ -10,3 +10,15 @@ if [ $? -eq 1 ]; then
     sudo tee -a /etc/fstab
   sudo mount /dev/sda3
 fi
+
+# remove directories
+rmdir ~/Documents
+rmdir ~/Pictures
+rmdir ~/Music
+rmdir ~/Videos
+rmdir ~/Templates
+rmdir ~/Public
+
+# link directories
+ln -s /media/data/googledrive/daniel@sager1.de/Documents ~/Documents
+ln -s /media/data/googledrive/daniel@sager1.de/Pictures ~/Pictures
