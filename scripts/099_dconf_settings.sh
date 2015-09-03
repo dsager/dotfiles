@@ -20,7 +20,8 @@ echo "- only use workspaces on primary screen"
 gsettings set org.gnome.mutter workspaces-only-on-primary true
 
 echo "- screenshot folder in dropbox"
-gsettings set org.gnome.gnome-screenshot auto-save-directory 'file:///home/dsager/Dropbox/Screenshots/'
+SSDIR=~/Dropbox/Screenshots
+gsettings set org.gnome.gnome-screenshot auto-save-directory "file://${SSDIR}"
 
 echo "- set keyboard shortcuts"
 gsettings set org.gnome.desktop.wm.keybindings close "['<Primary>q']"
