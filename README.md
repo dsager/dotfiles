@@ -1,7 +1,8 @@
 # dotfiles
 
-Some scripts and [notes](NOTES.md) to setup and customize my working environment.
-It's opinionated and a constant WIP, but feel free to take over what you like...
+Some scripts and [notes](NOTES.md) to setup and customize my working environment (Elementary OS).
+
+This is opinionated and a constant WIP, but feel to look around anyway...
 
 ## Usage
 
