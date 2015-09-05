@@ -13,6 +13,7 @@ fi
 
 # remove directories
 rmdir ~/Documents
+rmdir ~/Downloads
 rmdir ~/Pictures
 rmdir ~/Music
 rmdir ~/Videos
@@ -21,4 +22,5 @@ rmdir ~/Public
 
 # link directories
 ln -s /media/data/googledrive/daniel@sager1.de/Documents ~/Documents
+ln -s /media/data/downloads ~/Downloads
 ln -s /media/data/googledrive/daniel@sager1.de/Pictures ~/Pictures
