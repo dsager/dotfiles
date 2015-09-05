@@ -24,3 +24,4 @@ rmdir ~/Public
 ln -s /media/data/googledrive/daniel@sager1.de/Documents ~/Documents
 ln -s /media/data/downloads ~/Downloads
 ln -s /media/data/googledrive/daniel@sager1.de/Pictures ~/Pictures
+ln -s /media/data/home/.IntelliJIdea14 ~/.IntelliJIdea14
