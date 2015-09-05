@@ -6,7 +6,8 @@ CONFIG=".dotfiles.yml"
 DOTBOT_DIR="external/dotbot"
 
 DOTBOT_BIN="bin/dotbot"
-BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && cd .. && pwd)"
+SCRIPTDIR="$(dirname $(readlink -f $0))"
+BASEDIR="$(cd ${SCRIPTDIR}/.. && pwd)"
 
 cd "${BASEDIR}"
 git submodule update --init --recursive "${DOTBOT_DIR}"

@@ -12,6 +12,12 @@
     - "mkdir -p ~/src/other"
     - "mkdir -p ~/src/work"
     - "mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/backups ~/.vim/swaps"
+    - "rmdir ~/Documents"
+    - "rmdir ~/Downloads"
+    - "rmdir ~/Pictures"
+    - "rmdir ~/Music"
+    - "rmdir ~/Videos"
+    - "rmdir ~/Templates"
 
 - link:
     "~/.dotfiles": ""
@@ -35,3 +41,7 @@
     "~/.local/share/xiki": "external/xiki"
     "~/.config/redshift.conf": "config/redshift.conf"
     "~/src/.projects.gws": "src/projects.gws"
+    "~/Documents": "/media/data/googledrive/daniel@sager1.de/Documents"
+    "~/Downloads": "/media/data/downloads"
+    "~/Pictures": "/media/data/googledrive/daniel@sager1.de/Pictures"
+    "~/.IntelliJIdea14": "/media/data/home/.IntelliJIdea14"
