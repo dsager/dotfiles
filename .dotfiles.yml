@@ -21,7 +21,6 @@
     - "rmdir ~/Templates"
 
 - link:
-    "~/.dotfiles": ""
     "~/.aliases": "aliases"
     "~/.profile": "profile"
     "~/.gitignore_global": "gitignore_global"
@@ -41,6 +40,7 @@
     "~/.local/bin/idea.sh": "local/bin/idea.sh"
     "~/.local/share/xiki": "external/xiki"
     "~/.config/redshift.conf": "config/redshift.conf"
+    "~/.config/synapse/config.json": "config/synapse/config.json"
     "~/.config/variety/variety.conf": "config/variety/variety.conf"
     "~/src/.projects.gws": "src/projects.gws"
     "~/Documents": "/media/data/googledrive/daniel@sager1.de/Documents"
@@ -48,3 +48,6 @@
     "~/Pictures": "/media/data/googledrive/daniel@sager1.de/Pictures"
     "~/Dropbox": "/media/data/Dropbox"
     "~/.IntelliJIdea14": "/media/data/home/.IntelliJIdea14"
+    "~/.vpnht": "/media/data/home/.vpnht"
+    "~/.vagrant.d": "/media/data/home/.vagrant.d"
+    "~/.config/Insync": "/media/data/home/.config/Insync"

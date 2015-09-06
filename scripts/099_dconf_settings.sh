@@ -24,6 +24,7 @@ SSDIR=~/Dropbox/Screenshots
 gsettings set org.gnome.gnome-screenshot auto-save-directory "file://${SSDIR}"
 
 echo "- set keyboard shortcuts"
+gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Primary><Super>space']"
 gsettings set org.gnome.desktop.wm.keybindings close "['<Primary>q']"
 gsettings set org.gnome.desktop.wm.keybindings minimize "['<Super>m']"
 gsettings set org.gnome.desktop.wm.keybindings maximize "['<Primary><Super>Up']"
