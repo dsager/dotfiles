@@ -7,8 +7,7 @@ This is opinionated and a constant WIP, but feel to look around anyway...
 ## Usage
 
     # set up dotfiles folder
-    mkdir -p ~/src/own && cd ~/src/own
-    git clone https://github.com/dsager/dotfiles.git
+    git clone https://github.com/dsager/dotfiles.git ~/.dotfiles
 
     # use install & config scripts
     cd ./dotfiles/scripts && ls -l
