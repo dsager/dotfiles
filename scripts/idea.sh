@@ -12,9 +12,10 @@ if [ $? -eq 1 ]; then
 fi
 
 # Workaround to prevent keyboard input from being blocked by IBus
-XMODIFIERS=""
-export XMODIFIERS
+grep 'XMODIFIERS' "${DIR}/bin/idea.sh" > /dev/null
+if [ $? -eq 1 ]; then
+  echo "Missing 'export XMODIFIERS=\"\"' in ${DIR}/bin/idea.sh"
+fi
 
-echo "${DIR}/bin/idea.sh"
-${DIR}/bin/idea.sh
+
 

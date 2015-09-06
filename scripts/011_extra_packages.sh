@@ -92,6 +92,11 @@ PACKAGES="${PACKAGES} variety"
 sudo apt-add-repository ppa:nasc-team/daily
 PACKAGES="${PACKAGES} nasc"
 
+# virtualbox
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add - 
+sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian trusty contrib"
+PACKAGES="${PACKAGES} virtualbox-4.3"
+
 ## install additional packages
 sudo apt-get update
 sudo apt-get upgrade
@@ -103,5 +108,5 @@ sudo apt-get autoclean
 
 # change scudcloud image
 sudo dpkg-divert --add --rename --divert /opt/scudcloud/resources/scudcloud.png.real /opt/scudcloud/resources/scudcloud.png
-sudo ln ~/.dotfiles/icons/slack-3d.png /opt/scudcloud/resources/scudcloud.png
+sudo ln -s ~/.dotfiles/icons/slack-3d.png /opt/scudcloud/resources/scudcloud.png
 sudo chmod +r /opt/scudcloud/resources/scudcloud.png
