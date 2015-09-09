@@ -8,7 +8,7 @@ sudo apt-get install -y xclip tree git firefox zsh dconf-editor vim-addon-manage
                         gtk-recordmydesktop libxml2-dev rpcbind nfs-kernel-server \
                         tmux laptop-mode-tools nodejs-legacy npm gnupg jq \
                         geoclue-2.0 redshift redshift-gtk calibre chromium-browser \
-                        ppa-purge network-manager-openvpn
+                        ppa-purge network-manager-openvpn indicator-multiload
 
 # set zsh as default shell
 chsh -s /bin/zsh
