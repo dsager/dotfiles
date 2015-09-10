@@ -20,6 +20,7 @@ other/gws | git@github.com:dsager/gws.git | git@github.com:StreakyCobra/gws.git
 
 ## work
 
+work/research | git@github.com:dsager/research.git | git@github.com:Devex/research.git devex
 work/blog | git@github.com:dsager/devex.github.io.git | git@github.com:Devex/devex.github.io.git devex
 work/marvin | git@github.com:dsager/marvin.git | git@github.com:Devex/marvin.git devex
 work/devex | git@github.com:dsager/vm-setup.git | git@github.com:Devex/vm-setup.git devex
