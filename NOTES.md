@@ -10,18 +10,7 @@ Various notes on all kinds of things related to OS setup...
 - [JSONView](https://addons.mozilla.org/en-US/firefox/addon/jsonview)
 - [German Dictionary](https://addons.mozilla.org/en-US/firefox/addon/german-dictionary)
 - [Spanish Dictionary](https://addons.mozilla.org/en-US/firefox/addon/spanish-spain-dictionary)
-
-### HiDPI
-
-Several apps support the parameter `--force-device-scale-factor=2` for proper 
-scaling (Spotify, Chromium & Chromium Apps).
-
-### IntelliJ IDEA
-
-- Download archive and extract into `/opt`
-- Run `~/.local/bin/idea.sh`
-- Create desktop entry
-- Edit `~/.local/share/applications/jetbrains-idea.desktop` and point `Exec` to `~/.local/bin/idea.sh`
+- [HTTPS Everywhere](https://www.eff.org/files/https-everywhere-latest.xpi)
 
 ### Tweak Mouse Scrolling
 
