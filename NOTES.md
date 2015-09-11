@@ -20,3 +20,13 @@ Various notes on all kinds of things related to OS setup...
 
 - https://help.ubuntu.com/community/HybridGraphics
 - http://asusm51ta-with-linux.blogspot.com.es/
+
+When `prime-select` fails with `Error: alternatives are not set up properly`:
+
+```
+sudo update-alternatives --set x86_64-linux-gnu_gl_conf /usr/lib/nvidia-XXX-prime/ld.so.conf
+sudo update-alternatives --set i386-linux-gnu_gl_conf /usr/lib/nvidia-XXX-prime/alt_ld.so.conf
+```
+
+Proprietary GPU Drivers:
+https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa
