@@ -26,6 +26,7 @@ gem
 bundler
 node
 npm
+golang
 vagrant
 tmux
 tmuxinator
