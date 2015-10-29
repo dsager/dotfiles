@@ -97,6 +97,10 @@ wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key a
 sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian trusty contrib"
 PACKAGES="${PACKAGES} virtualbox-4.3"
 
+# TLP battery mgmt
+sudo add-apt-repository ppa:linrunner/tlp
+PACKAGES="${PACKAGES} tlp tlp-rdw"
+
 ## install additional packages
 sudo apt-get update
 sudo apt-get upgrade
