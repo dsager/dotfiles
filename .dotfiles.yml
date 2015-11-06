@@ -27,6 +27,7 @@
     "~/.wgetrc": "wgetrc"
     "~/.curlrc": "curlrc"
     "~/.gvimrc": "gvimrc"
+    "~/.psqlrc": "psqlrc"
     "~/.vimrc": "vimrc"
     "~/.tmux.conf": "tmux.conf"
     "~/.tmuxinator": "tmuxinator"
