@@ -1,4 +1,4 @@
-export PATH=$PATH:$HOME/.local/bin:~/.rvm/bin:/usr/local/heroku/bin:/usr/local/go/bin:$HOME/anaconda/bin
+export PATH=$HOME/anaconda/bin:$HOME/.local/bin:~/.rvm/bin:/usr/local/heroku/bin:/usr/local/go/bin:$PATH
 
 source $HOME/.aliases
 #source $HOME/.xsh
