@@ -1,3 +1,21 @@
+-- auto complete to upper case
 \set COMP_KEYWORD_CASE upper
+
+-- verbose error messages
+\set VERBOSITY verbose
+
+-- one history file per db
+\set HISTFILE ~/.psql_history- :DBNAME
+
+-- ignore duplicates in history
+\set HISTCONTROL ignoredups
+
+-- display null values as such
+\pset null '[NULL]'
+
+-- default prompt & continuation prompt
+\set PROMPT1 '%[%033[1m%]%M %n@%/%R%[%033[0m%]%# '
+\set PROMPT2 '[more] %R > '
+
+-- use expanded table format when necessary
 \x auto
-\pset null ¤
