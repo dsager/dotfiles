@@ -92,11 +92,6 @@ PACKAGES="${PACKAGES} variety"
 sudo apt-add-repository ppa:nasc-team/daily
 PACKAGES="${PACKAGES} nasc"
 
-# virtualbox
-wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add - 
-sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian trusty contrib"
-PACKAGES="${PACKAGES} virtualbox-4.3"
-
 # TLP battery mgmt
 sudo add-apt-repository ppa:linrunner/tlp
 PACKAGES="${PACKAGES} tlp tlp-rdw"
