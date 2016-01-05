@@ -7,7 +7,7 @@ sudo apt-get install -y xclip tree git firefox zsh dconf-editor vim-addon-manage
                         vagrant transmission imagemagick mplayer \
                         gtk-recordmydesktop libxml2-dev rpcbind nfs-kernel-server \
                         tmux laptop-mode-tools nodejs-legacy npm gnupg jq \
-                        geoclue-2.0 redshift redshift-gtk calibre chromium-browser \
+                        geoclue-2.0 redshift redshift-gtk chromium-browser \
                         ppa-purge network-manager-openvpn indicator-multiload \
                         libxslt-dev libxml2-dev libvirt-dev zlib1g-dev qemu-utils \
                         ruby-dev rng-tools libvirt-bin qemu-kvm
