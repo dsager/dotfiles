@@ -9,6 +9,7 @@
     - "git submodule update --init --recursive external/psql2csv"
     - "mkdir -p ~/.config/variety"
     - "mkdir -p ~/.config/gtk-3.0"
+    - "mkdir -p ~/.config/Zeal"
     - "mkdir -p ~/.local/bin"
     - "mkdir -p ~/.local/share"
     - "mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/backups ~/.vim/swaps"
@@ -50,3 +51,5 @@
     "~/Dropbox": "/media/data/Dropbox"
     "~/.vpnht": "/media/data/home/.vpnht"
     "~/.config/Insync": "/media/data/home/.config/Insync"
+    "~/.config/Zeal/Zeal.conf": "config/Zeal/Zeal.conf"
+

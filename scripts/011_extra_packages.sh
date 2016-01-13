@@ -96,6 +96,10 @@ PACKAGES="${PACKAGES} nasc"
 sudo add-apt-repository ppa:linrunner/tlp
 PACKAGES="${PACKAGES} tlp tlp-rdw"
 
+# Zeal docbrowser
+sudo add-apt-repository ppa:zeal-developers/ppa
+PACKAGES="${PACKAGES} zeal"
+
 ## install additional packages
 sudo apt-get update
 sudo apt-get upgrade
