@@ -7,3 +7,5 @@ source $HOME/.aliases
 
 export EDITOR='vim'
 export VAGRANT_DEFAULT_PROVIDER="libvirt"
+export VAGRANT_HOME=/media/data/home/.vagrant.d
+
