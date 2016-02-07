@@ -8,6 +8,7 @@
 	default = current
 [alias]
 	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  dif = "!git diff --color $@ | diff-so-fancy"
 [color]
 	ui = true
 [filter "media"]
