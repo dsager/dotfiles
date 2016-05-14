@@ -2,6 +2,7 @@
 alias ll='k -h'
 alias la='ll -a'
 alias l='ll'
+alias lsd='tree -dL 2'
 
 # directory changing
 alias ..="cd .."
