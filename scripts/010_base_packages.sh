@@ -11,7 +11,7 @@ sudo apt-get install -y xclip tree git firefox zsh dconf-editor vim-addon-manage
                         ppa-purge network-manager-openvpn indicator-multiload \
                         libxslt-dev libxml2-dev libvirt-dev zlib1g-dev qemu-utils \
                         ruby-dev rng-tools libvirt-bin qemu-kvm tlp tlp-rdw pass \
-                        caffeine virt-manager htop
+                        caffeine virt-manager htop unity-tweak-tool
 
 # set zsh as default shell
 chsh -s /bin/zsh
