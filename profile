@@ -1,9 +1,13 @@
-export PATH=$HOME/.miniconda/bin:$HOME/.local/bin:~/.rvm/bin:/usr/local/heroku/bin:/usr/local/go/bin:$PATH
+path+=$HOME/.miniconda/bin
+path+=$HOME/.local/bin
+path+=$HOME/.rvm/bin
+path+=/usr/local/heroku/bin
+path+=/usr/local/go/bin
 
 source $HOME/.aliases
-#source $HOME/.xsh
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 export EDITOR='vim'
 # http://linux-sxs.org/housekeeping/lscolors.html
