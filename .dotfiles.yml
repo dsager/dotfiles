@@ -47,7 +47,6 @@
     "~/.local/bin/psql2csv": "external/psql2csv/psql2csv"
     # other config
     "~/.config/redshift.conf": "config/redshift.conf"
-    "~/.config/variety/variety.conf": "config/variety/variety.conf"
     "~/.config/gtk-3.0/settings.ini": "config/gtk-3.0/settings.ini"
     "~/src/.projects.gws": "src/projects.gws"
     "~/.vpnht": "/media/data/home/.vpnht"
