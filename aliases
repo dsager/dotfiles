@@ -1,7 +1,7 @@
 # directory listing
-alias ll='k -h'
-alias la='ll -a'
+alias ll='ls -ohF --color=auto'
 alias l='ll'
+alias la='ll -A'
 alias lsd='tree -dL 2'
 
 # directory changing
@@ -11,16 +11,15 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias -- -="cd -"
 alias cd..='cd ..'
-alias db="cd ~/Dropbox"
-alias dl="cd ~/Downloads"
 alias src="cd ~/src"
 
 # misc
 alias x='exit'
 alias sudo='sudo '
 alias mv='mv -iv'
+alias rm='rm -i'
+alias cp='cp -i'
 alias grep='grep -s --color=auto --exclude-dir=\.svn --exclude-dir=\.git'
-alias rsyncdefault="rsync --verbose  --progress --stats --compress --recursive --times --perms --links --delete --exclude \"\.git\""
 alias realpath="python -c 'import os,sys;print os.path.realpath(sys.argv[1])'"
 alias pws="python -m SimpleHTTPServer"
 alias timestamp='date +%s'

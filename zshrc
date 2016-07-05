@@ -34,7 +34,6 @@ colored-man-pages
 zsh-users/zsh-completions src
 zsh-users/zsh-history-substring-search
 zsh-users/zsh-syntax-highlighting
-rimraf/k
 EOBUNDLES
 
 # apply antigen config
@@ -44,6 +43,4 @@ source $HOME/.profile
 
 # Disbale ZSH shared history
 unsetopt share_history
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
