@@ -6,6 +6,7 @@
     - "git submodule update --init --recursive external/vim-colors-solarized"
     - "git submodule update --init --recursive external/antigen"
     - "git submodule update --init --recursive external/psql2csv"
+    - "mkdir -p ~/src"
     - "mkdir -p ~/.config/gtk-3.0"
     - "mkdir -p ~/.config/Zeal"
     - "mkdir -p ~/.local/bin"
@@ -21,7 +22,6 @@
 
 - link:
     # directories
-    "~/src": "/media/data/src"
     "~/Documents": "/media/data/googledrive/daniel@sager1.de/Documents"
     "~/Downloads": "/media/data/downloads"
     "~/Pictures": "/media/data/googledrive/daniel@sager1.de/Pictures"
