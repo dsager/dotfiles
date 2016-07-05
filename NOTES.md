@@ -2,31 +2,36 @@
 
 Various notes on all kinds of things related to OS setup...
 
-### Firefox Addons
+## pre-format checklist
+
+- Backup sensitive folders:
+  - `~/.ssh`
+  - `~/.gpg`
+  - `~/.vpnht`
+- Backup IntelliJ settings (RubyMine, DataGrip, ...)
+- Check git repos for uncommited stuff:
+  - `~/src`
+  - `~/.dotfiles`
+  - `~/.password-store`
+
+## Firefox Addons
 
 - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
-- [LastPass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager)
 - [Pushbullet](https://addons.mozilla.org/en-US/firefox/addon/pushbullet)
 - [JSONView](https://addons.mozilla.org/en-US/firefox/addon/jsonview)
 - [German Dictionary](https://addons.mozilla.org/en-US/firefox/addon/german-dictionary)
 - [Spanish Dictionary](https://addons.mozilla.org/en-US/firefox/addon/spanish-spain-dictionary)
 - [HTTPS Everywhere](https://www.eff.org/files/https-everywhere-latest.xpi)
+- [Privacy Badger](https://www.eff.org/files/privacy-badger-latest.xpi)
+- [passff](https://addons.mozilla.org/en-US/firefox/addon/passff/)
 
-### Tweak Mouse Scrolling
+## Ubuntu/nvidia installation problems
+
+- Black screen after grub: Press `e` in grub to edit boot params, change `quiet splash` to `nomodeset`
+- Might have to disable secure boot
+- Switch to TTY and run `sudo ubuntu-drivers autoinstall`
+
+## Tweak Mouse Scrolling
 
     $ xinput set-prop 12 "Evdev Scrolling Distance" 6 1 1
 
-### Hybrid Graphic
-
-- https://help.ubuntu.com/community/HybridGraphics
-- http://asusm51ta-with-linux.blogspot.com.es/
-
-When `prime-select` fails with `Error: alternatives are not set up properly`:
-
-```
-sudo update-alternatives --set x86_64-linux-gnu_gl_conf /usr/lib/nvidia-XXX-prime/ld.so.conf
-sudo update-alternatives --set i386-linux-gnu_gl_conf /usr/lib/nvidia-XXX-prime/alt_ld.so.conf
-```
-
-Proprietary GPU Drivers:
-https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa

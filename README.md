@@ -15,8 +15,8 @@ This is opinionated and a constant WIP, but feel to look around anyway...
     # set up git workspace
     cd ~/src && gws update
 
-Note to myself: Using the https URL is easier on a new machine as no 
-SSH keys are needed. To work on the repo later on, change the remote 
+Note to self: Using the https URL is easier on a new machine as no
+SSH keys are needed. To work on the repo later on, change the remote
 URL to ssh:
 
     git remote set-url origin git@github.com:dsager/dofiles.git
