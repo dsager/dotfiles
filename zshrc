@@ -30,11 +30,10 @@ golang
 vagrant
 tmux
 tmuxinator
-colored-man
+colored-man-pages
 zsh-users/zsh-completions src
 zsh-users/zsh-history-substring-search
 zsh-users/zsh-syntax-highlighting
-rimraf/k
 EOBUNDLES
 
 # apply antigen config
@@ -42,5 +41,6 @@ antigen apply
 
 source $HOME/.profile
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+# Disbale ZSH shared history
+unsetopt share_history
 

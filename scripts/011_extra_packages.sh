@@ -2,18 +2,10 @@
 
 PACKAGES=""
 
-# caffeine
-sudo add-apt-repository ppa:caffeine-developers/ppa
-PACKAGES="${PACKAGES} caffeine"
-
-# linssid
-sudo add-apt-repository ppa:wseverin/ppa
-PACKAGES="${PACKAGES} linssid"
-
 # insync
 curl -s https://d2t3ff60b2tol4.cloudfront.net/services@insynchq.com.gpg.key \
   | sudo apt-key add -
-echo deb http://apt.insynchq.com/ubuntu trusty non-free \
+echo deb http://apt.insynchq.com/ubuntu wily non-free \
   | sudo tee /etc/apt/sources.list.d/insync.list
 PACKAGES="${PACKAGES} insync"
 
@@ -35,7 +27,7 @@ PACKAGES="${PACKAGES} syncthing syncthing-gtk"
 
 # spotify
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 94558F59 D2C19886
-echo deb http://repository.spotify.com testing non-free \
+echo deb http://repository.spotify.com stable non-free 
   | sudo tee /etc/apt/sources.list.d/spotify.list
 PACKAGES="${PACKAGES} spotify-client"
 
@@ -50,51 +42,7 @@ sudo add-apt-repository ppa:oibaf/graphics-drivers
 
 # solaar for logitech unifying receiver
 sudo add-apt-repository ppa:daniel.pavel/solaar
-PACKAGES="${PACKAGES} solaar"
-
-# synapse launcher
-sudo add-apt-repository ppa:synapse-core/ppa
-PACKAGES="${PACKAGES} synapse"
-
-# birdie twitter client
-sudo add-apt-repository ppa:birdie-team/stable
-PACKAGES="${PACKAGES} birdie"
-
-# hardware sensors indicator
-sudo add-apt-repository ppa:alexmurray/indicator-sensors
-PACKAGES="${PACKAGES} indicator-sensors"
-
-# additional icons
-sudo add-apt-repository ppa:cybre/elementaryplus
-PACKAGES="${PACKAGES} elementaryplus"
-
-# feed reader
-sudo add-apt-repository ppa:eviltwin1/feedreader-stable
-PACKAGES="${PACKAGES} feedreader"
-
-# uber writer
-sudo add-apt-repository ppa:w-vollprecht/ppa
-PACKAGES="${PACKAGES} uberwriter"
-
-# vocal podcast player
-sudo apt-add-repository ppa:nathandyer/vocal-stable
-PACKAGES="${PACKAGES} vocal"
-
-# tomato
-sudo apt-add-repository ppa:tomato-team/tomato-stable
-PACKAGES="${PACKAGES} tomato"
-
-# variety wallpaper manager
-sudo add-apt-repository ppa:peterlevi/ppa
-PACKAGES="${PACKAGES} variety"
-
-# math writer
-sudo apt-add-repository ppa:nasc-team/daily
-PACKAGES="${PACKAGES} nasc"
-
-# TLP battery mgmt
-sudo add-apt-repository ppa:linrunner/tlp
-PACKAGES="${PACKAGES} tlp tlp-rdw"
+PACKAGES="${PACKAGES} solaar-gnome3"
 
 # Zeal docbrowser
 sudo add-apt-repository ppa:zeal-developers/ppa
@@ -107,9 +55,3 @@ sudo apt-get -y install ${PACKAGES}
 sudo apt-get autoremove
 sudo apt-get autoclean
 
-## CONFIG
-
-# change scudcloud image
-sudo dpkg-divert --add --rename --divert /opt/scudcloud/resources/scudcloud.png.real /opt/scudcloud/resources/scudcloud.png
-sudo ln -s ~/.dotfiles/icons/slack-3d.png /opt/scudcloud/resources/scudcloud.png
-sudo chmod +r /opt/scudcloud/resources/scudcloud.png
