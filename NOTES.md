@@ -29,7 +29,8 @@ Various notes on all kinds of things related to OS setup...
 
 - Black screen after grub: Press `e` in grub to edit boot params, change `quiet splash` to `nomodeset`
 - Might have to disable secure boot
-- Switch to TTY and run `sudo ubuntu-drivers autoinstall`
+- Switch to TTY and run `sudo ubuntu-drivers autoinstall`, reboot
+- Install `compizconfig-settings-manager` & `unity`, run `ccsm`, enable Unity plugin, reboot
 
 ## Tweak Mouse Scrolling
 
