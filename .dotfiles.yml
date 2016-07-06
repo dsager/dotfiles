@@ -11,6 +11,7 @@
     - "mkdir -p ~/.config/Zeal"
     - "mkdir -p ~/.local/bin"
     - "mkdir -p ~/.local/share"
+    - "mkdir -p ~/.local/tools"
     - "mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/backups ~/.vim/swaps"
     - "rmdir ~/Documents"
     - "rmdir ~/Downloads"
