@@ -1,10 +1,3 @@
-" pathogen.cum runtime path manipulation
-execute pathogen#infect()
-
-" Use the Solarized Dark theme
-set background=dark
-colorscheme solarized
-
 " Make Vim more useful
 set nocompatible
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
@@ -23,9 +16,6 @@ set gdefault
 set encoding=utf-8 nobomb
 " Change mapleader
 let mapleader=","
-" Don’t add empty newlines at the end of files
-set binary
-set noeol
 " Centralize backups, swapfiles and undo history
 set backupdir=~/.vim/backups
 set directory=~/.vim/swaps

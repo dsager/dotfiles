@@ -33,8 +33,6 @@ A brief list of helpful tools and resources:
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)
 - [powerlevel9k theme](https://github.com/bhilburn/powerlevel9k)
 - [antigen](https://github.com/zsh-users/antigen.git)
-- [vim-pathogen](https://github.com/tpope/vim-pathogen.git)
-- [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized.git)
 - [tmuxinator](https://github.com/tmuxinator/tmuxinator)
 
 Big thanks to all authors and contributors!

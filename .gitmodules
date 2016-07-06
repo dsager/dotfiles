@@ -4,12 +4,6 @@
 [submodule "external/gws"]
 	path = external/gws
 	url = https://github.com/StreakyCobra/gws
-[submodule "external/vim-pathogen"]
-	path = external/vim-pathogen
-	url = git@github.com:tpope/vim-pathogen.git
-[submodule "external/vim-colors-solarized"]
-	path = external/vim-colors-solarized
-	url = git@github.com:altercation/vim-colors-solarized.git
 [submodule "external/antigen"]
 	path = external/antigen
 	url = git@github.com:zsh-users/antigen.git

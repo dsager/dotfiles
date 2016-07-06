@@ -2,8 +2,6 @@
 
 - shell:
     - "git submodule update --init --recursive external/gws"
-    - "git submodule update --init --recursive external/vim-pathogen"
-    - "git submodule update --init --recursive external/vim-colors-solarized"
     - "git submodule update --init --recursive external/antigen"
     - "git submodule update --init --recursive external/psql2csv"
     - "mkdir -p ~/src"
@@ -38,11 +36,8 @@
     "~/.tmux.conf": "tmux.conf"
     "~/.tmuxinator": "tmuxinator"
     "~/.zshrc": "zshrc"
-    # vim
     "~/.vimrc": "vimrc"
     "~/.gvimrc": "gvimrc"
-    "~/.vim/autoload/pathogen.vim": "external/vim-pathogen/autoload/pathogen.vim"
-    "~/.vim/bundle/vim-colors-solarized": "external/vim-colors-solarized"
     # tools / scripts
     "~/.local/bin/gws": "external/gws/src/gws"
     "~/.local/bin/psql2csv": "external/psql2csv/psql2csv"
