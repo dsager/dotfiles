@@ -42,5 +42,8 @@ sudo apt-get install -y xclip \
                         caffeine \
                         virt-manager \
                         htop \
-                        unity-tweak-tool
+                        unity-tweak-tool \
+                        ccsm \
+                        compiz-plugins-extra \
+                        compiz-plugins 
 
