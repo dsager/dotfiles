@@ -5,7 +5,6 @@
     - "git submodule update --init --recursive external/antigen"
     - "git submodule update --init --recursive external/psql2csv"
     - "mkdir -p ~/src"
-    - "mkdir -p ~/.config/gtk-3.0"
     - "mkdir -p ~/.config/Zeal"
     - "mkdir -p ~/.local/bin"
     - "mkdir -p ~/.local/share"
@@ -43,9 +42,7 @@
     "~/.local/bin/psql2csv": "external/psql2csv/psql2csv"
     # other config
     "~/.config/redshift.conf": "config/redshift.conf"
-    "~/.config/gtk-3.0/settings.ini": "config/gtk-3.0/settings.ini"
     "~/src/.projects.gws": "src/projects.gws"
-    "~/.vpnht": "/media/data/home/.vpnht"
     "~/.vagrant.d": "/media/data/home/.vagrant.d"
     "~/.config/Insync": "/media/data/home/.config/Insync"
     "~/.config/Zeal/Zeal.conf": "config/Zeal/Zeal.conf"
