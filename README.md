@@ -19,7 +19,7 @@ Note to self: Using the https URL is easier on a new machine as no
 SSH keys are needed. To work on the repo later on, change the remote
 URL to ssh:
 
-    git remote set-url origin git@github.com:dsager/dofiles.git
+    git remote set-url origin git@github.com:dsager/dotfiles.git
 
 ## Recources
 
