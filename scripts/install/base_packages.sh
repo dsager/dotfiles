@@ -43,7 +43,7 @@ sudo apt-get install -y xclip \
                         virt-manager \
                         htop \
                         unity-tweak-tool \
-                        ccsm \
+                        compizconfig-settings-manager \
                         compiz-plugins-extra \
                         compiz-plugins 
 
