@@ -4,7 +4,7 @@ Various notes on all kinds of things related to OS setup...
 
 ## pre-format checklist
 
-- Backup sensitive folders:
+- Backup sensitive folders by running `./scripts/backup/create.sh`:
   - `~/.ssh`
   - `~/.gpg`
   - `~/.vpnht`
