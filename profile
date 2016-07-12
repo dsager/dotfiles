@@ -13,5 +13,5 @@ export EDITOR='vim'
 # http://linux-sxs.org/housekeeping/lscolors.html
 export LS_COLORS='di=1:fi=0:ln=35:pi=5:so=5:bd=5:cd=5:or=35:mi=35:ex=32'
 export VAGRANT_DEFAULT_PROVIDER="libvirt"
-export VAGRANT_HOME=/media/data/home/.vagrant.d
+export VAGRANT_HOME=$HOME/.vagrant.d
 
