@@ -40,9 +40,10 @@
     # tools / scripts
     "~/.local/bin/gws": "external/gws/src/gws"
     "~/.local/bin/psql2csv": "external/psql2csv/psql2csv"
+    "~/.local/bin/git_delete_stale_branches": "scripts/commands/git_delete_stale_branches.sh"
+    "~/.local/bin/devex_vagrant_tunnel": "scripts/commands/devex_vagrant_tunnel.sh"
     # other config
     "~/.config/redshift.conf": "config/redshift.conf"
     "~/src/.projects.gws": "src/projects.gws"
-    "~/.vagrant.d": "/media/data/home/.vagrant.d"
     "~/.config/Insync": "/media/data/home/.config/Insync"
     "~/.config/Zeal/Zeal.conf": "config/Zeal/Zeal.conf"
