@@ -36,8 +36,6 @@ sudo apt-get install -y xclip \
                         rng-tools \
                         libvirt-bin \
                         qemu-kvm \
-                        tlp \
-                        tlp-rdw \
                         pass \
                         caffeine \
                         virt-manager \
@@ -45,5 +43,7 @@ sudo apt-get install -y xclip \
                         unity-tweak-tool \
                         compizconfig-settings-manager \
                         compiz-plugins-extra \
-                        compiz-plugins 
+                        compiz-plugins \
+                        xdotool \
+                        wmctrl \
 

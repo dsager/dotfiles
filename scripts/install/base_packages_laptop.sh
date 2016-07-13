@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
 sudo apt-get update
-sudo apt-get install -y laptop-mode-tools
+sudo apt-get install -y laptop-mode-tools \
+                        tlp \
+                        tlp-rdw \
 
