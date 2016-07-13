@@ -1,0 +1,24 @@
+# pre dotfiles
+
+/bin/sh ./backup_restore.sh 
+mv .backup-tmp/.ssh ~/
+rm -rf ~/.gnupg/
+mv .backup-tmp/.gnupg/ ~/
+rm -rf .backup-tmp/
+sudo apt-get install git
+git clone git@github.com:dsager/dotfiles.git ~/.dotfiles
+
+# scripts
+
+./scripts/remove_packages.sh 
+./scripts/dotfiles.sh 
+./scripts/install/base_packages.sh 
+./scripts/install/007_powerline_fonts.sh 
+./scripts/install/020_npm_packages.sh 
+./scripts/install/030_rvm.sh 
+rvm install 2.3
+rvm use 2.3 --default
+.scripts/install/031_tmuxinator.sh 
+git clone ssh://git@bitbucket.org/dsager/password-store.git ~/.password-store
+chsh -s /bin/zsh
+./install/120_arc_theme.sh 
