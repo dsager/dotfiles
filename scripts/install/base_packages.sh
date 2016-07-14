@@ -46,4 +46,5 @@ sudo apt-get install -y xclip \
                         compiz-plugins \
                         xdotool \
                         wmctrl \
+                        python3-csvkit \
 
