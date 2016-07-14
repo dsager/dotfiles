@@ -17,6 +17,7 @@
     - "rmdir ~/Videos"
     - "rmdir ~/Templates"
     - "rm ~/.profile"
+    - "sudo cp config/etc/sysctl.d/999-inotify-watches.conf /etc/sysctl.d/999-inotify-watches.conf"
 
 - link:
     # directories
