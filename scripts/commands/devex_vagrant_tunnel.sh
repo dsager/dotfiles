@@ -7,7 +7,8 @@
 # 6379 - Redis`
 # 9200 - ES`
 # 9250 - ES test cluster`
-ssh vagrant \
+
+ssh dvx-vagrant \
   -i $HOME/.vagrant.d/insecure_private_key \
   -R 3002:127.0.0.1:3002 \
   -R 3004:127.0.0.1:3004 \
