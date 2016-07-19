@@ -26,6 +26,7 @@ sudo apt-get install -y xclip \
                         chromium-browser \
                         ppa-purge \
                         network-manager-openvpn \
+                        network-manager-openvpn-gnome \
                         indicator-multiload \
                         libxslt-dev \
                         libxml2-dev \
