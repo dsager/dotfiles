@@ -57,5 +57,4 @@ alias map="xargs -n1"
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias empty-trash="gvfs-trash --empty"
-alias update="sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove && sudo apt-get autoclean; npm update -g; gem update"
 
