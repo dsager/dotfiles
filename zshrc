@@ -11,8 +11,8 @@ source $HOME/.dotfiles/external/antigen/antigen.zsh
 antigen use oh-my-zsh
 
 # OMZ powerlevel theme
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time)
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status dir vcs)
 antigen theme bhilburn/powerlevel9k powerlevel9k
 
 antigen bundles <<EOBUNDLES
