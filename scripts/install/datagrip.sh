@@ -1,5 +1,5 @@
 #! /bin/sh
-VERSION="2016.1.1"
+VERSION="2016.2"
 ARCHIVE="datagrip-${VERSION}.tar.gz"
 URL="https://download.jetbrains.com/datagrip/${ARCHIVE}"
 TOOLS_DIR="${HOME}/.local/tools"
