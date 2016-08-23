@@ -23,9 +23,18 @@
   # Remove merged branches
   cleanup= "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
+  # Find commits by source code
+  fc = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short -S$1; }; f"
+
+  # Find commits by commit message
+  fm = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f"
+
   # verbose branch & remote info
   branches = branch -a
   remotes = remote -v 
+
+  # Amend the currently staged files to the latest commit
+  amend = commit --amend --reuse-message=HEAD
 
 [color]
 
