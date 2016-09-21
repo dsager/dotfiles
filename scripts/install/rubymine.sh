@@ -1,5 +1,5 @@
 #! /bin/sh
-VERSION="2016.1.2"
+VERSION="2016.2.3"
 ARCHIVE="RubyMine-${VERSION}.tar.gz"
 URL="https://download.jetbrains.com/ruby/${ARCHIVE}"
 TOOLS_DIR="${HOME}/.local/tools"
