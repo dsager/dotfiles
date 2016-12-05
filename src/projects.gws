@@ -5,7 +5,6 @@ own/google-code-jam | git@github.com:dsager/google-code-jam.git |
 own/muecken | git@github.com:dsager/muecken.git |
 own/plugin.video.bvbtv | git@github.com:dsager/plugin.video.bvbtv.git |
 own/dsager.github.io | git@github.com:dsager/dsager.github.io.git |
-own/talks | git@github.com:dsager/talks.git |
 own/zocken | git@github.com:dsager/zocken.git |
 
 ## contribution / 3rd party
@@ -20,8 +19,8 @@ contrib/gws | git@github.com:dsager/gws.git | git@github.com:StreakyCobra/gws.gi
 
 ## work
 
-work/research | git@github.com:dsager/research.git | git@github.com:Devex/research.git devex
-work/blog | git@github.com:dsager/devex.github.io.git | git@github.com:Devex/devex.github.io.git devex
+work/devex-research | git@github.com:dsager/research.git | git@github.com:Devex/research.git devex
+work/devex-blog | git@github.com:dsager/devex.github.io.git | git@github.com:Devex/devex.github.io.git devex
 work/vm-setup | git@github.com:dsager/vm-setup.git | git@github.com:Devex/vm-setup.git devex
 work/grape-api | git@github.com:dsager/grape-api.git | git@github.com:Devex/grape-api.git devex
 work/front-end | git@github.com:dsager/front-end.git | git@github.com:Devex/front-end.git devex
