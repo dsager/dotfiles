@@ -6,6 +6,7 @@
     - "git submodule update --init --recursive external/psql2csv"
     - "mkdir -p ~/src"
     - "mkdir -p ~/.config/Zeal"
+    - "mkdir -p ~/.config/Franz/settings"
     - "mkdir -p ~/.local/bin"
     - "mkdir -p ~/.local/share"
     - "mkdir -p ~/.local/tools"
@@ -51,3 +52,4 @@
     "~/src/.projects.gws": "src/projects.gws"
     "~/.config/Insync": "/media/data/home/.config/Insync"
     "~/.config/Zeal/Zeal.conf": "config/Zeal/Zeal.conf"
+    "~/.config/Franz/settings/services.json": "config/Franz/settings/services.json"
