@@ -30,6 +30,8 @@ Various notes related to OS setup...
 - https://extensions.gnome.org/extension/906/sound-output-device-chooser/
 - https://extensions.gnome.org/extension/307/dash-to-dock/
 - https://extensions.gnome.org/extension/1031/topicons/
+- https://extensions.gnome.org/extension/10/windownavigator/
+- https://extensions.gnome.org/extension/15/alternatetab/
 
 ## Ubuntu/nvidia installation problems
 
