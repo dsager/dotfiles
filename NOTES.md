@@ -1,6 +1,6 @@
 # Notes
 
-Various notes on all kinds of things related to OS setup...
+Various notes related to OS setup...
 
 ## pre-format checklist
 
@@ -24,6 +24,12 @@ Various notes on all kinds of things related to OS setup...
 - [HTTPS Everywhere](https://www.eff.org/files/https-everywhere-latest.xpi)
 - [Privacy Badger](https://www.eff.org/files/privacy-badger-latest.xpi)
 - [passff](https://addons.mozilla.org/en-US/firefox/addon/passff/)
+
+## Gnome extensions
+
+- https://extensions.gnome.org/extension/906/sound-output-device-chooser/
+- https://extensions.gnome.org/extension/307/dash-to-dock/
+- https://extensions.gnome.org/extension/1031/topicons/
 
 ## Ubuntu/nvidia installation problems
 
