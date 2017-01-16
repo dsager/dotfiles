@@ -39,6 +39,7 @@
     "~/.zshrc": "zshrc"
     "~/.vimrc": "vimrc"
     "~/.irbrc": "irbrc"
+    "~/.pryrc": "irbrc"
     "~/.gvimrc": "gvimrc"
     # tools / scripts
     "~/.local/bin/gws": "external/gws/src/gws"
