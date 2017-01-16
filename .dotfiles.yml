@@ -38,6 +38,7 @@
     "~/.tmuxinator": "tmuxinator"
     "~/.zshrc": "zshrc"
     "~/.vimrc": "vimrc"
+    "~/.irbrc": "irbrc"
     "~/.gvimrc": "gvimrc"
     # tools / scripts
     "~/.local/bin/gws": "external/gws/src/gws"
