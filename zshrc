@@ -5,39 +5,39 @@ export LANG=en_US.UTF-8
 # general settings
 COMPLETION_WAITING_DOTS="true"
 
-source $HOME/.dotfiles/external/antigen/antigen.zsh
+# Only load fancy shell on "big" terminal
+if [ "$TERM" = "xterm-256color" ]; then
 
-# oh my zsh framework
-antigen use oh-my-zsh
+  source $HOME/.dotfiles/external/antigen/antigen.zsh
 
-# OMZ powerlevel theme
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status dir vcs)
-antigen theme bhilburn/powerlevel9k powerlevel9k
+  # oh my zsh framework
+  antigen use oh-my-zsh
 
-antigen bundles <<EOBUNDLES
+  # OMZ powerlevel theme
+  POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
+  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status dir vcs)
+  antigen theme bhilburn/powerlevel9k powerlevel9k
+
+
+  antigen bundles <<EOBUNDLES
 command-not-found
 extract
 git
-heroku
 ruby
 rails
 gem
 bundler
-node
-npm
-golang
 vagrant
-tmux
-tmuxinator
 colored-man-pages
 zsh-users/zsh-completions src
 zsh-users/zsh-history-substring-search
 zsh-users/zsh-syntax-highlighting
 EOBUNDLES
 
-# apply antigen config
-antigen apply
+  # apply antigen config
+  antigen apply
+
+fi
 
 source $HOME/.profile
 
@@ -61,11 +61,11 @@ calc() {
 }
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f ${HOME}/.local/tools/google-cloud-sdk/path.zsh.inc ]; then
-  source "${HOME}/.local/tools/google-cloud-sdk/path.zsh.inc"
-fi
+#if [ -f ${HOME}/.local/tools/google-cloud-sdk/path.zsh.inc ]; then
+#  source "${HOME}/.local/tools/google-cloud-sdk/path.zsh.inc"
+#fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f ${HOME}/.local/tools/google-cloud-sdk/completion.zsh.inc ]; then
-  source "${HOME}/.local/tools/google-cloud-sdk/completion.zsh.inc"
-fi
+#if [ -f ${HOME}/.local/tools/google-cloud-sdk/completion.zsh.inc ]; then
+#  source "${HOME}/.local/tools/google-cloud-sdk/completion.zsh.inc"
+#fi
