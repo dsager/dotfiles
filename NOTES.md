@@ -32,6 +32,8 @@ Various notes related to OS setup...
 - https://extensions.gnome.org/extension/1031/topicons/
 - https://extensions.gnome.org/extension/10/windownavigator/
 - https://extensions.gnome.org/extension/15/alternatetab/
+- https://extensions.gnome.org/extension/549/web-search-dialog/
+- https://extensions.gnome.org/extension/442/drop-down-terminal/
 
 ## Ubuntu/nvidia installation problems
 
