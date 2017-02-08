@@ -7,9 +7,9 @@ sudo apt-get update && \
   sudo apt-get autoremove && \
   sudo apt-get autoclean
 
-npm update -g
+#npm update -g
 
-gem update
+#gem update
 
 # update dotfiles
 cd $HOME/.dotfiles
