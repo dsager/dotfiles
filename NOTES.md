@@ -24,6 +24,8 @@ Various notes related to OS setup...
 - [HTTPS Everywhere](https://www.eff.org/files/https-everywhere-latest.xpi)
 - [Privacy Badger](https://www.eff.org/files/privacy-badger-latest.xpi)
 - [passff](https://addons.mozilla.org/en-US/firefox/addon/passff/)
+- [Pinboardin](https://addons.mozilla.org/en-US/firefox/addon/pinboardin/)
+- [gnome-shell-integration](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/)
 
 ## Gnome extensions
 
@@ -33,7 +35,6 @@ Various notes related to OS setup...
 - https://extensions.gnome.org/extension/10/windownavigator/
 - https://extensions.gnome.org/extension/15/alternatetab/
 - https://extensions.gnome.org/extension/549/web-search-dialog/
-- https://extensions.gnome.org/extension/442/drop-down-terminal/
 
 ## Ubuntu/nvidia installation problems
 
