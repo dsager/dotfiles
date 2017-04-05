@@ -4,6 +4,7 @@ export LANG=en_US.UTF-8
 
 # general settings
 COMPLETION_WAITING_DOTS="true"
+unsetopt nomatch # useful for rake, where params are in brackets
 
 # Only load fancy shell on "big" terminal
 if [ "$TERM" = "xterm-256color" ]; then
