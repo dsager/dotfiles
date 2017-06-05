@@ -2,7 +2,9 @@
 
 tab="--tab-with-profile=dani"
 
-VARS='export VMSETUP_DISABLE_FRONTEND_FORWARD=1; export VMSETUP_DISABLE_BACKEND_FORWARD=1'
+VARS="export VMSETUP_DISABLE_FRONTEND_FORWARD=1"
+VARS="${VARS};export VMSETUP_DISABLE_BACKEND_FORWARD=1"
+VARS="${VARS};export VMSETUP_DISABLE_ELASTICSEARCH_FORWARD=1"
 
 gnome-terminal \
   $tab -e "zsh -c '$VARS; cd $HOME/src/work/vm-setup; vagrant up; $HOME/.local/bin/devex_vagrant_tunnel';zsh" \
