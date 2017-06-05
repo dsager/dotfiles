@@ -21,4 +21,11 @@ if [ -f "$i" ]; then
   sudo sed -i 's/^Exec=chromium-browser/Exec=chromium-browser --force-device-scale-factor=2/g' $i
 fi
 
+# slack
+i="/usr/share/applications/slack.desktop"
+if [ -f "$i" ]; then
+  echo "------- $i"
+  sudo sed -i 's/^Exec=\/usr\/bin\/slack/Exec=\/usr\/bin\/slack --force-device-scale-factor=2/g' $i
+fi
+
 echo ""
