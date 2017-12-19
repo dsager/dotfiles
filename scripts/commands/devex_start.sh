@@ -1,11 +1,2 @@
 #!/usr/bin/env sh
-
-tab="--tab-with-profile=dani"
-
-VARS="export VMSETUP_DISABLE_FRONTEND_FORWARD=1"
-VARS="${VARS};export VMSETUP_DISABLE_BACKEND_FORWARD=1"
-VARS="${VARS};export VMSETUP_DISABLE_ELASTICSEARCH_FORWARD=1"
-
-gnome-terminal \
-  $tab -e "zsh -c '$VARS; cd $HOME/src/work/vm-setup; vagrant up; $HOME/.local/bin/devex_vagrant_tunnel';zsh" \
-  $tab -e "zsh -c 'cd $HOME/src/work';zsh" \
+gnome-terminal --tab-with-profile=dani -e "zsh -c 'tmuxinator devex';zsh"

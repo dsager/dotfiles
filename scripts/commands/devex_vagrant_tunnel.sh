@@ -1,12 +1,12 @@
 #!/usr/bin/env sh
 
 # Ports
-# 3002 - Front End`
-# 3004 - Grape API`
-# 5432 - Postgres`
-# 6379 - Redis`
-# 9200 - ES`
-# 9250 - ES test cluster`
+# 3002 - Front End
+# 3004 - Grape API
+# 5432 - Postgres
+# 6379 - Redis
+# 9200 - ES
+# 9250 - ES test cluster
 
 ssh dvx-vagrant \
   -i $HOME/.vagrant.d/insecure_private_key \
