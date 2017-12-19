@@ -6,8 +6,8 @@ export LANG=en_US.UTF-8
 COMPLETION_WAITING_DOTS="true"
 unsetopt nomatch # useful for rake, where params are in brackets
 
-# Only load fancy shell on "big" terminal
-if [ "$TERM" = "xterm-256color" ]; then
+# Only load fancy shell on "big" terminal/screen
+if [ "$TERM" == "xterm-256color" ] || [ "$TERM" == 'screen-256color' ] ; then
 
   source $HOME/.dotfiles/external/antigen/antigen.zsh
 
@@ -18,7 +18,6 @@ if [ "$TERM" = "xterm-256color" ]; then
   POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
   POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status dir vcs)
   antigen theme bhilburn/powerlevel9k powerlevel9k
-
 
   antigen bundles <<EOBUNDLES
 command-not-found
@@ -55,7 +54,6 @@ man() {
   LESS_TERMCAP_us=$'\e'"[1;32m" \
   command man "$@"
 }
-
 
 calc() {
   awk "BEGIN{ print $* }"
