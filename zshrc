@@ -59,6 +59,11 @@ calc() {
   awk "BEGIN{ print $* }"
 }
 
+# personal log
+idid() {
+  echo "[$(date --rfc-3339=seconds)] $*" >> ${HOME}/.idid.log
+}
+
 # The next line updates PATH for the Google Cloud SDK.
 #if [ -f ${HOME}/.local/tools/google-cloud-sdk/path.zsh.inc ]; then
 #  source "${HOME}/.local/tools/google-cloud-sdk/path.zsh.inc"
