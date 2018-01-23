@@ -2,8 +2,9 @@
 
 sudo snap install \
   vlc \
-  rubymine \
-  datagrip \
   spotify \
-  slack
+
+sudo snap install --classic slack
+sudo snap install --classic rubymine
+sudo snap install --classic datagrip
 
