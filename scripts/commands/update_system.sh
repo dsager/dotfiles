@@ -2,14 +2,14 @@
 
 cd $HOME
 
-sudo apt-get update && \
-  sudo apt-get upgrade && \
-  sudo apt-get autoremove && \
-  sudo apt-get autoclean
+# update apt packages
+sudo apt update && \
+  sudo apt upgrade && \
+  sudo apt autoremove && \
+  sudo apt autoclean
 
-#npm update -g
-
-#gem update
+# update snap packages
+sudo snap refresh
 
 # update dotfiles
 cd $HOME/.dotfiles
