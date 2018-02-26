@@ -17,8 +17,9 @@
   # status using the short format
   s = status -s
 
-  # nice log
+  # nice log views
   l = log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  changes = log --name-status --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
   # Remove merged branches
   cleanup= "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
