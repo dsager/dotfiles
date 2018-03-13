@@ -21,6 +21,9 @@
   l = log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
   changes = log --name-status --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
+  # list commits in reverse order, usefule for PR descriptions when invoked w/ a limit
+  commits = log --pretty=format:%B --reverse
+
   # Remove merged branches
   cleanup= "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
