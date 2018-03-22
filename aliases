@@ -23,6 +23,7 @@ alias grep='grep -s --color=auto --exclude-dir=\.svn --exclude-dir=\.git'
 alias realpath="python -c 'import os,sys;print os.path.realpath(sys.argv[1])'"
 alias pws="python -m SimpleHTTPServer"
 alias timestamp='date +%s'
+alias json='jq -C . | less -R'
 
 # curl performance
 alias curl_perf='curl -w "\n      size_download:  %{size_download}\n    time_namelookup:  %{time_namelookup}\n       time_connect:  %{time_connect}\n    time_appconnect:  %{time_appconnect}\n   time_pretransfer:  %{time_pretransfer}\n      time_redirect:  %{time_redirect}\n time_starttransfer:  %{time_starttransfer}\n --------------------------\n         time_total:  %{time_total}\n" -s -o /dev/null'
