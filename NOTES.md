@@ -4,10 +4,7 @@ Various notes related to OS setup...
 
 ## pre-format checklist
 
-- Backup sensitive folders by running `./scripts/backup/create.sh`:
-  - `~/.ssh`
-  - `~/.gpg`
-  - `~/.vpnht`
+- Backup SSH and GPG by running `./scripts/backup/create.sh`
 - Backup IntelliJ settings (RubyMine, DataGrip, ...)
 - Check git repos for uncommited stuff:
   - `~/src`
@@ -18,7 +15,6 @@ Various notes related to OS setup...
 
 - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
 - [Pushbullet](https://addons.mozilla.org/en-US/firefox/addon/pushbullet)
-- [JSONView](https://addons.mozilla.org/en-US/firefox/addon/jsonview)
 - [German Dictionary](https://addons.mozilla.org/en-US/firefox/addon/german-dictionary)
 - [Spanish Dictionary](https://addons.mozilla.org/en-US/firefox/addon/spanish-spain-dictionary)
 - [HTTPS Everywhere](https://www.eff.org/files/https-everywhere-latest.xpi)
