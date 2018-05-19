@@ -16,8 +16,6 @@ sudo apt-get install -y xclip \
                         rpcbind \
                         nfs-kernel-server \
                         tmux \
-#                        nodejs-legacy \
-#                        npm \
                         gnupg \
                         jq \
                         geoclue-2.0 \
@@ -41,14 +39,16 @@ sudo apt-get install -y xclip \
                         caffeine \
                         virt-manager \
                         htop \
+                        xdotool \
+                        wmctrl \
+                        postgresql-client \
+                        fonts-powerline \
+
+#                        nodejs-legacy \
+#                        npm \
 #                        unity-tweak-tool \
 #                        compizconfig-settings-manager \
 #                        compiz-plugins-extra \
 #                        compiz-plugins \
-                        xdotool \
-                        wmctrl \
 #                        python3-csvkit \
-                        postgresql-client \
-                        fonts-powerline \
-
 
