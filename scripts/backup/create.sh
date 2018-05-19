@@ -4,7 +4,7 @@ echo ""
 echo ""
 
 DIR="$( cd "$( dirname "$0" )" && pwd )"
-FOLDERS="${HOME}/.ssh ${HOME}/.gnupg ${HOME}/.vpnht"
+FOLDERS="${HOME}/.ssh ${HOME}/.gnupg"
 BACKUP_DIR="${DIR}/.backup-tmp"
 BACKUP_ARCHIVE="${DIR}/backup.tar.gz"
 BACKUP_ARCHIVE_ENC="${BACKUP_ARCHIVE}.gpg"
