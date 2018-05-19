@@ -49,5 +49,6 @@ sudo apt-get install -y xclip \
                         wmctrl \
 #                        python3-csvkit \
                         postgresql-client \
+                        fonts-powerline \
 
 

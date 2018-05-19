@@ -13,8 +13,6 @@ git clone git@github.com:dsager/dotfiles.git ~/.dotfiles
 ./scripts/remove_packages.sh 
 ./scripts/dotfiles.sh 
 ./scripts/install/base_packages.sh 
-./scripts/install/007_powerline_fonts.sh 
-./scripts/install/020_npm_packages.sh 
 ./scripts/install/030_rvm.sh 
 rvm install 2.3
 rvm use 2.3 --default
