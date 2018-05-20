@@ -1,25 +1,105 @@
 # dotfiles
 
-Some scripts and [notes](NOTES.md) to setup and customize my working environment (Elementary OS).
+Some scripts and notes to setup and customize my Linux environment (Ubuntu 18.04).
 
 This is opinionated and a constant WIP, but feel to look around anyway...
 
 ## Usage
 
-    # set up dotfiles folder
-    git clone https://github.com/dsager/dotfiles.git ~/.dotfiles
+### Prepare old system before formatting
 
-    # use install & config scripts
-    cd ./dotfiles/scripts && ls -l
+- Backup SSH and GPG by running `./scripts/backup/create.sh`
+- Backup IntelliJ settings (RubyMine, DataGrip, ...)
+- Check git repos for uncommited stuff:
+  - `~/src`
+  - `~/.dotfiles`
+  - `~/.password-store`
 
-    # set up git workspace
-    cd ~/src && gws update
+### Setup new environment
 
-Note to self: Using the https URL is easier on a new machine as no
-SSH keys are needed. To work on the repo later on, change the remote
-URL to ssh:
+Restore SSH & GPG keys:
+```
+cd $SOME_PEN_DRIVE/backup
+./restore.sh
 
-    git remote set-url origin git@github.com:dsager/dotfiles.git
+rm -rf ~/.ssh
+mv .backup-tmp/.ssh ~/
+
+rm -rf ~/.gnupg/
+mv .backup-tmp/.gnupg/ ~/
+
+rm -rf .backup-tmp/
+```
+
+Password manager:
+```
+git clone ssh://git@bitbucket.org/dsager/password-store.git ~/.password-store
+sudo apt install pass
+```
+
+Get the dotfiles repo and run desired scripts:
+```
+sudo apt install git
+git clone git@github.com:dsager/dotfiles.git ~/.dotfiles
+
+~/.dotfiles/scripts/remove_packages.sh
+~/.dotfiles/scripts/install/base_packages.sh
+~/.dotfiles/scripts/install/pkg_graphics.sh
+
+~/.dotfiles/scripts/mount_data_laptop.sh
+# or mount_data_pc.sh if at home...
+
+~/.dotfiles/scripts/dotfiles.sh
+~/.dotfiles/scripts/setup/set_shell.sh
+
+~/.dotfiles/scripts/install/030_rvm.sh
+rvm install 2.3
+rvm use 2.3 --default
+~/.dotfiles/scripts/install/031_tmuxinator.sh
+```
+
+Set up git workspace
+```
+cd ~/src && gws update
+```
+
+## Notes
+
+- Using the https URL is easier on a new machine as no SSH keys are needed. To work on the repo later on, change the remote URL to ssh via
+```
+git remote set-url origin git@github.com:dsager/dotfiles.git
+```
+
+### Firefox Addons
+
+- [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
+- [Pushbullet](https://addons.mozilla.org/en-US/firefox/addon/pushbullet)
+- [German Dictionary](https://addons.mozilla.org/en-US/firefox/addon/german-dictionary)
+- [Spanish Dictionary](https://addons.mozilla.org/en-US/firefox/addon/spanish-spain-dictionary)
+- [HTTPS Everywhere](https://www.eff.org/files/https-everywhere-latest.xpi)
+- [Privacy Badger](https://www.eff.org/files/privacy-badger-latest.xpi)
+- [passff](https://addons.mozilla.org/en-US/firefox/addon/passff/)
+- [Pinboardin](https://addons.mozilla.org/en-US/firefox/addon/pinboardin/)
+- [gnome-shell-integration](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/)
+
+### Gnome extensions
+
+- https://extensions.gnome.org/extension/906/sound-output-device-chooser/
+- https://extensions.gnome.org/extension/307/dash-to-dock/
+- https://extensions.gnome.org/extension/1031/topicons/
+
+### Ubuntu/nvidia installation problems
+
+- Black screen after grub: Press `e` in grub to edit boot params, change `quiet splash` to `nomodeset`
+- Might have to disable secure boot
+- Switch to TTY and run `sudo ubuntu-drivers autoinstall`, reboot
+- Install `compizconfig-settings-manager` & `unity`, run `ccsm`, enable Unity plugin, reboot
+
+### Tweak Mouse Scrolling
+
+```
+xinput set-prop 12 "Evdev Scrolling Distance" 6 1 1
+```
 
 ## Recources
 
