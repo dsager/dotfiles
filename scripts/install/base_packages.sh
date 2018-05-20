@@ -42,5 +42,6 @@ sudo apt-get install -y xclip \
                         fonts-powerline \
                         arc-theme \
                         gnome-tweak-tool \
+                        chrome-gnome-shell \
                         python3-csvkit \
 
