@@ -18,9 +18,6 @@ sudo apt-get install -y xclip \
                         tmux \
                         gnupg \
                         jq \
-                        geoclue-2.0 \
-                        redshift \
-                        redshift-gtk \
                         chromium-browser \
                         ppa-purge \
                         network-manager-openvpn \
@@ -43,12 +40,7 @@ sudo apt-get install -y xclip \
                         wmctrl \
                         postgresql-client \
                         fonts-powerline \
-
-#                        nodejs-legacy \
-#                        npm \
-#                        unity-tweak-tool \
-#                        compizconfig-settings-manager \
-#                        compiz-plugins-extra \
-#                        compiz-plugins \
-#                        python3-csvkit \
+                        arc-theme \
+                        gnome-tweak-tool \
+                        python3-csvkit \
 
