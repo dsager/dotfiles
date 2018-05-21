@@ -12,7 +12,6 @@ own/zocken | git@github.com:dsager/zocken.git |
 contrib/cloudinary_angular | git@github.com:dsager/cloudinary_angular.git | git@github.com:cloudinary/cloudinary_angular.git
 contrib/elasticsearch-head | git@github.com:mobz/elasticsearch-head.git |
 contrib/grape | git@github.com:dsager/grape.git | git@github.com:intridea/grape.git
-contrib/mackup | git@github.com:dsager/mackup.git | git@github.com:lra/mackup.git
 contrib/plus-pull | git@github.com:dsager/plus-pull.git | git@github.com:christofdamian/plus-pull.git
 contrib/rspec_junit_formatter | git@github.com:dsager/rspec_junit_formatter.git | git@github.com:sj26/rspec_junit_formatter.git
 contrib/gws | git@github.com:dsager/gws.git | git@github.com:StreakyCobra/gws.git

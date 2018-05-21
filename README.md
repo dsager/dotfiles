@@ -108,7 +108,6 @@ A brief list of helpful tools and resources:
 - [mathiasbynens' dotfiles](https://github.com/mathiasbynens/dotfiles)
 - [anishathalye's dotfiles](https://github.com/anishathalye/dotfiles)
 - [dotbot](https://github.com/anishathalye/dotbot)
-- [mackup](https://github.com/lra/mackup)
 - [gws](https://github.com/StreakyCobra/gws)
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)
 - [powerlevel9k theme](https://github.com/bhilburn/powerlevel9k)
