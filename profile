@@ -4,6 +4,7 @@ path+=$HOME/.rvm/bin
 path+=/usr/local/heroku/bin
 path+=/usr/local/go/bin
 
+source /etc/profile.d/apps-bin-path.sh
 source $HOME/.aliases
 
 # Load RVM into a shell session *as a function*
