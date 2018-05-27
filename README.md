@@ -58,6 +58,11 @@ rvm use 2.3 --default
 ~/.dotfiles/scripts/install/031_tmuxinator.sh
 ```
 
+Load dconf settings
+```
+dconf load / < ~/.dotfiles/dconf_settings
+```
+
 Set up git workspace
 ```
 cd ~/src && gws update
@@ -65,9 +70,14 @@ cd ~/src && gws update
 
 ## Notes
 
-- Using the https URL is easier on a new machine as no SSH keys are needed. To work on the repo later on, change the remote URL to ssh via
+Using the https URL is easier on a new machine as no SSH keys are needed. To work on the repo later on, change the remote URL to ssh via
 ```
 git remote set-url origin git@github.com:dsager/dotfiles.git
+```
+
+Check if there are new dconf settings be be backed up:
+```
+dconf dump / | diff dconf_settings.txt -
 ```
 
 ### Firefox Addons
