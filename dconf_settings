@@ -61,7 +61,7 @@ xkb-options=['compose:caps']
 [org/gnome/mutter]
 dynamic-workspaces=false
 
-[org/gnome/mutter]
+[org/gnome/mutter/keybindings]
 toggle-tiled-right=['<Primary><Super>Right']
 toggle-tiled-left=['<Primary><Super>Left']
 
