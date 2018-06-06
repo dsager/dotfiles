@@ -45,4 +45,5 @@ sudo apt install -y xclip \
                     gnome-tweak-tool \
                     chrome-gnome-shell \
                     python3-csvkit \
+                    nautilus-dropbox \
 
