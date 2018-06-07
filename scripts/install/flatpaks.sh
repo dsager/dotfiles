@@ -5,4 +5,5 @@ flatpak install flathub com.slack.Slack
 flatpak install flathub com.skype.Client
 flatpak install flathub org.telegram.desktop
 flatpak install flathub com.github.fabiocolacio.marker
+flatpak install flathub org.videolan.VLC
 
