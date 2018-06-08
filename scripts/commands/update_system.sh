@@ -11,6 +11,9 @@ sudo apt update && \
 # update snap packages
 sudo snap refresh
 
+# update flatpak apps
+flatpak update
+
 # update dotfiles
 cd $HOME/.dotfiles
 if [ -z "$(git status --untracked-files=no --porcelain)" ]; then
