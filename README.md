@@ -42,20 +42,19 @@ Get the dotfiles repo and run desired scripts:
 sudo apt install git
 git clone git@github.com:dsager/dotfiles.git ~/.dotfiles
 
-~/.dotfiles/scripts/remove_packages.sh
-~/.dotfiles/scripts/install/base_packages.sh
-~/.dotfiles/scripts/install/pkg_graphics.sh
+~/.dotfiles/scripts/setup/base_packages.sh
+~/.dotfiles/scripts/setup/pkg_graphics.sh
 
-~/.dotfiles/scripts/mount_data_laptop.sh
+~/.dotfiles/scripts/setup/mount_data_laptop.sh
 # or mount_data_pc.sh if at home...
 
 ~/.dotfiles/scripts/dotfiles.sh
 ~/.dotfiles/scripts/setup/set_shell.sh
 
-~/.dotfiles/scripts/install/030_rvm.sh
+~/.dotfiles/scripts/setup/030_rvm.sh
 rvm install 2.3
 rvm use 2.3 --default
-~/.dotfiles/scripts/install/031_tmuxinator.sh
+~/.dotfiles/scripts/setup/031_tmuxinator.sh
 ```
 
 Load dconf settings
