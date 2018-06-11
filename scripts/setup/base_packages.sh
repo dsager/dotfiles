@@ -3,6 +3,7 @@
 sudo apt update
 sudo apt install -y xclip \
                     tree \
+                    curl \
                     git \
                     firefox \
                     zsh \
@@ -46,4 +47,5 @@ sudo apt install -y xclip \
                     chrome-gnome-shell \
                     python3-csvkit \
                     nautilus-dropbox \
+                    awscli \
 
