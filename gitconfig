@@ -1,7 +1,7 @@
 [user]
 
   name = Daniel Sager
-	email = software@sager1.de
+  email = software@sager1.de
 
 [core]
 
@@ -25,7 +25,7 @@
   commits = log --pretty=format:%B --reverse
 
   # Remove merged branches
-  cleanup= "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+  cleanup = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
   # Find commits by source code
   fc = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short -S$1; }; f"
@@ -34,8 +34,8 @@
   fm = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f"
 
   # verbose branch & remote info
-  branches = branch -a
-  remotes = remote -v 
+  branches = "!git --no-pager branch -a"
+  remotes = "!git --no-pager remote -v"
 
   # Amend the currently staged files to the latest commit
   amend = commit --amend --reuse-message=HEAD

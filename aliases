@@ -23,6 +23,7 @@ alias json='jq -C . | less -R'
 
 # git
 alias gf="git fetch -p"
+alias gb="git --no-pager branch"
 alias gcd="git checkout develop"
 alias gcm="git checkout master"
 alias gpud="git pull upstream develop"
