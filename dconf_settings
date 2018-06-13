@@ -1,6 +1,9 @@
 [org/gnome/shell]
 enable-hot-corners=true
 
+[org/gnome/shell/app-switcher]
+current-workspace-only=true
+
 [org/gnome/settings-daemon/plugins/power]
 sleep-inactive-ac-timeout=3600
 sleep-inactive-ac-type='nothing'
