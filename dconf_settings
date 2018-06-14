@@ -54,6 +54,10 @@ switch-to-workspace-down=['<Super>Down']
 move-to-workspace-down=['<Alt><Super>Down']
 switch-to-workspace-up=['<Super>Up']
 minimize=['<Primary><Super>Down']
+switch-windows-backward=['<Shift><Super>Tab', '<Shift><Alt>Tab']
+switch-applications=@as []
+switch-applications-backward=@as []
+switch-windows=['<Super>Tab', '<Alt>Tab']
 
 [org/gnome/desktop/background]
 show-desktop-icons=false

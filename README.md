@@ -76,7 +76,7 @@ git remote set-url origin git@github.com:dsager/dotfiles.git
 
 Check if there are new dconf settings be be backed up:
 ```
-dconf dump / | diff dconf_settings.txt -
+dconf dump / | diff dconf_settings -
 ```
 
 ### Firefox Addons
