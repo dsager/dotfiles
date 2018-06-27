@@ -1,12 +1,11 @@
 # ~/.tmuxinator/devex.yml
 
 name: devex
-on_project_start: cd ~/src/work/vm-setup && VMSETUP_DISABLE_FRONTEND_FORWARD=1 VMSETUP_DISABLE_BACKEND_FORWARD=1 VMSETUP_DISABLE_ELASTICSEARCH_FORWARD=1 vagrant up
+on_project_start: cd ~/src/work/docker-setup
 windows:
   - devex:
-      layout: main-vertical
+      layout: even-vertical
       panes:
-        - cd ~/src/work
-        - cd ~/src/work/front-end
-        - cd ~/src/work/grape-api
-        - cd ~ && ~/.local/bin/devex_vagrant_tunnel
+        - cd grape-api
+        - docker-compose logs --tail=50 -f
+        - watch docker-compose ps

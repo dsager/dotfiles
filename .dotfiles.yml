@@ -44,8 +44,6 @@
     "~/.local/bin/gws": "external/gws/src/gws"
     "~/.local/bin/psql2csv": "external/psql2csv/psql2csv"
     "~/.local/bin/git_delete_stale_branches": "scripts/commands/git_delete_stale_branches.sh"
-    "~/.local/bin/devex_vagrant_tunnel": "scripts/commands/devex_vagrant_tunnel.sh"
-    "~/.local/bin/devex_start": "scripts/commands/devex_start.sh"
     "~/.local/bin/update": "scripts/commands/update_system.sh"
     "~/.local/bin/friday_links": "scripts/commands/friday_links.sh"
     # other config
