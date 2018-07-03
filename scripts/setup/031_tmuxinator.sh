@@ -1,4 +1,4 @@
 #! /bin/sh
 
 cd ~
-gem install tmuxinator
+gem install --user-install tmuxinator
