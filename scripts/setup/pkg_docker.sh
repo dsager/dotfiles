@@ -8,3 +8,4 @@ sudo add-apt-repository \
 sudo apt-get update
 sudo apt-get -y install docker-ce
 
+sudo usermod -aG docker $USER
