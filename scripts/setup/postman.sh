@@ -21,7 +21,7 @@ cat > ~/.local/share/applications/postman.desktop <<EOL
 Version=1.0
 Type=Application
 Name=Postman
-Icon=${TARGET_FOLDER}/resources/app/assets/icon.png
+Icon=${TARGET_FOLDER}/app/resources/app/assets/icon.png
 Exec="${TARGET_FOLDER}/Postman" %f
 Categories=Development;IDE;
 Terminal=false
