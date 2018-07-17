@@ -4,7 +4,7 @@ name: devex
 on_project_start: cd ~/src/work/docker-setup
 windows:
   - devex:
-      layout: even-vertical
+      layout: main-vertical
       panes:
         - cd grape-api
         - docker-compose logs --tail=50 -f
