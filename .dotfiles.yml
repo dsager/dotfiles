@@ -46,6 +46,7 @@
     "~/.local/bin/git_delete_stale_branches": "scripts/commands/git_delete_stale_branches.sh"
     "~/.local/bin/update": "scripts/commands/update_system.sh"
     "~/.local/bin/friday_links": "scripts/commands/friday_links.sh"
+    "~/.local/bin/ghpr": "scripts/commands/devex_pull_request.sh"
     # other config
     "~/src/.projects.gws": "src/projects.gws"
     "~/.config/Zeal/Zeal.conf": "config/Zeal/Zeal.conf"
