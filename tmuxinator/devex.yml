@@ -1,11 +1,13 @@
 # ~/.tmuxinator/devex.yml
 
 name: devex
-on_project_start: cd ~/src/work/docker-setup
+on_project_start: cd ~/src/work/docker-setup && docker-compose up -d
 windows:
-  - devex:
+  - docker:
       layout: main-vertical
       panes:
-        - cd grape-api
+        - 
         - docker-compose logs --tail=50 -f
         - watch docker-compose ps
+  - grape:
+    - cd grape-api
