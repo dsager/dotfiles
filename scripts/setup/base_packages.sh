@@ -15,7 +15,6 @@ sudo apt install -y xclip \
                     gtk-recordmydesktop \
                     libxml2-dev \
                     rpcbind \
-                    nfs-kernel-server \
                     tmux \
                     gnupg \
                     jq \
@@ -29,14 +28,10 @@ sudo apt install -y xclip \
                     libxml2-dev \
                     libvirt-dev \
                     zlib1g-dev \
-                    qemu-utils \
                     ruby-dev \
                     rng-tools \
-                    libvirt-bin \
-                    qemu-kvm \
                     pass \
                     caffeine \
-                    virt-manager \
                     htop \
                     xdotool \
                     wmctrl \
@@ -48,4 +43,6 @@ sudo apt install -y xclip \
                     python3-csvkit \
                     nautilus-dropbox \
                     awscli \
+                    exfat-fuse \
+                    exfat-utils
 
