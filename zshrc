@@ -38,6 +38,14 @@ source $HOME/.profile
 # Disbale ZSH shared history
 unsetopt share_history
 
+# load compinit¬
+autoload -Uz compinit && compinit -i¬
+
+# completion scripts¬
+fpath=(~/.zsh/completion $fpath)¬
+
+### Some helper functions¬
+
 # settings for colored man pages
 man() {
   LESS_TERMCAP_md=$'\e'"[1;36m" \
@@ -49,6 +57,7 @@ man() {
   command man "$@"
 }
 
+# simple calculator
 calc() {
   awk "BEGIN{ print $* }"
 }
