@@ -23,14 +23,8 @@ if [ "$TERM" == "xterm-256color" ] || [ "$TERM" == 'screen-256color' ] ; then
 command-not-found
 extract
 git
-ruby
-rails
-gem
-bundler
-vagrant
 colored-man-pages
 zsh-users/zsh-completions src
-zsh-users/zsh-history-substring-search
 zsh-users/zsh-syntax-highlighting
 EOBUNDLES
 
@@ -44,7 +38,7 @@ source $HOME/.profile
 # Disbale ZSH shared history
 unsetopt share_history
 
-# colored man pages
+# settings for colored man pages
 man() {
   LESS_TERMCAP_md=$'\e'"[1;36m" \
   LESS_TERMCAP_me=$'\e'"[0m" \
