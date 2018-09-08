@@ -4,10 +4,12 @@ name: devex
 on_project_start: cd ~/src/work/docker-setup && docker-compose up -d
 windows:
   - docker:
-      layout: main-vertical
+      layout: tiled
       panes:
         - 
-        - docker-compose logs --tail=50 -f
         - watch docker-compose ps
+        - docker-compose logs --tail=50 -f
   - grape:
     - cd grape-api
+  - front-end:
+    - cd front-end
