@@ -16,7 +16,7 @@ if [ "$TERM" == "xterm-256color" ] || [ "$TERM" == 'screen-256color' ] ; then
 
   # OMZ powerlevel theme
   POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
-  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status dir vcs)
+  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
   antigen theme bhilburn/powerlevel9k powerlevel9k
 
   antigen bundles <<EOBUNDLES
