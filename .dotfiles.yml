@@ -1,9 +1,9 @@
 - clean: ["~"]
 
 - shell:
-    - "git submodule update --init --recursive external/gws"
-    - "git submodule update --init --recursive external/antigen"
-    - "git submodule update --init --recursive external/psql2csv"
+    - "git submodule update --init --recursive --remote external/dotbot"
+    - "git submodule update --init --recursive --remote external/gws"
+    - "git submodule update --init --recursive --remote external/antigen"
     - "mkdir -p ~/src"
     - "mkdir -p ~/.config/Zeal"
     - "mkdir -p ~/.local/bin"
@@ -42,7 +42,6 @@
     "~/.gvimrc": "gvimrc"
     # tools / scripts
     "~/.local/bin/gws": "external/gws/src/gws"
-    "~/.local/bin/psql2csv": "external/psql2csv/psql2csv"
     "~/.local/bin/git_delete_stale_branches": "scripts/commands/git_delete_stale_branches.sh"
     "~/.local/bin/update": "scripts/commands/update_system.sh"
     "~/.local/bin/friday_links": "scripts/commands/friday_links.sh"
