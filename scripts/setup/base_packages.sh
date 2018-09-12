@@ -25,8 +25,6 @@ sudo apt install -y xclip \
                     ubuntu-restricted-extras \
                     indicator-multiload \
                     libxslt-dev \
-                    libxml2-dev \
-                    libvirt-dev \
                     zlib1g-dev \
                     ruby-dev \
                     rng-tools \
