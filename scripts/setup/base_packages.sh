@@ -36,6 +36,7 @@ sudo apt install -y xclip \
                     xdotool \
                     wmctrl \
                     postgresql-client \
+                    fonts-hack \
                     fonts-powerline \
                     arc-theme \
                     gnome-tweak-tool \
