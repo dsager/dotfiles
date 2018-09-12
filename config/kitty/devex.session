@@ -1,0 +1,20 @@
+new_tab docker
+layout fat
+cd ~/src/work/docker-setup
+
+launch zsh -c 'docker-compose up -d; zsh -i'
+
+cd ~/src/work/docker-setup
+launch zsh -c 'watch docker-compose ps; zsh -i'
+
+cd ~/src/work/docker-setup
+launch zsh -c 'docker-compose logs --tail=50 -f; zsh -i'
+
+new_tab grape-api
+cd ~/src/work/docker-setup/grape-api
+launch zsh
+
+new_tab front-end
+cd ~/src/work/docker-setup/front-end
+launch zsh
+

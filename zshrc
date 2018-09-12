@@ -7,7 +7,7 @@ COMPLETION_WAITING_DOTS="true"
 unsetopt nomatch # useful for rake, where params are in brackets
 
 # Only load fancy shell on "big" terminal/screen
-if [ "$TERM" == "xterm-256color" ] || [ "$TERM" == 'screen-256color' ] ; then
+if [ "$TERM" == "xterm-256color" ] || [ "$TERM" == 'screen-256color' ] || [ "$TERM" == 'xterm-kitty' ] ; then
 
   source $HOME/.dotfiles/external/antigen/antigen.zsh
 

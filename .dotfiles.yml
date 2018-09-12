@@ -46,7 +46,9 @@
     "~/.local/bin/update": "scripts/commands/update_system.sh"
     "~/.local/bin/friday_links": "scripts/commands/friday_links.sh"
     "~/.local/bin/ghpr": "scripts/commands/devex_pull_request.sh"
+    "~/.local/bin/kitty": "~/.local/tools/kitty/bin/kitty"
     # other config
     "~/src/.projects.gws": "src/projects.gws"
     "~/.config/Zeal/Zeal.conf": "config/Zeal/Zeal.conf"
+    "~/.config/kitty": "config/kitty"
     "~/.idid.log": "/media/data/Dropbox/notes/idid.log"
