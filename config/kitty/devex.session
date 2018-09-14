@@ -1,4 +1,5 @@
 new_tab docker
+enabled_layouts fat, stack
 layout fat
 cd ~/src/work/docker-setup
 
