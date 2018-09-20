@@ -22,4 +22,31 @@ curl -sL $URL -o "$KITTY_DIR/kitty.txz"
 cd $KITTY_DIR && tar -xf kitty.txz
 echo "done"
 
+FILE="$HOME/.local/share/applications/kitty.desktop"
+echo
+echo "create desktop file"
+echo "  $FILE"
+cat > $FILE <<EOL
+[Desktop Entry]
+Name=Kitty Terminal
+Comment=Use the command line
+Keywords=shell;prompt;command;commandline;cmd;
+TryExec=/home/dani/.local/tools/kitty/bin/kitty
+Exec=/home/dani/.local/tools/kitty/bin/kitty
+Icon=utilities-terminal
+Type=Application
+Categories=TerminalEmulator;
+StartupNotify=true
+Actions=new-window;devex-session
+
+[Desktop Action new-window]
+Name=New Terminal
+Exec=/home/dani/.local/tools/kitty/bin/kitty
+
+[Desktop Action devex-session]
+Name=Devex Session
+Exec=/home/dani/.local/tools/kitty/bin/kitty --session /home/dani/.config/kitty/devex.session
+EOL
+echo "done"
+
 echo
