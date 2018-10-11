@@ -77,23 +77,9 @@ Check if there are new dconf settings be be backed up:
 dconf dump / | diff dconf_settings -
 ```
 
-### Firefox Addons
-
-- [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
-- [Pushbullet](https://addons.mozilla.org/en-US/firefox/addon/pushbullet)
-- [German Dictionary](https://addons.mozilla.org/en-US/firefox/addon/german-dictionary)
-- [Spanish Dictionary](https://addons.mozilla.org/en-US/firefox/addon/spanish-spain-dictionary)
-- [HTTPS Everywhere](https://www.eff.org/files/https-everywhere-latest.xpi)
-- [Privacy Badger](https://www.eff.org/files/privacy-badger-latest.xpi)
-- [passff](https://addons.mozilla.org/en-US/firefox/addon/passff/)
-- [Pinboardin](https://addons.mozilla.org/en-US/firefox/addon/pinboardin/)
-- [gnome-shell-integration](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/)
-
 ### Gnome extensions
 
 - https://extensions.gnome.org/extension/906/sound-output-device-chooser/
-- https://extensions.gnome.org/extension/307/dash-to-dock/
-- https://extensions.gnome.org/extension/1031/topicons/
 
 ### Ubuntu/nvidia installation problems
 
@@ -107,17 +93,6 @@ dconf dump / | diff dconf_settings -
 ```
 xinput set-prop 12 "Evdev Scrolling Distance" 6 1 1
 ```
-
-## Recources
-
-A brief list of helpful tools and resources:
-
-- [mathiasbynens' dotfiles](https://github.com/mathiasbynens/dotfiles)
-- [anishathalye's dotfiles](https://github.com/anishathalye/dotfiles)
-- [dotbot](https://github.com/anishathalye/dotbot)
-- [gws](https://github.com/StreakyCobra/gws)
-
-Big thanks to all authors and contributors!
 
 ## License
 
