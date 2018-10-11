@@ -1,0 +1,5 @@
+package aws
+package colored-man-pages
+package direnv
+theme bobthefish
+theme default

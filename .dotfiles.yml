@@ -41,5 +41,6 @@
     # other config
     "~/src/.projects.gws": "src/projects.gws"
     "~/.config/fish/config.fish": "config/fish/config.fish"
+    "~/.config/omf": "config/omf"
     "~/.config/kitty": "config/kitty"
     "~/.idid.log": "/media/data/Dropbox/notes/idid.log"
