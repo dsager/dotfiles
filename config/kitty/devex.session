@@ -1,21 +1,18 @@
-new_tab docker
-enabled_layouts fat, stack
 layout fat
-cd ~/src/work/docker-setup
 
-launch zsh -c 'docker-compose up -d; zsh -i'
-
+new_tab docker
 cd ~/src/work/docker-setup
-launch zsh -c 'watch docker-compose ps; zsh -i'
-
+launch /usr/bin/fish -iC 'docker-compose up -d'
 cd ~/src/work/docker-setup
-launch zsh -c 'docker-compose logs --tail=50 -f; zsh -i'
+launch /usr/bin/fish -iC 'watch docker-compose ps'
+cd ~/src/work/docker-setup
+launch /usr/bin/fish -iC 'docker-compose logs --tail=50 -f'
 
 new_tab grape-api
 cd ~/src/work/docker-setup/grape-api
-launch zsh
+launch /usr/bin/fish
 
 new_tab front-end
 cd ~/src/work/docker-setup/front-end
-launch zsh
+launch /usr/bin/fish
 
