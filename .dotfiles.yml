@@ -6,9 +6,8 @@
     - "git submodule update --init --recursive --remote external/antigen"
     - "mkdir -p ~/src"
     - "mkdir -p ~/.config/Zeal"
-    - "mkdir -p ~/.local/bin"
-    - "mkdir -p ~/.local/share"
-    - "mkdir -p ~/.local/tools"
+    - "mkdir -p ~/.config/fish"
+    - "mkdir -p ~/.local/bin ~/.local/share ~/.local/fonts ~/.local/tools"
     - "mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/backups ~/.vim/swaps"
     - "rmdir ~/Documents"
     - "rmdir ~/Downloads"
@@ -16,7 +15,6 @@
     - "rmdir ~/Music"
     - "rmdir ~/Videos"
     - "rmdir ~/Templates"
-    - "rm ~/.profile"
     - "sudo cp config/etc/sysctl.d/999-inotify-watches.conf /etc/sysctl.d/999-inotify-watches.conf"
 
 - link:
@@ -26,8 +24,6 @@
     "~/Pictures": "/media/data/googledrive/daniel@sager1.de/Pictures"
     "~/Dropbox": "/media/data/Dropbox"
     # dotfiles
-    "~/.aliases": "aliases"
-    "~/.profile": "profile"
     "~/.gitignore_global": "gitignore_global"
     "~/.gitconfig": "gitconfig"
     "~/.wgetrc": "wgetrc"
@@ -35,7 +31,6 @@
     "~/.psqlrc": "psqlrc"
     "~/.tmux.conf": "tmux.conf"
     "~/.tmuxinator": "tmuxinator"
-    "~/.zshrc": "zshrc"
     "~/.vimrc": "vimrc"
     "~/.irbrc": "irbrc"
     "~/.pryrc": "irbrc"
@@ -50,5 +45,6 @@
     # other config
     "~/src/.projects.gws": "src/projects.gws"
     "~/.config/Zeal/Zeal.conf": "config/Zeal/Zeal.conf"
+    "~/.config/fish/config.fish": "config/fish/config.fish"
     "~/.config/kitty": "config/kitty"
     "~/.idid.log": "/media/data/Dropbox/notes/idid.log"

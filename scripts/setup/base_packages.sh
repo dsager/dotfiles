@@ -6,12 +6,13 @@ sudo apt install -y xclip \
                     curl \
                     git \
                     firefox \
-                    zsh \
+                    fish \
                     dconf-editor \
                     vim-addon-manager \
                     transmission \
                     imagemagick \
                     mplayer \
+                    smplayer \
                     gtk-recordmydesktop \
                     libxml2-dev \
                     rpcbind \
