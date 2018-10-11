@@ -49,12 +49,10 @@ git clone git@github.com:dsager/dotfiles.git ~/.dotfiles
 # or mount_data_pc.sh if at home...
 
 ~/.dotfiles/scripts/dotfiles.sh
-~/.dotfiles/scripts/setup/set_shell.sh
 
 ~/.dotfiles/scripts/setup/030_rvm.sh
 rvm install 2.3
 rvm use 2.3 --default
-~/.dotfiles/scripts/setup/031_tmuxinator.sh
 ```
 
 Load dconf settings

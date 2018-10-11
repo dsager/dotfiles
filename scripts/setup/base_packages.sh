@@ -16,7 +16,6 @@ sudo apt install -y xclip \
                     gtk-recordmydesktop \
                     libxml2-dev \
                     rpcbind \
-                    tmux \
                     gnupg \
                     jq \
                     chromium-browser \
