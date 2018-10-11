@@ -3,7 +3,6 @@
 - shell:
     - "git submodule update --init --recursive --remote external/dotbot"
     - "git submodule update --init --recursive --remote external/gws"
-    - "git submodule update --init --recursive --remote external/antigen"
     - "mkdir -p ~/src"
     - "mkdir -p ~/.config/fish"
     - "mkdir -p ~/.local/bin ~/.local/share ~/.local/fonts ~/.local/tools"

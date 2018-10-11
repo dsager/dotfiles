@@ -4,6 +4,3 @@
 [submodule "external/gws"]
 	path = external/gws
 	url = https://github.com/StreakyCobra/gws
-[submodule "external/antigen"]
-	path = external/antigen
-	url = git@github.com:zsh-users/antigen.git

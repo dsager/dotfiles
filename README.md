@@ -118,10 +118,6 @@ A brief list of helpful tools and resources:
 - [anishathalye's dotfiles](https://github.com/anishathalye/dotfiles)
 - [dotbot](https://github.com/anishathalye/dotbot)
 - [gws](https://github.com/StreakyCobra/gws)
-- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)
-- [powerlevel9k theme](https://github.com/bhilburn/powerlevel9k)
-- [antigen](https://github.com/zsh-users/antigen.git)
-- [tmuxinator](https://github.com/tmuxinator/tmuxinator)
 
 Big thanks to all authors and contributors!
 
