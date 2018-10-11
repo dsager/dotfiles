@@ -5,7 +5,6 @@
     - "git submodule update --init --recursive --remote external/gws"
     - "git submodule update --init --recursive --remote external/antigen"
     - "mkdir -p ~/src"
-    - "mkdir -p ~/.config/Zeal"
     - "mkdir -p ~/.config/fish"
     - "mkdir -p ~/.local/bin ~/.local/share ~/.local/fonts ~/.local/tools"
     - "mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/backups ~/.vim/swaps"
@@ -44,7 +43,6 @@
     "~/.local/bin/kitty": "~/.local/tools/kitty/bin/kitty"
     # other config
     "~/src/.projects.gws": "src/projects.gws"
-    "~/.config/Zeal/Zeal.conf": "config/Zeal/Zeal.conf"
     "~/.config/fish/config.fish": "config/fish/config.fish"
     "~/.config/kitty": "config/kitty"
     "~/.idid.log": "/media/data/Dropbox/notes/idid.log"
