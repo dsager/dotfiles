@@ -59,7 +59,7 @@ set -g theme_title_use_abbreviated_path yes
 set -g theme_date_format "+%a %H:%M"
 set -g theme_avoid_ambiguous_glyphs yes
 set -g theme_powerline_fonts yes
-set -g theme_nerd_fonts yes
+set -g theme_nerd_fonts no
 set -g theme_show_exit_status yes
 set -g default_user dani
 set -g theme_color_scheme terminal-dark
