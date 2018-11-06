@@ -15,7 +15,7 @@ sudo snap refresh
 flatpak update
 
 # update OMF
-omf update
+fish -c 'omf update'
 
 # update dotfiles
 cd $HOME/.dotfiles
