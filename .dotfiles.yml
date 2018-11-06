@@ -20,7 +20,6 @@
     "~/Documents": "/media/data/googledrive/daniel@sager1.de/Documents"
     "~/Downloads": "/media/data/downloads"
     "~/Pictures": "/media/data/googledrive/daniel@sager1.de/Pictures"
-    "~/Dropbox": "/media/data/Dropbox"
     # dotfiles
     "~/.gitignore_global": "gitignore_global"
     "~/.gitconfig": "gitconfig"
@@ -43,4 +42,4 @@
     "~/.config/fish/config.fish": "config/fish/config.fish"
     "~/.config/omf": "config/omf"
     "~/.config/kitty": "config/kitty"
-    "~/.idid.log": "/media/data/Dropbox/notes/idid.log"
+    "~/.idid.log": "~/Dropbox/Dropbox/notes/idid.log"
