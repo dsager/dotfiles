@@ -23,6 +23,7 @@ sudo apt install -y xclip \
                     pass \
                     htop \
                     postgresql-client \
+                    fonts-hack \
                     fonts-powerline \
                     arc-theme \
                     gnome-tweak-tool \
