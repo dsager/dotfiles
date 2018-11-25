@@ -1,7 +1,6 @@
 - clean: ["~"]
 
 - shell:
-    - "git submodule update --init --recursive --remote external/dotbot"
     - "git submodule update --init --recursive --remote external/gws"
     - "mkdir -p ~/src"
     - "mkdir -p ~/.config/fish"
