@@ -48,12 +48,7 @@ git clone git@github.com:dsager/dotfiles.git ~/.dotfiles
 ~/.dotfiles/scripts/setup/mount_data_laptop.sh
 # or mount_data_pc.sh if at home...
 
-~/.dotfiles/scripts/dotfiles.sh
-
-~/.dotfiles/scripts/setup/030_rvm.sh
-rvm install 2.3
-rvm use 2.3 --default
-```
+~/.dotfiles/install
 
 Load dconf settings
 ```
