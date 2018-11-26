@@ -35,8 +35,10 @@
     # other config
     "~/src/.projects.gws": "src/projects.gws"
     "~/.config/fish/config.fish": "config/fish/config.fish"
-    "~/.config/omf": "config/omf"
-    "~/.config/kitty": "config/kitty"
+    '~/.config/fish/fishfile': 'config/fish/fishfile'
+    "~/.config/kitty":
+      path: "config/kitty"
+      force: true
     "~/.idid.log": "~/Dropbox/Dropbox/notes/idid.log"
 
 - shell:
