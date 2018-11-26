@@ -1,12 +1,11 @@
 # dotfiles
 
-Some scripts and notes to setup and customize my Linux environment (Ubuntu 18.04).
-
-This is opinionated and a constant WIP, but feel to look around anyway...
+Some scripts and notes to setup and customize my Manjaro Linux environment.
+This is a constant work-in-progress, but feel to look around for anything useful...
 
 ## Usage
 
-### Prepare old system before formatting
+### Prepare on existing system
 
 - Backup SSH and GPG by running `./scripts/backup/create.sh`
 - Backup IntelliJ settings (RubyMine, DataGrip, ...)
@@ -33,22 +32,16 @@ rm -rf .backup-tmp/
 
 Password manager:
 ```
-git clone ssh://git@bitbucket.org/dsager/password-store.git ~/.password-store
-sudo apt install pass
+keybase login
+git clone keybase://private/dsager/password-store ~/.password-store
 ```
 
 Get the dotfiles repo and run desired scripts:
 ```
-sudo apt install git
 git clone git@github.com:dsager/dotfiles.git ~/.dotfiles
-
-~/.dotfiles/scripts/setup/base_packages.sh
-~/.dotfiles/scripts/setup/pkg_graphics.sh
-
-~/.dotfiles/scripts/setup/mount_data_laptop.sh
-# or mount_data_pc.sh if at home...
-
-~/.dotfiles/install
+cd ~/.dotfiles
+./install
+```
 
 Load dconf settings
 ```
