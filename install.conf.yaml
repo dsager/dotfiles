@@ -43,7 +43,7 @@
 
 - shell:
   -
-    command: pamac remove `cat packages/manjaro.remove.txt | grep -v '#' | grep .`
+    command: sudo pacman -R --unneeded --noconfirm --recursive --nosave `cat packages/manjaro.remove.txt | grep -v '#' | grep .`
     description: Removing unwanted packages that came with manjaro
     stdout: true
     stdin: true
