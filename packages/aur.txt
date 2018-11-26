@@ -1,0 +1,8 @@
+postman
+fisher
+insync
+pgcli
+gws
+aws-cli-git
+dropbox
+openvpn-nordvpn

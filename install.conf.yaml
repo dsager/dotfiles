@@ -1,23 +1,21 @@
+- defaults:
+    link:
+      create: true
+
 - clean: ["~"]
 
 - shell:
-    - "git submodule update --init --recursive --remote external/gws"
-    - "mkdir -p ~/src"
-    - "mkdir -p ~/.config/fish"
     - "mkdir -p ~/.local/bin ~/.local/share ~/.local/fonts ~/.local/tools"
     - "mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/backups ~/.vim/swaps"
     - "rmdir ~/Documents"
-    - "rmdir ~/Downloads"
     - "rmdir ~/Pictures"
     - "rmdir ~/Music"
-    - "rmdir ~/Videos"
     - "rmdir ~/Templates"
     - "sudo cp config/etc/sysctl.d/999-inotify-watches.conf /etc/sysctl.d/999-inotify-watches.conf"
 
 - link:
     # directories
     "~/Documents": "/media/data/googledrive/daniel@sager1.de/Documents"
-    "~/Downloads": "/media/data/downloads"
     "~/Pictures": "/media/data/googledrive/daniel@sager1.de/Pictures"
     # dotfiles
     "~/.gitignore_global": "gitignore_global"
@@ -30,15 +28,33 @@
     "~/.pryrc": "irbrc"
     "~/.gvimrc": "gvimrc"
     # tools / scripts
-    "~/.local/bin/gws": "external/gws/src/gws"
     "~/.local/bin/git_delete_stale_branches": "scripts/commands/git_delete_stale_branches.sh"
     "~/.local/bin/update": "scripts/commands/update_system.sh"
     "~/.local/bin/friday_links": "scripts/commands/friday_links.sh"
     "~/.local/bin/ghpr": "scripts/commands/devex_pull_request.sh"
-    "~/.local/bin/kitty": "~/.local/tools/kitty/bin/kitty"
     # other config
     "~/src/.projects.gws": "src/projects.gws"
     "~/.config/fish/config.fish": "config/fish/config.fish"
     "~/.config/omf": "config/omf"
     "~/.config/kitty": "config/kitty"
     "~/.idid.log": "~/Dropbox/Dropbox/notes/idid.log"
+
+- shell:
+  -
+    command: pamac remove `cat packages/manjaro.remove.txt | grep -v '#' | grep .`
+    description: Removing unwanted packages that came with manjaro
+    stdout: true
+    stdin: true
+    quiet: false
+  -
+    command: pamac install `cat packages/manjaro.txt | grep -v '#' | grep .`
+    description: Installing packages from the manjaro repositories
+    stdout: true
+    stdin: true
+    quiet: false
+  -
+    command: pamac build `cat packages/aur.txt | grep -v '#' | grep .`
+    description: Installing packages from the Arc User Repository (AUR)
+    stdout: true
+    stdin: true
+    quiet: false
