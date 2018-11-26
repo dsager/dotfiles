@@ -1,12 +1,9 @@
-#! /bin/sh
+#!/usr/bin/env sh
 
 cd $HOME
 
-# update apt packages
-sudo apt update && \
-  sudo apt upgrade && \
-  sudo apt autoremove && \
-  sudo apt autoclean
+# update packages
+pamac update
 
 # update snap packages
 sudo snap refresh
@@ -14,8 +11,9 @@ sudo snap refresh
 # update flatpak apps
 flatpak update
 
-# update OMF
-fish -c 'omf update'
+# update fish plugins
+fish -c 'fisher'
+fish -c 'fisher self-update'
 
 # update dotfiles
 cd $HOME/.dotfiles
