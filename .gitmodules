@@ -1,9 +1,3 @@
-[submodule "external/dotbot"]
-	path = external/dotbot
-	url = https://github.com/anishathalye/dotbot
-[submodule "external/gws"]
-	path = external/gws
-	url = https://github.com/StreakyCobra/gws
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
