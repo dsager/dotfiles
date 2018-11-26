@@ -1,0 +1,42 @@
+# very basic stuff
+vim
+openssh
+openvpn
+gnupg
+git
+curl
+pass
+pass-otp
+keybase
+keybase-gui
+
+# tools
+snapd
+kitty
+fish
+xclip
+imagemagick
+tree
+jq
+htop
+postgresql
+docker
+docker-compose
+exfat-utils
+
+# apps
+transmission-gtk
+mplayer
+smplayer
+firefox
+chromium
+chrome-gnome-shell
+
+# desktop environment
+dconf-editor
+gnome-tweak-tool
+networkmanager-openvpn
+arc-gtk-theme
+arc-icon-theme
+powerline-fonts
+

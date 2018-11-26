@@ -1,0 +1,9 @@
+packages
+oh-my-fish -> fisher (fishfile)
+remove install scripts
+- gws (submodule)
+- docker-compose
+- rvm
+- keybase
+- arc
+
