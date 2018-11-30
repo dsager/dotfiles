@@ -1,7 +1,7 @@
-#! /bin/sh
+#! /usr/bin/env sh
 
-echo ""
-echo ""
+echo "
+"
 
 DIR="$( cd "$( dirname "$0" )" && pwd )"
 FOLDERS="${HOME}/.ssh ${HOME}/.gnupg"
@@ -37,5 +37,5 @@ echo " - cleaning up"
 rm -rf ${BACKUP_DIR}
 rm ${BACKUP_ARCHIVE}
 
-echo ""
-echo ""
+echo "
+"

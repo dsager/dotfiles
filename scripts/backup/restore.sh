@@ -1,7 +1,7 @@
-#! /bin/sh
+#! /usr/bin/env sh
 
-echo ""
-echo ""
+echo "
+"
 
 DIR="$( cd "$( dirname "$0" )" && pwd )"
 BACKUP_DIR="${DIR}/.backup-tmp"
@@ -21,10 +21,10 @@ if [ -f ${BACKUP_ARCHIVE_ENC} ]; then
   rm ${BACKUP_ARCHIVE}
   cd ${BACKUP_DIR}
 
-	echo "!!! DON'T FORGET TO REMOVE ${BACKUP_DIR} !!!"
+  echo "!!! DON'T FORGET TO REMOVE ${BACKUP_DIR} !!!"
 else 
   echo "NO BACKUP FOUND"
 fi
 
-echo ""
-echo ""
+echo "
+"
