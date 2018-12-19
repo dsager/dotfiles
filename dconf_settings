@@ -23,9 +23,6 @@ calculator='<Primary><Alt>c'
 clock-show-date=true
 gtk-im-module='gtk-im-context-simple'
 clock-show-seconds=true
-cursor-theme='DMZ-Black'
-gtk-theme='Arc-Dark'
-icon-theme='Arc'
 
 [org/gnome/desktop/screensaver]
 lock-delay=uint32 3600
