@@ -1,9 +1,8 @@
 fisher
 insync
-pgcli
 gws
 dropbox
 openvpn-nordvpn
 
-# has some python error:
-# aws-cli-git 
+# has errors: pgcli
+# has some python error: aws-cli-git 
