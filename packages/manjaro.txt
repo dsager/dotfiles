@@ -39,7 +39,5 @@ telegram-desktop
 dconf-editor
 gnome-tweak-tool
 networkmanager-openvpn
-arc-gtk-theme
-arc-icon-theme
 powerline-fonts
 
