@@ -18,6 +18,8 @@ xclip
 imagemagick
 tree
 jq
+tig
+nnn
 htop
 postgresql
 docker
