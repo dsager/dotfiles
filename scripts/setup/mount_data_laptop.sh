@@ -1,15 +1,16 @@
-#!/usr/bin/env sh
-DEVICE="/dev/nvme0n1p2"
-DIR="/media/data"
+#!/usr/bin/env /bin/bash
 
-grep "${DEVICE}" /etc/fstab > /dev/null
+DIR="/run/media/dani/data"
+UUID="039dc6e2-3a89-4e29-a026-2ef4065dd0b2"
+
+grep "${UUID}" /etc/fstab > /dev/null
 if [ $? -eq 1 ]; then
   sudo mkdir -p "${DIR}"
   sudo chown -R -v dani:dani "${DIR}"
-  sudo chmod -Rf 777 "${DIR}"
+  sudo chmod -Rf 660 "${DIR}"
 
   MOUNT_OPTS="rw,user,exec,auto,owner"
-  echo "${DEVICE}    ${DIR}    ext4    ${MOUNT_OPTS}    0    2" | \
+  echo "UUID=${UUID}    ${DIR}    ext4    ${MOUNT_OPTS}    0    2" | \
     sudo tee -a /etc/fstab
-  sudo mount "${DEVICE}"
+  sudo mount "${DIR}"
 fi

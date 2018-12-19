@@ -15,8 +15,8 @@
 
 - link:
     # directories
-    "~/Documents": "/media/data/googledrive/daniel@sager1.de/Documents"
-    "~/Pictures": "/media/data/googledrive/daniel@sager1.de/Pictures"
+    "~/Documents": "/run/media/dani/data/googledrive/daniel@sager1.de/Documents"
+    "~/Pictures": "/run/media/dani/data/googledrive/daniel@sager1.de/Pictures"
     # dotfiles
     "~/.gitignore_global": "gitignore_global"
     "~/.gitconfig": "gitconfig"
@@ -39,7 +39,7 @@
     "~/.config/kitty":
       path: "config/kitty"
       force: true
-    "~/.idid.log": "~/Dropbox/Dropbox/notes/idid.log"
+    "~/.idid.log": "~/Dropbox/notes/idid.log"
 
 - shell:
   -
