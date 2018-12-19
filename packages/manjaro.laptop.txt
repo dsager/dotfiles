@@ -1,3 +1,0 @@
-# improved battery usage
-tlp
-tlp-rdw
