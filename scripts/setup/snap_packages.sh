@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /user/bin/env /bin/sh
 
-sudo snap install --classic rubymine
-
+snap install --classic rubymine
+snap install postman
