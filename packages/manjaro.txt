@@ -25,6 +25,7 @@ postgresql
 docker
 docker-compose
 exfat-utils
+aws-cli
 
 # apps
 transmission-gtk
