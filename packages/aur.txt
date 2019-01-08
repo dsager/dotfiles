@@ -2,6 +2,7 @@ fisher
 insync
 gws
 dropbox
+direnv
 
 # has errors: pgcli
 # has some python error: aws-cli-git 
