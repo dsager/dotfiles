@@ -26,6 +26,8 @@ docker
 docker-compose
 exfat-utils
 aws-cli
+marked
+lynx
 
 # apps
 transmission-gtk
