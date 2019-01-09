@@ -65,22 +65,12 @@ Check if there are new dconf settings be be backed up:
 dconf dump / | diff dconf_settings -
 ```
 
+Fix annoying Firefox/Textbox issue with dark GTK theme:
+https://www.mkammerer.de/blog/gtk-dark-theme-and-firefox/
+
 ### Gnome extensions
 
 - https://extensions.gnome.org/extension/906/sound-output-device-chooser/
-
-### Ubuntu/nvidia installation problems
-
-- Black screen after grub: Press `e` in grub to edit boot params, change `quiet splash` to `nomodeset`
-- Might have to disable secure boot
-- Switch to TTY and run `sudo ubuntu-drivers autoinstall`, reboot
-- Install `compizconfig-settings-manager` & `unity`, run `ccsm`, enable Unity plugin, reboot
-
-### Tweak Mouse Scrolling
-
-```
-xinput set-prop 12 "Evdev Scrolling Distance" 6 1 1
-```
 
 ## License
 
