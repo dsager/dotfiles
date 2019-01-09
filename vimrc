@@ -117,4 +117,14 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 	" Treat .md files as Markdown
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
+  " File type detection. Indent based on filetype.
+  filetype plugin indent on
 endif
+
+set expandtab       "Use softtabstop spaces instead of tab characters for indentation
+set shiftwidth=2    "Indent by 4 spaces when using >>, <<, == etc.
+set softtabstop=2   "Indent by 4 spaces when pressing <TAB>
+
+set autoindent      "Keep indentation from previous line
+set smartindent     "Automatically inserts indentation in some cases
+set cindent         "Like smartindent, but stricter and more customisable
