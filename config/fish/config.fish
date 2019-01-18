@@ -22,17 +22,17 @@ alias json='jq -C . | less -R'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
-abbr -a ..="cd .."
-abbr -a ...="cd ../.."
+abbr -a .. "cd .."
+abbr -a ... "cd ../.."
 abbr -a -- - 'cd -'
-abbr -a cd..='cd ..'
-abbr -a timestamp='date +%s'
-abbr -a gst="git status"
-abbr -a gp="git push"
-abbr -a gf="git fetch -p"
-abbr -a gb="git --no-pager branch"
-abbr -a gcd="git checkout develop"
-abbr -a gcm="git checkout master"
+abbr -a cd.. 'cd ..'
+abbr -a timestamp 'date +%s'
+abbr -a gst "git status"
+abbr -a gp "git push"
+abbr -a gf "git fetch -p"
+abbr -a gb "git --no-pager branch"
+abbr -a gcd "git checkout develop"
+abbr -a gcm "git checkout master"
 
 # Theme config
 set -g theme_display_git yes
