@@ -26,7 +26,6 @@
     "~/.vimrc": "vimrc"
     "~/.irbrc": "irbrc"
     "~/.pryrc": "irbrc"
-    "~/.gvimrc": "gvimrc"
     # tools / scripts
     "~/.local/bin/git_delete_stale_branches": "scripts/commands/git_delete_stale_branches.sh"
     "~/.local/bin/update": "scripts/commands/update_system.sh"
