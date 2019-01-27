@@ -7,8 +7,17 @@ This is a constant work-in-progress, but feel to look around for anything useful
 
 ### Prepare on existing system
 
-- Backup SSH and GPG by running `./scripts/backup/create.sh`
-- Backup IntelliJ settings (RubyMine, DataGrip, ...)
+- Backup SSH keys & config
+```
+cd <backup folder>
+tar -cz ~/.ssh | gpg --yes -c -o ./ssh-backup.tgz.gpg
+```
+- Backup GPG keys & config
+```
+cd <backup folder>
+tar -cz ~/.gnupg | gpg --yes -c -o ./gnupg-backup.tgz.gp
+```
+- Backup other settings (e.g. RubyMine, DataGrip, ...)
 - Check git repos for uncommited stuff:
   - `~/src`
   - `~/.dotfiles`
@@ -16,61 +25,49 @@ This is a constant work-in-progress, but feel to look around for anything useful
 
 ### Setup new environment
 
-Restore SSH & GPG keys:
+- Restore SSH keys & config
 ```
-cd $SOME_PEN_DRIVE/backup
-./restore.sh
-
-rm -rf ~/.ssh
-mv .backup-tmp/.ssh ~/
-
-rm -rf ~/.gnupg/
-mv .backup-tmp/.gnupg/ ~/
-
-rm -rf .backup-tmp/
+cd ~
+rm -rf .ssh
+gpg -d <backup-folder>/ssh-backup.tgz.gpg | tar xz
+rm <backup-folder>/ssh-backup.tgz.gpg
 ```
-
-Password manager:
+- Restore GPG keys & config
+```
+cd ~
+rm -rf .gnupg
+gpg -d <backup-folder>/gnupg-backup.tgz.gpg | tar xz
+rm <backup-folder>/gnupg-backup.tgz.gpg
+```
+- Setup Password manager:
 ```
 keybase login
 git clone keybase://private/dsager/password-store ~/.password-store
 ```
-
-Get the dotfiles repo and run desired scripts:
+- Get the dotfiles repo and run scripts
 ```
 git clone git@github.com:dsager/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ./install
 ```
-
-Load dconf settings
+- Load dconf settings
 ```
 dconf load / < ~/.dotfiles/dconf_settings
 ```
-
-Set up git workspace
+- Set up git workspace
 ```
 cd ~/src && gws update
 ```
 
 ## Notes
 
-Using the https URL is easier on a new machine as no SSH keys are needed. To work on the repo later on, change the remote URL to ssh via
-```
-git remote set-url origin git@github.com:dsager/dotfiles.git
-```
-
-Check if there are new dconf settings be be backed up:
+- Check if there are new dconf settings be be backed up
 ```
 dconf dump / | diff dconf_settings -
 ```
-
-Fix annoying Firefox/Textbox issue with dark GTK theme:
-https://www.mkammerer.de/blog/gtk-dark-theme-and-firefox/
-
-### Gnome extensions
-
-- https://extensions.gnome.org/extension/906/sound-output-device-chooser/
+- [Fix annoying Firefox/Textbox issue with dark GTK theme](https://www.mkammerer.de/blog/gtk-dark-theme-and-firefox/)
+- Additional Gnome extensions
+  - https://extensions.gnome.org/extension/906/sound-output-device-chooser/
 
 ## License
 
