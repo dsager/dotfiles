@@ -99,3 +99,4 @@ Thumbs.db
 
 ### other dotfiles
 .env
+.envrc
