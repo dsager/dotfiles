@@ -20,7 +20,7 @@ let mapleader=","
 set backupdir=~/.vim/backups
 set directory=~/.vim/swaps
 if exists("&undodir")
-	set undodir=~/.vim/undo
+  set undodir=~/.vim/undo
 endif
 
 " Don’t create backups when editing files in certain directories
@@ -41,7 +41,7 @@ set cursorline
 " Make tabs as wide as two spaces
 set tabstop=2
 " Show “invisible” characters
-set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+set lcs=tab:▸\ ,trail:·,nbsp:_
 set list
 " Highlight searches
 set hlsearch
