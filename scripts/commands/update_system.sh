@@ -13,7 +13,6 @@ flatpak update
 
 # update fish plugins
 fish -c 'fisher'
-fish -c 'fisher self-update'
 
 # update dotfiles
 cd $HOME/.dotfiles
