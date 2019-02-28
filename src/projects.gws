@@ -19,4 +19,4 @@ work/docker-setup/grape-api | git@github.com:Devex/grape-api | git@github.com:ds
 work/docker-setup/front-end | git@github.com:Devex/front-end | git@github.com:dsager/front-end.git mine
 work/docker-setup/neo | git@github.com:Devex/neo | git@github.com:dsager/neo.git mine
 work/docker-setup/cPanel | git@github.com:Devex/cPanel | git@github.com:dsager/cPanel.git mine
-
+work/analytics | git@github.com:Devex/analytics.git | git@github.com:dsager/analytics.git mine
