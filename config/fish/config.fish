@@ -22,6 +22,7 @@ alias vi='vim'
 alias json='jq -C . | less -R'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
+alias ssh='env TERM=xterm-256color ssh'
 
 abbr -a .. "cd .."
 abbr -a ... "cd ../.."
