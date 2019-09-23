@@ -8,12 +8,6 @@ current-workspace-only=true
 sleep-inactive-ac-timeout=3600
 sleep-inactive-ac-type='nothing'
 
-[org/gnome/settings-daemon/plugins/color]
-night-light-schedule-automatic=false
-night-light-schedule-to=7.0
-night-light-schedule-from=21.0
-night-light-enabled=true
-
 [org/gnome/settings-daemon/plugins/media-keys]
 screensaver='<Super>l'
 home='<Primary><Alt>h'
@@ -21,17 +15,14 @@ calculator='<Primary><Alt>c'
 
 [org/gnome/desktop/interface]
 clock-show-date=true
-gtk-im-module='gtk-im-context-simple'
 clock-show-seconds=true
+clock-show-weekday=true
 
 [org/gnome/desktop/screensaver]
 lock-delay=uint32 3600
 
 [org/gnome/desktop/search-providers]
 disable-external=true
-
-[org/gnome/desktop/calendar]
-show-desktop-icons=false
 
 [org/gnome/desktop/privacy]
 remove-old-temp-files=true
@@ -51,14 +42,17 @@ switch-to-workspace-down=['<Super>Down']
 move-to-workspace-down=['<Alt><Super>Down']
 switch-to-workspace-up=['<Super>Up']
 minimize=@as []
-switch-windows-backward=['<Shift><Super>Tab', '<Shift><Alt>Tab']
+switch-windows-backward=['<Shift><Alt>Tab']
 switch-applications=@as []
 switch-applications-backward=@as []
-switch-windows=['<Super>Tab', '<Alt>Tab']
+switch-windows=['<Alt>Tab']
 close=['<Primary>q']
 
 [org/gnome/desktop/background]
 show-desktop-icons=false
+
+[org/gnome/desktop/calendar]
+show-weekdate=true
 
 [org/gnome/desktop/input-sources]
 xkb-options=['compose:caps']
@@ -73,3 +67,27 @@ experimental-features=['scale-monitor-framebuffer']
 toggle-tiled-right=['<Primary><Super>Right']
 toggle-tiled-left=['<Primary><Super>Left']
 
+[org/gnome/shell/extensions/dash-to-dock]
+animate-show-apps=false
+apply-custom-theme=false
+custom-theme-shrink=true
+dash-max-icon-size=64
+
+[org/gnome/shell/extensions/openweather]
+actual-city=0
+city='41.424483366248566,2.1622574329376225>Villa Patoso>-1'
+days-forecast=2
+decimal-places=1
+geolocation-provider='openstreetmaps'
+position-in-panel='center'
+pressure-unit='bar'
+show-comment-in-forecast=true
+show-comment-in-panel=false
+show-text-in-panel=true
+translate-condition=true
+unit='celsius'
+use-default-owm-key=true
+use-symbolic-icons=true
+weather-provider='openweathermap'
+wind-direction=true
+wind-speed-unit='kph'
