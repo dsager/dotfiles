@@ -3,6 +3,9 @@ insync
 gws
 dropbox
 direnv
+lazydocker
+lazygit
+pgcli
 
-# has errors: pgcli
-# has some python error: aws-cli-git 
+# has some python error: aws-cli-git
+
