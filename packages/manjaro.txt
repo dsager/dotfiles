@@ -26,17 +26,18 @@ docker
 docker-compose
 exfat-utils
 aws-cli
-marked
-lynx
+bat
 
 # apps
 transmission-gtk
+vlc
 mplayer
 smplayer
 firefox
 chromium
 chrome-gnome-shell
 telegram-desktop
+gimp
 
 # desktop environment
 dconf-editor
