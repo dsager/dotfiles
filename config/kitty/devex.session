@@ -2,11 +2,7 @@ layout fat
 
 new_tab docker
 cd ~/src/work/docker-setup
-launch /usr/bin/fish -iC 'docker-compose up -d'
-cd ~/src/work/docker-setup
-launch /usr/bin/fish -iC 'watch docker-compose ps'
-cd ~/src/work/docker-setup
-launch /usr/bin/fish -iC 'docker-compose logs --tail=50 -f'
+launch /usr/bin/fish -iC 'lazydocker'
 
 new_tab grape-api
 cd ~/src/work/docker-setup/grape-api
