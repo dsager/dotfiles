@@ -27,6 +27,7 @@ docker-compose
 exfat-utils
 aws-cli
 bat
+albert
 
 # apps
 transmission-gtk
