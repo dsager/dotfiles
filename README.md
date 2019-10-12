@@ -65,10 +65,12 @@ cd ~/src && gws update
 ```
 dconf dump / | diff dconf_settings -
 ```
-- [Fix annoying Firefox/Textbox issue with dark GTK theme](https://www.mkammerer.de/blog/gtk-dark-theme-and-firefox/)
 - Additional Gnome extensions
   - https://extensions.gnome.org/extension/906/sound-output-device-chooser/
-
+- Make laptop go into deep sleep when suspending:
+  - check `/sys/power/mem_sleep` for default mode
+  - use `sudo journalctl -n1000 | grep "PM: suspend" | tail` to check recent behavior
+  - change default by adding `mem_sleep_default=deep` to kernel command line (e.g. via [grub](https://wiki.archlinux.org/index.php/kernel_parameters#GRUB))
 ## License
 
 The MIT License (MIT)
