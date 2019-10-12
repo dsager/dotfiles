@@ -73,6 +73,19 @@ apply-custom-theme=false
 custom-theme-shrink=true
 dash-max-icon-size=64
 
+[org/gnome/shell/extensions/dash-to-panel]
+animate-show-apps=false
+dot-position='TOP'
+dot-style-focused='METRO'
+group-apps=true
+hotkeys-overlay-combo='TEMPORARILY'
+multi-monitors=false
+panel-position='TOP'
+show-activities-button=false
+show-appmenu=false
+show-show-apps-button=false
+show-showdesktop-button=false
+
 [org/gnome/shell/extensions/openweather]
 actual-city=0
 city='41.424483366248566,2.1622574329376225>Villa Patoso>-1'
