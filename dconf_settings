@@ -75,16 +75,24 @@ dash-max-icon-size=64
 
 [org/gnome/shell/extensions/dash-to-panel]
 animate-show-apps=false
+appicon-margin=4
 dot-position='TOP'
 dot-style-focused='METRO'
 group-apps=true
+hot-keys=true
 hotkeys-overlay-combo='TEMPORARILY'
+location-clock='BUTTONSRIGHT'
 multi-monitors=false
 panel-position='TOP'
+panel-size=48
+shortcut-previews=true
 show-activities-button=false
 show-appmenu=false
 show-show-apps-button=false
 show-showdesktop-button=false
+taskbar-position='LEFTPANEL'
+trans-use-custom-opacity=false
+trans-use-dynamic-opacity=false
 
 [org/gnome/shell/extensions/openweather]
 actual-city=0
