@@ -41,6 +41,9 @@
     "~/.config/albert/org.albert.extension.websearch":
       path: "config/albert/org.albert.extension.websearch"
       force: true
+    "~/.config/albert/org.albert.frontend.qmlboxmodel":
+      path: "config/albert/org.albert.frontend.qmlboxmodel"
+      force: true
     "~/.idid.log": "~/Dropbox/notes/idid.log"
 
 - shell:
