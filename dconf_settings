@@ -113,3 +113,7 @@ wind-speed-unit='kph'
 [org/gnome/shell/extensions/auto-move-windows]
 application-list=['firefox.desktop:1', 'rubymine_rubymine.desktop:2', 'telegramdesktop.desktop:4', 'com.spotify.Client.desktop:4', 'com.slack.Slack.desktop:1']
 
+[org/gnome/shell/extensions/gtile]
+insets-primary-left=0
+show-toggle-tiling=['<Super>t']
+window-margin=0
