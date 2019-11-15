@@ -30,6 +30,7 @@
     "~/.local/bin/update": "scripts/commands/update_system.sh"
     "~/.local/bin/friday_links": "scripts/commands/friday_links.sh"
     "~/.local/bin/ghpr": "scripts/commands/devex_pull_request.sh"
+    "~/.local/bin/gnomeshell_extension": "scripts/commands/gnomeshell_extension.sh"
     # other config
     "~/src/.projects.gws": "src/projects.gws"
     "~/.config/fish/config.fish": "config/fish/config.fish"
@@ -47,21 +48,24 @@
     "~/.idid.log": "~/Dropbox/notes/idid.log"
 
 - shell:
-  -
-    command: sudo pacman -R --unneeded --noconfirm --recursive --nosave `cat packages/manjaro.remove.txt | grep -v '#' | grep .`
-    description: Removing unwanted packages that came with manjaro
+  - command: ~/.local/bin/gnomeshell_extension --install --extension-id 28 --version latest
+    description: Install 'gTile' gnome shell extension
+  - command: ~/.local/bin/gnomeshell_extension --install --extension-id 517 --version latest
+    description: Install 'Caffeine' gnome shell extension]
+  - command: ~/.local/bin/gnomeshell_extension --install --extension-id 906 --version latest
+    description: Install 'Sound Input & Output Device Chooser' gnome shell extension]
+  - command: sudo pacman -R --unneeded --noconfirm --recursive --nosave `cat packages/manjaro.remove.txt | grep -v '#' | grep .`
+    description: Remove unwanted packages that come with manjaro
     stdout: true
     stdin: true
     quiet: false
-  -
-    command: pamac install `cat packages/manjaro.txt | grep -v '#' | grep .`
-    description: Installing packages from the manjaro repositories
+  - command: pamac install `cat packages/manjaro.txt | grep -v '#' | grep .`
+    description: Install packages from the manjaro repositories
     stdout: true
     stdin: true
     quiet: false
-  -
-    command: pamac build `cat packages/aur.txt | grep -v '#' | grep .`
-    description: Installing packages from the Arc User Repository (AUR)
+  - command: pamac build `cat packages/aur.txt | grep -v '#' | grep .`
+    description: Install packages from the Arc User Repository (AUR)
     stdout: true
     stdin: true
     quiet: false
