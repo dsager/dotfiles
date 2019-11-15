@@ -31,7 +31,7 @@ abbr -a cd.. 'cd ..'
 abbr -a timestamp 'date +%s'
 abbr -a gst "git status"
 abbr -a gp "git push"
-abbr -a gf "git fetch -p"
+abbr -a gf "git fetch --prune --prune-tags"
 abbr -a gb "git --no-pager branch"
 abbr -a gcd "git checkout develop"
 abbr -a gcm "git checkout master"
