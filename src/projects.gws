@@ -11,15 +11,16 @@ contrib/google-doc-blog | git@github.com:nicolas-fricke/google-doc-blog.git | gi
 
 ## work
 
-work/research | git@github.com:Devex/research.git | git@github.com:dsager/research.git mine
-work/handbook | git@github.com:Devex/handbook.git | git@github.com:dsager/handbook.git mine
+work/analytics | git@github.com:Devex/analytics.git | git@github.com:dsager/analytics.git mine
 work/appsignal-metrics | git@github.com:dsager/appsignal-metrics.git
 work/appsignal_report | git@github.com:dsager/appsignal_report.git
-work/analytics | git@github.com:Devex/analytics.git | git@github.com:dsager/analytics.git mine
-work/infra | git@github.com:Devex/infra.git | git@github.com:dsager/infra.git mine
-
 work/docker-setup | git@github.com:Devex/docker-setup | git@github.com:dsager/docker-setup.git mine
 work/docker-setup/grape-api | git@github.com:Devex/grape-api | git@github.com:dsager/grape-api.git mine
 work/docker-setup/front-end | git@github.com:Devex/front-end | git@github.com:dsager/front-end.git mine
 work/docker-setup/cPanel | git@github.com:Devex/cPanel | git@github.com:dsager/cPanel.git mine
 work/docker-setup/nginx | git@github.com:Devex/nginx | git@github.com:dsager/nginx.git mine
+work/handbook | git@github.com:Devex/handbook.git | git@github.com:dsager/handbook.git mine
+work/infra | git@github.com:Devex/infra.git | git@github.com:dsager/infra.git mine
+work/k8s-tooling | git@github.com:Devex/k8s-tooling.git | git@github.com:dsager/k8s-tooling.git mine
+work/research | git@github.com:Devex/research.git | git@github.com:dsager/research.git mine
+
