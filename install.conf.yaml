@@ -26,13 +26,13 @@
     "~/.vimrc": "vimrc"
     "~/.irbrc": "irbrc"
     "~/.pryrc": "irbrc"
+    "~/.projects.gws": "src/projects.gws"
     # tools / scripts
     "~/.local/bin/update": "scripts/commands/update_system.sh"
     "~/.local/bin/friday_links": "scripts/commands/friday_links.sh"
     "~/.local/bin/ghpr": "scripts/commands/devex_pull_request.sh"
     "~/.local/bin/gnomeshell_extension": "scripts/commands/gnomeshell_extension.sh"
     # other config
-    "~/src/.projects.gws": "src/projects.gws"
     "~/.config/fish/config.fish": "config/fish/config.fish"
     '~/.config/fish/fishfile': 'config/fish/fishfile'
     "~/.config/kitty":
