@@ -79,3 +79,6 @@
 
   check = true
 
+[includeIf "gitdir:~/src/work/"]
+  path = ~/.gitconfig_devex
+

@@ -20,6 +20,7 @@
     # dotfiles
     "~/.gitignore_global": "gitignore_global"
     "~/.gitconfig": "gitconfig"
+    "~/.gitconfig_devex": "gitconfig_devex"
     "~/.wgetrc": "wgetrc"
     "~/.curlrc": "curlrc"
     "~/.psqlrc": "psqlrc"
