@@ -28,5 +28,11 @@
         "name": "Jira",
         "trigger": "jira ",
         "url": "https://mydevex.atlassian.net/browse/%s"
+    },
+    {
+        "iconPath": "/home/dani/.config/albert/org.albert.extension.websearch/cron.png",
+        "name": "Cron expression descriptor",
+        "trigger": "cron",
+        "url": "https://cronexpressiondescriptor.azurewebsites.net/?locale=en&expression=%s"
     }
 ]
