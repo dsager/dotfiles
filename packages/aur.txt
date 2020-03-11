@@ -1,5 +1,4 @@
 fisher
-insync
 gws
 dropbox
 direnv
