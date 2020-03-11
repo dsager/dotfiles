@@ -69,6 +69,12 @@ dconf dump / | diff dconf_settings -
   - check `/sys/power/mem_sleep` for default mode
   - use `sudo journalctl -n1000 | grep "PM: suspend" | tail` to check recent behavior
   - change default by adding `mem_sleep_default=deep` to kernel command line (e.g. via [grub](https://wiki.archlinux.org/index.php/kernel_parameters#GRUB))
+- Cleanup disk space:
+  - Remove package cache with `paccache --remove`
+  - Remove orphan packages with `pacman -Rns (pacman -Qtdq)`
+  - Wipe cache with `rm -rf ~/.cache/*`
+  - Cleanup docker with `docker system prune`
+  - Cleanup systemd journal with `journalctl --vacuum-size=50M`
 
 ## License
 
