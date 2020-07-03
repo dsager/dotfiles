@@ -61,6 +61,7 @@ cd ~/src && gws update
 
 ## Notes
 
+- Restart gnome shell from other TTY: `killall -SIGQUIT gnome-shell`
 - Check if there are new dconf settings be be backed up
 ```
 dconf dump / | diff dconf_settings -
