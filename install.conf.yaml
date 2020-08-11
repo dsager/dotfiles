@@ -36,9 +36,6 @@
     # other config
     "~/.config/fish/config.fish": "config/fish/config.fish"
     '~/.config/fish/fishfile': 'config/fish/fishfile'
-    "~/.config/kitty":
-      path: "config/kitty"
-      force: true
     "~/.config/albert/albert.conf": "config/albert/albert.conf"
     "~/.config/albert/org.albert.extension.websearch":
       path: "config/albert/org.albert.extension.websearch"

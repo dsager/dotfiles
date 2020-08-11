@@ -1,6 +1,3 @@
-# Kitty
-kitty + complete setup fish | source
-
 # Variables
 set -x EDITOR vim
 set -x LC_ALL en_US.UTF-8

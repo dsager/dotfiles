@@ -12,7 +12,6 @@ keybase-gui
 
 # tools
 snapd
-kitty
 fish
 xclip
 imagemagick

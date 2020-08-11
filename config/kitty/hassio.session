@@ -1,7 +1,0 @@
-layout tall
-
-cd ~/src/own/homeassistant-config
-launch /usr/bin/fish -iC 'git status'
-cd ~/src/own/homeassistant-config
-launch /usr/bin/fish -iC 'ssh hassio.local'
-
