@@ -5,6 +5,7 @@ direnv
 lazydocker
 lazygit
 pgcli
+slack-desktop
 
 # has some python error: aws-cli-git
 
