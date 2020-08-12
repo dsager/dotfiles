@@ -3,7 +3,7 @@
 cd $HOME
 
 # update packages
-sudo pamac update --aur
+pamac update --aur
 
 # update snap packages
 sudo snap refresh
