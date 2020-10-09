@@ -12,11 +12,12 @@
     - "rmdir ~/Music"
     - "rmdir ~/Templates"
     - "sudo cp config/etc/sysctl.d/999-inotify-watches.conf /etc/sysctl.d/999-inotify-watches.conf"
+    - "sudo cp config/etc/sysctl.d/99-sysctl.conf /etc/sysctl.d/99-sysctl.conf"
 
 - link:
     # directories
-    "~/Documents": "/run/media/dani/data/googledrive/daniel@sager1.de/Documents"
-    "~/Pictures": "/run/media/dani/data/googledrive/daniel@sager1.de/Pictures"
+    #"~/Documents": "/run/media/dani/data/googledrive/daniel@sager1.de/Documents"
+    #"~/Pictures": "/run/media/dani/data/googledrive/daniel@sager1.de/Pictures"
     # dotfiles
     "~/.gitignore_global": "gitignore_global"
     "~/.gitconfig": "gitconfig"
