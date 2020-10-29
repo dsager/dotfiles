@@ -6,6 +6,11 @@ set -x GOPATH $HOME/go
 set -x PATH $HOME/.local/bin $GOPATH/bin $PATH
 set -x USER_ID (id -u)
 
+# npm path & manpath
+set NPM_PACKAGES "$HOME/.npm/packages"
+set PATH $PATH $NPM_PACKAGES/bin
+set MANPATH $NPM_PACKAGES/share/man $MANPATH
+
 # Aliases & Abbreviations
 alias ll='ls -ohF --color=auto'
 alias l='ll'

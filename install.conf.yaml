@@ -7,6 +7,7 @@
 - shell:
     - "mkdir -p ~/.local/bin ~/.local/share ~/.local/fonts ~/.local/tools"
     - "mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/backups ~/.vim/swaps"
+    - "mkdir -p ~/.npm/packages"
     - "rmdir ~/Documents"
     - "rmdir ~/Pictures"
     - "rmdir ~/Music"
@@ -27,6 +28,7 @@
     "~/.psqlrc": "psqlrc"
     "~/.vimrc": "vimrc"
     "~/.irbrc": "irbrc"
+    "~/.npmrc": "npmrc"
     "~/.pryrc": "irbrc"
     "~/.projects.gws": "src/projects.gws"
     # tools / scripts
