@@ -12,7 +12,7 @@ sudo snap refresh
 flatpak update
 
 # update fish plugins
-fish -c 'fisher'
+fish -c 'fisher update'
 
 # update dotfiles & password store
 cat $HOME/.projects.gws | /usr/bin/gws
