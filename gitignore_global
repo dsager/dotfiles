@@ -28,6 +28,7 @@ atlassian-ide-plugin.xml
 .rakeTasks
 .gems
 .rbenv-gemsets
+.irb_history
 
 ### Rails ###
 *.rbc
