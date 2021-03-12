@@ -31,19 +31,22 @@ abbr -a .. "cd .."
 abbr -a ... "cd ../.."
 abbr -a -- - 'cd -'
 abbr -a cd.. 'cd ..'
+
 abbr -a timestamp 'date +%s'
+
 abbr -a gst "git status"
 abbr -a gp "git push"
 abbr -a gf "git fetch --prune --prune-tags"
 abbr -a gb "git --no-pager branch"
 abbr -a gcd "git checkout develop"
 abbr -a gcm "git checkout master"
+
 abbr -a dc "docker-compose"
 abbr -a dcb "docker-compose build"
 abbr -a dcp "docker-compose ps"
 abbr -a dcr "docker-compose restart"
 abbr -a dcu "docker-compose up -d"
-
+abbr -a dirb "docker run -it --rm ruby:latest irb"
 
 # Theme config
 set -g theme_display_git yes
