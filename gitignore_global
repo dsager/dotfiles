@@ -101,3 +101,5 @@ Thumbs.db
 ### other dotfiles
 .env
 .envrc
+.bash_history
+
