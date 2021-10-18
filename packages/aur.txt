@@ -1,4 +1,3 @@
-fisher
 gws
 dropbox
 direnv

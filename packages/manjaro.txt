@@ -13,6 +13,7 @@ keybase-gui
 # tools
 snapd
 fish
+fisher
 xclip
 imagemagick
 tree
