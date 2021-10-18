@@ -15,7 +15,6 @@ src/contrib/google-doc-blog         | git@github.com:nicolas-fricke/google-doc-b
 
 ## work
 
-src/work/analytics                  | git@github.com:Devex/analytics.git | git@github.com:dsager/analytics.git mine
 src/work/appsignal-metrics          | git@github.com:dsager/appsignal-metrics.git
 src/work/appsignal_report           | git@github.com:dsager/appsignal_report.git
 src/work/docker-setup               | git@github.com:Devex/docker-setup | git@github.com:dsager/docker-setup.git mine
