@@ -8,6 +8,7 @@
     - "mkdir -p ~/.local/bin ~/.local/share ~/.local/fonts ~/.local/tools"
     - "mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/backups ~/.vim/swaps"
     - "mkdir -p ~/.npm/packages"
+    - "mkdir -p ~/NAS/Pictures ~/NAS/Archive"
     - "rmdir ~/Documents"
     - "rmdir ~/Pictures"
     - "rmdir ~/Music"
@@ -36,6 +37,7 @@
     "~/.local/bin/friday_links": "scripts/commands/friday_links.sh"
     "~/.local/bin/ghpr": "scripts/commands/devex_pull_request.sh"
     "~/.local/bin/gnomeshell_extension": "scripts/commands/gnomeshell_extension.sh"
+    "~/.local/bin/mount_nas": "scripts/commands/mount_nas.sh"
     # other config
     "~/.config/fish/config.fish": "config/fish/config.fish"
     '~/.config/fish/fishfile': 'config/fish/fishfile'
