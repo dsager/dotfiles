@@ -8,7 +8,7 @@
     - "mkdir -p ~/.local/bin ~/.local/share ~/.local/fonts ~/.local/tools"
     - "mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/backups ~/.vim/swaps"
     - "mkdir -p ~/.npm/packages"
-    - "mkdir -p ~/NAS/Pictures ~/NAS/Archive"
+    - "mkdir -p ~/NAS/Pictures ~/NAS/Archive ~/NAS/Videos"
     - "rmdir ~/Documents"
     - "rmdir ~/Pictures"
     - "rmdir ~/Music"
