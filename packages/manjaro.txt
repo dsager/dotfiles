@@ -27,7 +27,8 @@ docker-compose
 exfat-utils
 aws-cli
 bat
-albert
+direnv
+lazygit
 
 # apps
 transmission-gtk
@@ -45,4 +46,8 @@ dconf-editor
 gnome-tweak-tool
 networkmanager-openvpn
 powerline-fonts
+gnome-shell-extension-no-overview
+gnome-shell-extension-gtile
+gnome-shell-extension-dash-to-dock
+caffeine-ng
 

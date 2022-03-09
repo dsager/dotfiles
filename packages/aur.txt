@@ -1,11 +1,8 @@
+ulauncher
 gws
 dropbox
-direnv
 lazydocker
-lazygit
 pgcli
 slack-desktop
 zoom
-
-# has some python error: aws-cli-git
 

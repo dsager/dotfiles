@@ -1,0 +1,52 @@
+{
+    "82f64ad8-b712-4cef-b2a1-60d37471765e": {
+        "id": "82f64ad8-b712-4cef-b2a1-60d37471765e",
+        "name": "Google Search",
+        "keyword": "g",
+        "cmd": "https://google.com/search?q=%s",
+        "icon": "/usr/share/ulauncher/media/google-search-icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1644576634.0788007
+    },
+    "82db091f-bb5a-428d-b3dd-59d74e756f58": {
+        "id": "82db091f-bb5a-428d-b3dd-59d74e756f58",
+        "name": "Stack Overflow",
+        "keyword": "so",
+        "cmd": "https://stackoverflow.com/search?q=%s",
+        "icon": "/usr/share/ulauncher/media/stackoverflow-icon.svg",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1644576634.078825
+    },
+    "51af1057-3e9e-4f23-b2de-a31360827477": {
+        "id": "51af1057-3e9e-4f23-b2de-a31360827477",
+        "name": "Wikipedia",
+        "keyword": "wiki",
+        "cmd": "https://en.wikipedia.org/wiki/%s",
+        "icon": "/usr/share/ulauncher/media/wikipedia-icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1644576634.078844
+    },
+    "a9c24b75-e1c9-46d9-a876-d8e50c481ac4": {
+        "id": "a9c24b75-e1c9-46d9-a876-d8e50c481ac4",
+        "name": "Jira",
+        "keyword": "jira",
+        "cmd": "https://mydevex.atlassian.net/browse/%s",
+        "icon": null,
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1644576863.331098
+    },
+    "5c309b01-c52c-416b-b645-21ee34bd664c": {
+        "id": "5c309b01-c52c-416b-b645-21ee34bd664c",
+        "name": "Schmierzettel",
+        "keyword": "sz",
+        "cmd": "#!/usr/bin/sh\nxdg-open /home/dani/Dropbox/notes/schmierzettel.md",
+        "icon": null,
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1644946656.6380012
+    }
+}

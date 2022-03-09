@@ -41,20 +41,10 @@
     # other config
     "~/.config/fish/config.fish": "config/fish/config.fish"
     '~/.config/fish/fishfile': 'config/fish/fishfile'
-    "~/.config/albert/albert.conf": "config/albert/albert.conf"
-    "~/.config/albert/org.albert.extension.websearch":
-      path: "config/albert/org.albert.extension.websearch"
-      force: true
-    "~/.config/albert/org.albert.frontend.qmlboxmodel":
-      path: "config/albert/org.albert.frontend.qmlboxmodel"
-      force: true
+    "~/.config/ulauncher": "config/ulauncher"
     "~/.idid.log": "~/Dropbox/notes/idid.log"
 
 - shell:
-  - command: ~/.local/bin/gnomeshell_extension --install --extension-id 28 --version latest
-    description: Install 'gTile' gnome shell extension
-  - command: ~/.local/bin/gnomeshell_extension --install --extension-id 517 --version latest
-    description: Install 'Caffeine' gnome shell extension]
   - command: ~/.local/bin/gnomeshell_extension --install --extension-id 906 --version latest
     description: Install 'Sound Input & Output Device Chooser' gnome shell extension]
   - command: sudo pacman -R --unneeded --noconfirm --recursive --nosave `cat packages/manjaro.remove.txt | grep -v '#' | grep .`
