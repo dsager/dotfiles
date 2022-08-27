@@ -29,6 +29,7 @@ aws-cli
 bat
 direnv
 lazygit
+pgcli
 
 # apps
 transmission-gtk
@@ -37,7 +38,6 @@ mplayer
 smplayer
 firefox
 chromium
-chrome-gnome-shell
 telegram-desktop
 gimp
 
