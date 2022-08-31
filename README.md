@@ -50,10 +50,6 @@ git clone git@github.com:dsager/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ./install
 ```
-- Load dconf settings
-```
-dconf load / < ~/.dotfiles/dconf_settings
-```
 - Set up git workspace
 ```
 cd ~/src && gws update
@@ -62,10 +58,6 @@ cd ~/src && gws update
 ## Notes
 
 - Restart gnome shell from other TTY: `killall -SIGQUIT gnome-shell`
-- Check if there are new dconf settings be be backed up
-```
-dconf dump / | diff dconf_settings -
-```
 - Make laptop go into deep sleep when suspending:
   - check `/sys/power/mem_sleep` for default mode
   - use `sudo journalctl -n1000 | grep "PM: suspend" | tail` to check recent behavior

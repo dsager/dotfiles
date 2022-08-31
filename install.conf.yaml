@@ -45,8 +45,10 @@
     "~/.idid.log": "~/Dropbox/notes/idid.log"
 
 - shell:
+  - command: scripts/setup/gsettings.sh
+    description: Configure GNOME
   - command: ~/.local/bin/gnomeshell_extension --install --extension-id 906 --version latest
-    description: Install 'Sound Input & Output Device Chooser' gnome shell extension]
+    description: Install 'Sound Input & Output Device Chooser' gnome shell extension
   - command: sudo pacman -R --unneeded --noconfirm --recursive --nosave `cat packages/manjaro.remove.txt | grep -v '#' | grep .`
     description: Remove unwanted packages that come with manjaro
     stdout: true
