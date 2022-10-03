@@ -1,3 +1,13 @@
 uget
 zsh
 empathy
+
+gnome-shell-extension-unite
+gnome-shell-extension-pop-shell
+gnome-shell-extension-no-overview
+gnome-shell-extension-material-shell
+gnome-shell-extension-gsconnect
+gnome-shell-extension-gamemode
+gnome-shell-extension-desktop-icons-ng
+gnome-shell-extension-dash-to-panel
+gnome-shell-extension-arcmenu
