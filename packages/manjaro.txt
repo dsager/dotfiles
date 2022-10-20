@@ -49,4 +49,5 @@ powerline-fonts
 gnome-shell-extension-gtile
 gnome-shell-extension-dash-to-dock
 caffeine-ng
+appimagelauncher
 
