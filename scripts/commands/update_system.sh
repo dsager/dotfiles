@@ -3,7 +3,7 @@
 cd $HOME
 
 # update packages
-pamac update --aur
+sudo pamac update --aur
 
 # update snap packages
 sudo snap refresh
@@ -14,5 +14,5 @@ flatpak update
 # update fish plugins
 fish -c 'fisher update'
 
-# update dotfiles & password store
-cat $HOME/.projects.gws | /usr/bin/gws
+# update all git repos, including dotfiles & password store
+cat $HOME/.projects.gws | /usr/bin/gws ff
