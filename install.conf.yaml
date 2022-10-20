@@ -5,7 +5,7 @@
 - clean: ["~"]
 
 - shell:
-    - "mkdir -p ~/.local/bin ~/.local/share ~/.local/fonts ~/.local/tools"
+    - "mkdir -p ~/.local/bin ~/.local/share ~/.local/fonts ~/.local/tools ~/.local/tools/AppImages"
     - "mkdir -p ~/.vim/autoload ~/.vim/bundle ~/.vim/backups ~/.vim/swaps"
     - "mkdir -p ~/.npm/packages"
     - "mkdir -p ~/NAS/Pictures ~/NAS/Archive ~/NAS/Videos"

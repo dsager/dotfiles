@@ -11,6 +11,7 @@ mkdir -p "${HOME}/.local/bin" \
          "${HOME}/.local/share" \
          "${HOME}/.local/fonts" \
          "${HOME}/.local/tools" \
+         "${HOME}/.local/tools/AppImages" \
          "${HOME}/.vim/autoload" \
          "${HOME}/.vim/bundle" \
          "${HOME}/.vim/backups" \
