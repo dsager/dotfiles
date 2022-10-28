@@ -48,7 +48,7 @@ git clone keybase://private/dsager/password-store ~/.password-store
 ```
 git clone git@github.com:dsager/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
-./install
+./install.sh
 ```
 - Set up git workspace
 ```
