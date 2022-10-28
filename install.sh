@@ -35,26 +35,26 @@ sudo cp "${BASEDIR}/config/etc/sysctl.d/99-sysctl.conf" /etc/sysctl.d/99-sysctl.
 
 # link dotfiles, tools & config
 printf "\n======================================================================\nSET UP SYMLINKS\n"
-ln -s "${HOME}/.gitignore_global"                 "${BASEDIR}/gitignore_global"                          || true
-ln -s "${HOME}/.gitconfig"                        "${BASEDIR}/gitconfig"                                 || true
-ln -s "${HOME}/.gitconfig_devex"                  "${BASEDIR}/gitconfig_devex"                           || true
-ln -s "${HOME}/.wgetrc"                           "${BASEDIR}/wgetrc"                                    || true
-ln -s "${HOME}/.curlrc"                           "${BASEDIR}/curlrc"                                    || true
-ln -s "${HOME}/.psqlrc"                           "${BASEDIR}/psqlrc"                                    || true
-ln -s "${HOME}/.vimrc"                            "${BASEDIR}/vimrc"                                     || true
-ln -s "${HOME}/.irbrc"                            "${BASEDIR}/irbrc"                                     || true
-ln -s "${HOME}/.npmrc"                            "${BASEDIR}/npmrc"                                     || true
-ln -s "${HOME}/.pryrc"                            "${BASEDIR}/irbrc"                                     || true
-ln -s "${HOME}/.projects.gws"                     "${BASEDIR}/src/projects.gws"                          || true
-ln -s "${HOME}/.local/bin/update"                 "${BASEDIR}/scripts/commands/update_system.sh"         || true
-ln -s "${HOME}/.local/bin/friday_links"           "${BASEDIR}/scripts/commands/friday_links.sh"          || true
-ln -s "${HOME}/.local/bin/ghpr"                   "${BASEDIR}/scripts/commands/devex_pull_request.sh"    || true
-ln -s "${HOME}/.local/bin/gnomeshell_extension"   "${BASEDIR}/scripts/commands/gnomeshell_extension.sh"  || true
-ln -s "${HOME}/.local/bin/mount_nas"              "${BASEDIR}/scripts/commands/mount_nas.sh"             || true
-ln -s "${HOME}/.config/fish/config.fish"          "${BASEDIR}/config/fish/config.fish"                   || true
-ln -s "${HOME}/.config/fish/fishfile"             "${BASEDIR}/config/fish/fishfile"                      || true
-ln -s "${HOME}/.config/ulauncher"                 "${BASEDIR}/config/ulauncher"                          || true
-ln -s "${HOME}/.idid.log"                         "${HOME}/Dropbox/notes/idid.log"                       || true
+ln -s "${BASEDIR}/gitignore_global"                          "${HOME}/.gitignore_global"                 || true
+ln -s "${BASEDIR}/gitconfig"                                 "${HOME}/.gitconfig"                        || true
+ln -s "${BASEDIR}/gitconfig_devex"                           "${HOME}/.gitconfig_devex"                  || true
+ln -s "${BASEDIR}/wgetrc"                                    "${HOME}/.wgetrc"                           || true
+ln -s "${BASEDIR}/curlrc"                                    "${HOME}/.curlrc"                           || true
+ln -s "${BASEDIR}/psqlrc"                                    "${HOME}/.psqlrc"                           || true
+ln -s "${BASEDIR}/vimrc"                                     "${HOME}/.vimrc"                            || true
+ln -s "${BASEDIR}/irbrc"                                     "${HOME}/.irbrc"                            || true
+ln -s "${BASEDIR}/npmrc"                                     "${HOME}/.npmrc"                            || true
+ln -s "${BASEDIR}/irbrc"                                     "${HOME}/.pryrc"                            || true
+ln -s "${BASEDIR}/src/projects.gws"                          "${HOME}/.projects.gws"                     || true
+ln -s "${BASEDIR}/scripts/commands/update_system.sh"         "${HOME}/.local/bin/update"                 || true
+ln -s "${BASEDIR}/scripts/commands/friday_links.sh"          "${HOME}/.local/bin/friday_links"           || true
+ln -s "${BASEDIR}/scripts/commands/devex_pull_request.sh"    "${HOME}/.local/bin/ghpr"                   || true
+ln -s "${BASEDIR}/scripts/commands/gnomeshell_extension.sh"  "${HOME}/.local/bin/gnomeshell_extension"   || true
+ln -s "${BASEDIR}/scripts/commands/mount_nas.sh"             "${HOME}/.local/bin/mount_nas"              || true
+ln -s "${BASEDIR}/config/fish/config.fish"                   "${HOME}/.config/fish/config.fish"          || true
+ln -s "${BASEDIR}/config/fish/fishfile"                      "${HOME}/.config/fish/fishfile"             || true
+ln -s "${BASEDIR}/config/ulauncher"                          "${HOME}/.config/ulauncher"                 || true
+ln -s "${HOME}/Dropbox/notes/idid.log"                       "${HOME}/.idid.log"                         || true
 
 printf "\n======================================================================\nCONFIGURE GNOME\n"
 "${BASEDIR}/scripts/setup/gsettings.sh"
