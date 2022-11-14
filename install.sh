@@ -49,7 +49,6 @@ ln -s "${BASEDIR}/src/projects.gws"                          "${HOME}/.projects.
 ln -s "${BASEDIR}/scripts/commands/update_system.sh"         "${HOME}/.local/bin/update"                 || true
 ln -s "${BASEDIR}/scripts/commands/friday_links.sh"          "${HOME}/.local/bin/friday_links"           || true
 ln -s "${BASEDIR}/scripts/commands/devex_pull_request.sh"    "${HOME}/.local/bin/ghpr"                   || true
-ln -s "${BASEDIR}/scripts/commands/gnomeshell_extension.sh"  "${HOME}/.local/bin/gnomeshell_extension"   || true
 ln -s "${BASEDIR}/scripts/commands/mount_nas.sh"             "${HOME}/.local/bin/mount_nas"              || true
 ln -s "${BASEDIR}/config/fish/config.fish"                   "${HOME}/.config/fish/config.fish"          || true
 ln -s "${BASEDIR}/config/fish/fishfile"                      "${HOME}/.config/fish/fishfile"             || true
