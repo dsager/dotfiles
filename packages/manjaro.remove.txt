@@ -1,6 +1,8 @@
 uget
 zsh
 empathy
+malcontent
+flatpak
 
 gnome-shell-extension-unite
 gnome-shell-extension-pop-shell

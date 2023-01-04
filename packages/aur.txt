@@ -4,4 +4,6 @@ dropbox
 lazydocker
 slack-desktop
 zoom
+postman-bin
+skypeforlinux-stable-bin
 
