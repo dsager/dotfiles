@@ -1,9 +1,9 @@
-ulauncher
-gws
+# 000AAA - keep this list ordered and w/o blank lines, for use via `comm` in install.sh
 dropbox
+gws
 lazydocker
-slack-desktop
-zoom
 postman-bin
 skypeforlinux-stable-bin
-
+slack-desktop
+ulauncher
+zoom

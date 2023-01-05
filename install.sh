@@ -68,10 +68,8 @@ printf "\n======================================================================
 PACKAGES=$(cat "${BASEDIR}/packages/manjaro.txt" | grep -v '#' | grep .)
 sudo pamac install ${PACKAGES}
 
-# Install packages from the Arc User Repository (AUR)
-# TODO: remove packages that are already install, to avoid re-building them
-# pamac list --explicitly-installed --quiet | wc -l
+# Remove installed packages to avoid re-building them
 printf "\n======================================================================\nBUILD AUR PACKAGES\n"
-PACKAGES=$(cat "${BASEDIR}/packages/aur.txt" | grep -v '#' | grep .)
-#pamac build "${PACKAGES}"
-echo "BUILD ${PACKAGES}"
+PACKAGES=$(pamac list --explicitly-installed --quiet | sort | comm -13 - "${BASEDIR}/packages/aur.txt" | grep -v '#')
+echo "${PACKAGES}" | xargs pamac build
+
