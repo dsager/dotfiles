@@ -71,5 +71,5 @@ sudo pamac install ${PACKAGES}
 # Remove installed packages to avoid re-building them
 printf "\n======================================================================\nBUILD AUR PACKAGES\n"
 PACKAGES=$(pamac list --explicitly-installed --quiet | sort | comm -13 - "${BASEDIR}/packages/aur.txt" | grep -v '#')
-echo "${PACKAGES}" | xargs pamac build
+echo "${PACKAGES}" | xargs pamac build --no-confirm
 
