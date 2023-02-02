@@ -5,11 +5,9 @@ cd $HOME
 # update packages
 pamac update --aur
 
-# update flatpak apps
-flatpak update
-
 # update fish plugins
 fish -c 'fisher update'
 
 # update all git repos, including dotfiles & password store
-cat $HOME/.projects.gws | /usr/bin/gws ff
+/usr/bin/gws ff
+
