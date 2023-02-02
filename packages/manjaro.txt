@@ -11,7 +11,6 @@ keybase
 keybase-gui
 
 # tools
-snapd
 fish
 fisher
 xclip

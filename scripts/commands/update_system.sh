@@ -5,9 +5,6 @@ cd $HOME
 # update packages
 pamac update --aur
 
-# update snap packages
-snap refresh
-
 # update flatpak apps
 flatpak update
 

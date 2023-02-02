@@ -5,5 +5,7 @@ lazydocker
 postman-bin
 skypeforlinux-stable-bin
 slack-desktop
+spotify
+todoist-appimage
 ulauncher
 zoom

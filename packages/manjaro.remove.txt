@@ -3,6 +3,7 @@ zsh
 empathy
 malcontent
 flatpak
+snapd
 
 gnome-shell-extension-unite
 gnome-shell-extension-pop-shell
