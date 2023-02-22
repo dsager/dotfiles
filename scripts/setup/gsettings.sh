@@ -2,6 +2,7 @@
 
 gsettings set org.gnome.desktop.wm.preferences          mouse-button-modifier               "'<Alt>'"
 gsettings set org.gnome.desktop.wm.preferences          resize-with-right-button            "true"
+gsettings set org.gnome.desktop.wm.preferences          button-layout                       "appmenu:minimize,maximize,close"
 
 gsettings set org.gnome.desktop.background              show-desktop-icons                  "false"
 
