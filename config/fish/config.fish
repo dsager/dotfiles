@@ -27,6 +27,8 @@ alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias ssh='env TERM=xterm-256color ssh'
 
+abbr -a diskusage "du -h --max-depth=1"
+
 abbr -a .. "cd .."
 abbr -a ... "cd ../.."
 abbr -a -- - 'cd -'
