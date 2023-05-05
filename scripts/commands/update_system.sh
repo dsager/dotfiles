@@ -3,7 +3,10 @@
 cd $HOME
 
 # update packages
-pamac update --aur
+pamac checkupdates --aur
+if [ $? -ne 0 ]; then
+  pamac update --aur
+fi
 
 # update fish plugins
 fish -c 'fisher update'
