@@ -4,9 +4,10 @@
 
 ## own stuff
 
-src/own/google-code-jam             | git@github.com:dsager/google-code-jam.git |
-src/own/dsager.github.io            | git@github.com:dsager/dsager.github.io.git |
-src/own/homeassistant-config        | git@github.com:dsager/homeassistant-config.git |
+src/own/google-code-jam             | git@github.com:dsager/google-code-jam.git
+src/own/dsager.github.io            | git@github.com:dsager/dsager.github.io.git
+src/own/homeassistant-config        | git@github.com:dsager/homeassistant-config.git
+src/own/stammbaum                   | https://kosinus.math.uni-magdeburg.de/ssager/stammbaum.git
 
 ## contribution / 3rd party
 
@@ -22,6 +23,7 @@ src/work/docker-setup/grape-api     | git@github.com:Devex/grape-api | git@githu
 src/work/docker-setup/front-end     | git@github.com:Devex/front-end | git@github.com:dsager/front-end.git mine
 src/work/docker-setup/nginx         | git@github.com:Devex/nginx | git@github.com:dsager/nginx.git mine
 src/work/docker-setup/qa-automation | git@github.com:Devex/qa-automation | git@github.com:dsager/qa-automation.git mine
+src/work/github-stats               | git@github.com:dsager/github-stats.git
 src/work/handbook                   | git@github.com:Devex/handbook.git | git@github.com:dsager/handbook.git mine
 src/work/infra                      | git@github.com:Devex/infra.git | git@github.com:dsager/infra.git mine
 src/work/k8s-tooling                | git@github.com:Devex/k8s-tooling.git | git@github.com:dsager/k8s-tooling.git mine
