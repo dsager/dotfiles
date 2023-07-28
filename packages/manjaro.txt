@@ -11,6 +11,7 @@ keybase
 keybase-gui
 
 # tools
+code
 fish
 fisher
 xclip

@@ -1,0 +1,69 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+    "window.zoomLevel": 2,
+    "ruby.codeCompletion": "rcodetools",
+    "ruby.intellisense": "rubyLocate",
+    "ruby.useBundler": true,
+    "editor.tabSize": 2,
+    "redhat.telemetry.enabled": false,
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "diffEditor.codeLens": true,
+    "diffEditor.experimental.collapseUnchangedRegions": true,
+    "diffEditor.experimental.useVersion2": true,
+    "editor.minimap.enabled": false,
+    "window.autoDetectColorScheme": true,
+    "window.menuBarVisibility": "compact",
+    "files.autoSave": "onFocusChange",
+    "editor.rulers": [100],
+    "cSpell.userWords": [
+      "Rakefile",
+      "rakelib",
+      "Referer",
+      "regexes",
+      "Rubocop"
+    ],
+    "gitlens.autolinks": [
+      {
+        "prefix": "DVX-",
+        "url": "https://mydevex.atlassian.net/browse/DVX-<num>"
+      },
+      {
+        "prefix": "BAN-",
+        "url": "https://mydevex.atlassian.net/browse/BAN-<num>"
+      },
+      {
+        "prefix": "NUT-",
+        "url": "https://mydevex.atlassian.net/browse/NUT-<num>"
+      }
+    ],
+    "gitlens.graph.minimap.enabled": false,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontFamily": "Hack",
+    "terminal.integrated.profiles.linux": {
+      "fish": {
+        "path": "fish"
+      }
+    },
+    "terminal.integrated.profiles.windows": {
+
+      "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+        "source": "Git Bash"
+      }
+    }
+}
