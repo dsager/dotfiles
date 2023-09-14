@@ -30,7 +30,6 @@ rmdir "${HOME}/Templates" || true
 
 # Copy root level config files
 printf "\n======================================================================\nCOPY ROOT LEVEL CONFIG FILES\n"
-sudo cp "${BASEDIR}/config/etc/sysctl.d/999-inotify-watches.conf" /etc/sysctl.d/999-inotify-watches.conf
 sudo cp "${BASEDIR}/config/etc/sysctl.d/99-sysctl.conf" /etc/sysctl.d/99-sysctl.conf
 
 # link dotfiles, tools & config
