@@ -12,7 +12,6 @@
     "files.trimTrailingWhitespace": true,
     "workbench.editor.highlightModifiedTabs": true,
     "diffEditor.codeLens": true,
-    "diffEditor.experimental.collapseUnchangedRegions": true,
     "diffEditor.experimental.useVersion2": true,
     "editor.minimap.enabled": false,
     "window.autoDetectColorScheme": true,
@@ -65,5 +64,7 @@
       "Git Bash": {
         "source": "Git Bash"
       }
-    }
+    },
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "workbench.startupEditor": "none"
 }

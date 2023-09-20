@@ -62,5 +62,9 @@
   {
     "key": "ctrl+shift+t",
     "command": "-workbench.action.reopenClosedEditor"
+  },
+  {
+    "key": "ctrl+alt+a",
+    "command": "git.stage"
   }
 ]
