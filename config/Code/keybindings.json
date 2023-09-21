@@ -66,5 +66,10 @@
   {
     "key": "ctrl+alt+a",
     "command": "git.stage"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "copyRelativeFilePath",
+    "when": "editorFocus"
   }
 ]
