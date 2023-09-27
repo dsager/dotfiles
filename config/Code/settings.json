@@ -69,5 +69,6 @@
     "workbench.startupEditor": "none",
     "explorer.confirmDelete": false,
     "git.enableSmartCommit": true,
-    "clipboard-manager.snippet.enabled": false
+    "clipboard-manager.snippet.enabled": false,
+    "workbench.editor.enablePreview": false
 }
