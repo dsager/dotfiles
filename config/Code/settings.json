@@ -67,6 +67,7 @@
     },
     "diffEditor.hideUnchangedRegions.enabled": true,
     "workbench.startupEditor": "none",
+    "explorer.confirmDelete": false,
     "git.enableSmartCommit": true,
     "clipboard-manager.snippet.enabled": false
 }
