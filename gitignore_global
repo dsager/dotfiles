@@ -7,6 +7,9 @@ out/
 .idea_modules/
 atlassian-ide-plugin.xml
 
+## VSCODE
+.vscode/
+
 ### Ruby ###
 *.gem
 *.rbc
