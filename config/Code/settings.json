@@ -65,9 +65,16 @@
         "source": "Git Bash"
       }
     },
-    "diffEditor.hideUnchangedRegions.enabled": true,
     "workbench.startupEditor": "none",
     "explorer.confirmDelete": false,
     "git.enableSmartCommit": true,
-    "clipboard-manager.snippet.enabled": false
+    "clipboard-manager.snippet.enabled": false,
+    "search.exclude": {
+      "**/doc": true,
+      "**/log": true
+    },
+    "explorer.excludeGitIgnore": true,
+    "files.exclude": {
+      "**/.yardoc": true
+    }
 }

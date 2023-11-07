@@ -71,5 +71,15 @@
     "key": "ctrl+shift+c",
     "command": "copyRelativeFilePath",
     "when": "editorFocus"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "workbench.action.compareEditor.previousChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "workbench.action.compareEditor.nextChange",
+    "when": "textCompareEditorVisible"
   }
 ]
