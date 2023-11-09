@@ -49,8 +49,8 @@ ln -sT "${BASEDIR}/scripts/commands/update_system.sh"         "${HOME}/.local/bi
 ln -sT "${BASEDIR}/scripts/commands/friday_links.sh"          "${HOME}/.local/bin/friday_links"                     || true
 ln -sT "${BASEDIR}/scripts/commands/devex_pull_request.sh"    "${HOME}/.local/bin/ghpr"                             || true
 ln -sT "${BASEDIR}/scripts/commands/mount_nas.sh"             "${HOME}/.local/bin/mount_nas"                        || true
-ln -sT "${BASEDIR}/config/Code/settings.json"                 "${HOME}/.config/Code - OSS/User/settings.json"       || true
-ln -sT "${BASEDIR}/config/Code/keybindings.json"              "${HOME}/.config/Code - OSS/User/keybindings.json"    || true
+ln -sT "${BASEDIR}/config/Code/settings.json"                 "${HOME}/.config/Code/User/settings.json"             || true
+ln -sT "${BASEDIR}/config/Code/keybindings.json"              "${HOME}/.config/Code/User/keybindings.json"          || true
 ln -sT "${BASEDIR}/config/fish/config.fish"                   "${HOME}/.config/fish/config.fish"                    || true
 ln -sT "${BASEDIR}/config/fish/fishfile"                      "${HOME}/.config/fish/fishfile"                       || true
 ln -sT "${BASEDIR}/config/ulauncher"                          "${HOME}/.config/ulauncher"                           || true
