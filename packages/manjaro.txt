@@ -13,6 +13,7 @@ keybase-gui
 # tools
 fish
 fisher
+github-cli
 xclip
 imagemagick
 tree
