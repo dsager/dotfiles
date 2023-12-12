@@ -7,7 +7,9 @@ printf "\n======================================================================
 
 # set up home directories
 printf "\n======================================================================\nCREATE DIRECTORIES\n"
-mkdir -p "${HOME}/.local/bin" \
+mkdir -p "${HOME}/.config/Code/User" \
+         "${HOME}/.config/fish" \
+         "${HOME}/.local/bin" \
          "${HOME}/.local/share" \
          "${HOME}/.local/fonts" \
          "${HOME}/.local/tools" \
