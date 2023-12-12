@@ -43,7 +43,7 @@ gimp
 
 # desktop environment
 dconf-editor
-gnome-tweak-tool
+gnome-tweaks
 networkmanager-openvpn
 powerline-fonts
 gnome-shell-extension-gtile
