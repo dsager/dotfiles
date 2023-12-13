@@ -19,6 +19,7 @@ code --install-extension ms-azuretools.vscode-docker --force &&
 code --install-extension ms-vscode-remote.remote-containers --force &&
 code --install-extension pavlitsky.yard --force &&
 code --install-extension redhat.vscode-yaml --force &&
+code --install-extension rubocop.vscode-rubocop --force &&
 code --install-extension shopify.ruby-lsp --force &&
 code --install-extension sianglim.slim --force &&
 code --install-extension streetsidesoftware.code-spell-checker --force &&

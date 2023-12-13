@@ -76,5 +76,11 @@
     "explorer.excludeGitIgnore": true,
     "files.exclude": {
       "**/.yardoc": true
+    },
+    "ruby.rubocop.onSave": false,
+    "rubocop.mode": "enableUnconditionally",
+    "rubocop.yjitEnabled": false,
+    "[ruby]": {
+      "editor.defaultFormatter": "rubocop.vscode-rubocop"
     }
 }
