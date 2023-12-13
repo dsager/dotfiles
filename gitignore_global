@@ -9,6 +9,8 @@ atlassian-ide-plugin.xml
 
 ## VSCODE
 .vscode/
+.devcontainer/
+.vscode-server/
 
 ### Ruby ###
 *.gem
