@@ -1,6 +1,5 @@
 #!/usr/bin/env sh
 
-code --install-extension adam-bender.commit-message-editor --force &&
 code --install-extension castwide.solargraph --force &&
 code --install-extension DavidAnson.vscode-markdownlint --force &&
 code --install-extension dbaeumer.vscode-eslint --force &&
