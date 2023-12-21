@@ -82,5 +82,22 @@
     "rubocop.yjitEnabled": false,
     "[ruby]": {
       "editor.defaultFormatter": "rubocop.vscode-rubocop"
-    }
+    },
+    "coverage-gutters.coverageFileNames": [
+
+
+      "lcov.info",
+      "cov.xml",
+      "coverage.xml",
+      "jacoco.xml",
+      "coverage.cobertura.xml"
+    ],
+    "coverage-gutters.coverageBaseDir": "tmp/ci_reports/coverage",
+    "githubPullRequests.pullBranch": "never",
+    "coverage-gutters.remotePathResolve": [
+      "/var/lib/buildmaster/grape-api/current",
+      "/home/dani/src/work/docker-setup/grape-api"
+    ],
+    "coverage-gutters.showLineCoverage": true,
+    "coverage-gutters.showGutterCoverage": false
 }
