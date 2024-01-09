@@ -1,6 +1,6 @@
 {
   "security.workspace.trust.untrustedFiles": "open",
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 1,
     "ruby.codeCompletion": "rcodetools",
     "ruby.intellisense": "rubyLocate",
     "ruby.useBundler": true,
@@ -84,8 +84,6 @@
       "editor.defaultFormatter": "rubocop.vscode-rubocop"
     },
     "coverage-gutters.coverageFileNames": [
-
-
       "lcov.info",
       "cov.xml",
       "coverage.xml",
@@ -99,5 +97,7 @@
       "/home/dani/src/work/docker-setup/grape-api"
     ],
     "coverage-gutters.showLineCoverage": true,
-    "coverage-gutters.showGutterCoverage": false
+    "coverage-gutters.showGutterCoverage": false,
+    "git.inputValidationLength": 80,
+    "git.enableStatusBarSync": false
 }
