@@ -99,5 +99,8 @@
     "coverage-gutters.showLineCoverage": true,
     "coverage-gutters.showGutterCoverage": false,
     "git.inputValidationLength": 80,
-    "git.enableStatusBarSync": false
+    "git.enableStatusBarSync": false,
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "search.useParentIgnoreFiles": true,
+    "search.useGlobalIgnoreFiles": true
 }
