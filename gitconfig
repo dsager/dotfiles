@@ -25,7 +25,10 @@
   commits = log --pretty=format:%B --reverse
 
   # Remove merged branches
-  cleanup = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+  cleanup = "!f() { git checkout master; git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d; }; f"
+
+  # Update all branches by rebasing onto master
+  update-branches = "!f() { git branch --no-merged | cut -c 3- | for branch in $(cat); do git rebase master $branch; done; git checkout master; }; f"
 
   # Find commits by source code
   fc = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short -S$1; }; f"
@@ -85,8 +88,8 @@
 [pull]
 	ff = only
 [credential "https://github.com"]
-	helper = 
+	helper =
 	helper = !/usr/bin/gh auth git-credential
 [credential "https://gist.github.com"]
-	helper = 
+	helper =
 	helper = !/usr/bin/gh auth git-credential
