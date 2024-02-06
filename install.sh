@@ -46,7 +46,7 @@ ln -sT "${BASEDIR}/vimrc"                                     "${HOME}/.vimrc"  
 ln -sT "${BASEDIR}/irbrc"                                     "${HOME}/.irbrc"                                      || true
 ln -sT "${BASEDIR}/npmrc"                                     "${HOME}/.npmrc"                                      || true
 ln -sT "${BASEDIR}/irbrc"                                     "${HOME}/.pryrc"                                      || true
-ln -sT "${BASEDIR}/src/projects.gws"                          "${HOME}/.projects.gws"                               || true
+ln -sT "${BASEDIR}/projects.gws"                              "${HOME}/.projects.gws"                               || true
 ln -sT "${BASEDIR}/scripts/commands/update_system.sh"         "${HOME}/.local/bin/update"                           || true
 ln -sT "${BASEDIR}/scripts/commands/friday_links.sh"          "${HOME}/.local/bin/friday_links"                     || true
 ln -sT "${BASEDIR}/scripts/commands/devex_pull_request.sh"    "${HOME}/.local/bin/ghpr"                             || true
