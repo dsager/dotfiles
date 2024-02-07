@@ -78,7 +78,7 @@
       "**/.yardoc": true
     },
     "ruby.rubocop.onSave": false,
-    "rubocop.mode": "enableUnconditionally",
+    "rubocop.mode": "onlyRunGlobally",
     "rubocop.yjitEnabled": false,
     "[ruby]": {
       "editor.defaultFormatter": "rubocop.vscode-rubocop"
@@ -102,5 +102,6 @@
     "git.enableStatusBarSync": false,
     "terminal.integrated.defaultProfile.linux": "fish",
     "search.useParentIgnoreFiles": true,
-    "search.useGlobalIgnoreFiles": true
+    "search.useGlobalIgnoreFiles": true,
+    "rubyLsp.formatter": "rubocop"
 }
