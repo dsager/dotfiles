@@ -1,107 +1,127 @@
 {
   "security.workspace.trust.untrustedFiles": "open",
-    "window.zoomLevel": 1,
-    "ruby.codeCompletion": "rcodetools",
-    "ruby.intellisense": "rubyLocate",
-    "ruby.useBundler": true,
-    "editor.tabSize": 2,
-    "redhat.telemetry.enabled": false,
-    "editor.detectIndentation": false,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "workbench.editor.highlightModifiedTabs": true,
-    "diffEditor.codeLens": true,
-    "diffEditor.experimental.useVersion2": true,
-    "editor.minimap.enabled": false,
-    "window.autoDetectColorScheme": true,
-    "window.menuBarVisibility": "compact",
-    "files.autoSave": "onFocusChange",
-    "editor.rulers": [100],
-    "cSpell.userWords": [
-      "Rakefile",
-      "rakelib",
-      "Referer",
-      "regexes",
-      "Rubocop"
-    ],
-    "gitlens.autolinks": [
-      {
-        "prefix": "DVX-",
-        "url": "https://mydevex.atlassian.net/browse/DVX-<num>"
-      },
-      {
-        "prefix": "BAN-",
-        "url": "https://mydevex.atlassian.net/browse/BAN-<num>"
-      },
-      {
-        "prefix": "NUT-",
-        "url": "https://mydevex.atlassian.net/browse/NUT-<num>"
-      }
-    ],
-    "gitlens.graph.minimap.enabled": false,
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.fontFamily": "Hack",
-    "terminal.integrated.profiles.linux": {
-      "fish": {
-        "path": "fish"
-      }
+  "window.zoomLevel": 2,
+  "ruby.codeCompletion": "rcodetools",
+  "ruby.intellisense": "rubyLocate",
+  "ruby.useBundler": true,
+  "editor.tabSize": 2,
+  "redhat.telemetry.enabled": false,
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "diffEditor.codeLens": true,
+  "diffEditor.experimental.useVersion2": true,
+  "editor.minimap.enabled": false,
+  "window.autoDetectColorScheme": true,
+  "window.menuBarVisibility": "compact",
+  "files.autoSave": "onFocusChange",
+  "editor.rulers": [
+    100
+  ],
+  "cSpell.userWords": [
+    "Rakefile",
+    "rakelib",
+    "Referer",
+    "regexes",
+    "Rubocop"
+  ],
+  "gitlens.autolinks": [
+    {
+      "prefix": "DVX-",
+      "url": "https://mydevex.atlassian.net/browse/DVX-<num>"
     },
-    "terminal.integrated.profiles.windows": {
-
-      "PowerShell": {
-        "source": "PowerShell",
-        "icon": "terminal-powershell"
-      },
-      "Command Prompt": {
-        "path": [
-          "${env:windir}\\Sysnative\\cmd.exe",
-          "${env:windir}\\System32\\cmd.exe"
-        ],
-        "args": [],
-        "icon": "terminal-cmd"
-      },
-      "Git Bash": {
-        "source": "Git Bash"
-      }
+    {
+      "prefix": "BAN-",
+      "url": "https://mydevex.atlassian.net/browse/BAN-<num>"
     },
-    "workbench.startupEditor": "none",
-    "explorer.confirmDelete": false,
-    "git.enableSmartCommit": true,
-    "clipboard-manager.snippet.enabled": false,
-    "search.exclude": {
-      "**/doc": true,
-      "**/log": true
+    {
+      "prefix": "NUT-",
+      "url": "https://mydevex.atlassian.net/browse/NUT-<num>"
+    }
+  ],
+  "gitlens.graph.minimap.enabled": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontFamily": "Hack",
+  "terminal.integrated.profiles.linux": {
+    "fish": {
+      "path": "fish"
+    }
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
     },
-    "explorer.excludeGitIgnore": true,
-    "files.exclude": {
-      "**/.yardoc": true
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
     },
-    "ruby.rubocop.onSave": false,
-    "rubocop.mode": "onlyRunGlobally",
-    "rubocop.yjitEnabled": false,
-    "[ruby]": {
-      "editor.defaultFormatter": "rubocop.vscode-rubocop"
-    },
-    "coverage-gutters.coverageFileNames": [
-      "lcov.info",
-      "cov.xml",
-      "coverage.xml",
-      "jacoco.xml",
-      "coverage.cobertura.xml"
-    ],
-    "coverage-gutters.coverageBaseDir": "tmp/ci_reports/coverage",
-    "githubPullRequests.pullBranch": "never",
-    "coverage-gutters.remotePathResolve": [
-      "/var/lib/buildmaster/grape-api/current",
-      "/home/dani/src/work/docker-setup/grape-api"
-    ],
-    "coverage-gutters.showLineCoverage": true,
-    "coverage-gutters.showGutterCoverage": false,
-    "git.inputValidationLength": 80,
-    "git.enableStatusBarSync": false,
-    "terminal.integrated.defaultProfile.linux": "fish",
-    "search.useParentIgnoreFiles": true,
-    "search.useGlobalIgnoreFiles": true,
-    "rubyLsp.formatter": "rubocop"
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "workbench.startupEditor": "none",
+  "explorer.confirmDelete": false,
+  "git.enableSmartCommit": true,
+  "clipboard-manager.snippet.enabled": false,
+  "search.exclude": {
+    "**/doc": true,
+    "**/log": true
+  },
+  "explorer.excludeGitIgnore": true,
+  "files.exclude": {
+    "**/.yardoc": true
+  },
+  "rubocop.mode": "enableUnconditionally",
+  "rubocop.yjitEnabled": false,
+  "[ruby]": {
+    "editor.defaultFormatter": "rubocop.vscode-rubocop"
+  },
+  "coverage-gutters.coverageFileNames": [
+    "lcov.info",
+    "cov.xml",
+    "coverage.xml",
+    "jacoco.xml",
+    "coverage.cobertura.xml"
+  ],
+  "githubPullRequests.pullBranch": "never",
+  "coverage-gutters.showLineCoverage": true,
+  "coverage-gutters.showGutterCoverage": false,
+  "git.inputValidationLength": 80,
+  "git.enableStatusBarSync": false,
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "search.useParentIgnoreFiles": true,
+  "search.useGlobalIgnoreFiles": true,
+  "terminal.integrated.fontSize": 12,
+  "rubyLsp.enabledFeatures": {
+    "codeActions": true,
+    "diagnostics": true,
+    "documentHighlights": true,
+    "documentLink": true,
+    "documentSymbols": true,
+    "foldingRanges": true,
+    "formatting": true,
+    "hover": true,
+    "inlayHint": true,
+    "onTypeFormatting": true,
+    "selectionRanges": true,
+    "semanticHighlighting": true,
+    "completion": true,
+    "codeLens": true,
+    "definition": true,
+    "workspaceSymbol": true,
+    "signatureHelp": true
+  },
+  "dev.containers.defaultExtensionsIfInstalledLocally": [
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "GitHub.vscode-pull-request-github",
+    "Shopify.ruby-lsp"
+  ]
 }
