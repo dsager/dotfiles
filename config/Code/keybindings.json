@@ -81,5 +81,14 @@
     "key": "shift+alt+down",
     "command": "workbench.action.compareEditor.nextChange",
     "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "-workbench.view.debug",
+    "when": "viewContainer.workbench.view.debug.enabled"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "git.openChange"
   }
 ]
