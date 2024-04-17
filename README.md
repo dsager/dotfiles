@@ -63,11 +63,11 @@ cd ~/src && gws update
   - use `sudo journalctl -n1000 | grep "PM: suspend" | tail` to check recent behavior
   - change default by adding `mem_sleep_default=deep` to kernel command line (e.g. via [grub](https://wiki.archlinux.org/index.php/kernel_parameters#GRUB))
 - Cleanup disk space:
-  - Remove package cache with `udo acman -Scc`
+  - Remove package cache with `sudo pacman -Scc`
   - Remove orphan packages with `sudo pacman -Rns (pacman -Qtdq)`
   - Wipe cache with `rm -rf ~/.cache/*`
   - Cleanup docker with `docker system prune` & `docker volume prune`
-  - Cleanup systemd journal with `journalctl --vacuum-size=50M`
+  - Cleanup systemd journal with `sudo journalctl --vacuum-size=50M`
 
 ## License
 
