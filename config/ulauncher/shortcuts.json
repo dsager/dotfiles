@@ -43,7 +43,7 @@
         "id": "5c309b01-c52c-416b-b645-21ee34bd664c",
         "name": "Schmierzettel",
         "keyword": "sz",
-        "cmd": "#!/usr/bin/sh\nxdg-open /home/dani/Dropbox/notes/schmierzettel.md",
+        "cmd": "#!/usr/bin/sh\ncode /home/dani/Dropbox/notes/schmierzettel.md",
         "icon": null,
         "is_default_search": false,
         "run_without_argument": true,
