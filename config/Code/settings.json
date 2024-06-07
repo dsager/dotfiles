@@ -122,5 +122,6 @@
     "GitHub.copilot-chat",
     "GitHub.vscode-pull-request-github",
     "Shopify.ruby-lsp"
-  ]
+  ],
+  "github.copilot.editor.enableAutoCompletions": true
 }
