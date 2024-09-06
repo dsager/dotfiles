@@ -123,5 +123,9 @@
     "GitHub.vscode-pull-request-github",
     "Shopify.ruby-lsp"
   ],
-  "github.copilot.editor.enableAutoCompletions": true
+  "github.copilot.editor.enableAutoCompletions": true,
+  "gitlens.advanced.messages": {
+    "suppressCreatePullRequestPrompt": true
+  },
+  "explorer.confirmDragAndDrop": false
 }
