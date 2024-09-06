@@ -18,12 +18,12 @@ src/contrib/google-doc-blog         | git@github.com:nicolas-fricke/google-doc-b
 
 src/work/article_json               | git@github.com:Devex/article_json.git | git@github.com:dsager/article_json.git mine
 src/work/container-images           | git@github.com:Devex/container-images.git | git@github.com:dsager/container-images.git mine
+src/work/data                       | git@github.com:Devex/data.git | git@github.com:dsager/data.git mine
 src/work/docker-setup               | git@github.com:Devex/docker-setup.git | git@github.com:dsager/docker-setup.git mine
 src/work/docker-setup/grape-api     | git@github.com:Devex/grape-api.git | git@github.com:dsager/grape-api.git mine
 src/work/docker-setup/front-end     | git@github.com:Devex/front-end.git | git@github.com:dsager/front-end.git mine
 src/work/docker-setup/nginx         | git@github.com:Devex/nginx.git | git@github.com:dsager/nginx.git mine
 src/work/docker-setup/qa-automation | git@github.com:Devex/qa-automation | git@github.com:dsager/qa-automation.git mine
-src/work/handbook                   | git@github.com:Devex/handbook.git | git@github.com:dsager/handbook.git mine
 src/work/infra                      | git@github.com:Devex/infra.git | git@github.com:dsager/infra.git mine
 src/work/k8s-tooling                | git@github.com:Devex/k8s-tooling.git | git@github.com:dsager/k8s-tooling.git mine
 src/work/research                   | git@github.com:Devex/research.git | git@github.com:dsager/research.git mine
