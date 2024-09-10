@@ -26,6 +26,7 @@ alias json='jq -C . | less -R'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias ssh='env TERM=xterm-256color ssh'
+alias passqr="head -n1 | tr -d '\n' | qrencode -tUTF8 -o-"
 
 abbr -a diskusage "du -h --max-depth=1"
 
