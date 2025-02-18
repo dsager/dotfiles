@@ -21,7 +21,8 @@ mkdir -p "${HOME}/.config/Code/User" \
          "${HOME}/.npm/packages" \
          "${HOME}/NAS/Pictures" \
          "${HOME}/NAS/Archive" \
-         "${HOME}/NAS/Videos"
+         "${HOME}/NAS/Videos" \
+         "${HOME}/src"
 
 # Remove some default home directories
 printf "\n======================================================================\nREMOVE DEFAULT FOLDERS\n"
@@ -54,7 +55,7 @@ ln -sT "${BASEDIR}/scripts/commands/mount_nas.sh"             "${HOME}/.local/bi
 ln -sT "${BASEDIR}/config/Code/settings.json"                 "${HOME}/.config/Code/User/settings.json"             || true
 ln -sT "${BASEDIR}/config/Code/keybindings.json"              "${HOME}/.config/Code/User/keybindings.json"          || true
 ln -sT "${BASEDIR}/config/fish/config.fish"                   "${HOME}/.config/fish/config.fish"                    || true
-ln -sT "${BASEDIR}/config/fish/fishfile"                      "${HOME}/.config/fish/fishfile"                       || true
+ln -sT "${BASEDIR}/config/fish/fish_plugins"                  "${HOME}/.config/fish/fish_plugins"                   || true
 ln -sT "${BASEDIR}/config/ulauncher"                          "${HOME}/.config/ulauncher"                           || true
 ln -sT "${HOME}/Dropbox/notes/idid.log"                       "${HOME}/.idid.log"                                   || true
 
