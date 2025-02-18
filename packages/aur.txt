@@ -1,9 +1,9 @@
 # 000AAA - keep this list ordered and w/o blank lines, for use via `comm` in install.sh
 dropbox
+gnome-shell-extension-gtile
 gws
 lazydocker
 postman-bin
-skypeforlinux-stable-bin
 slack-desktop
 spotify
 todoist-appimage

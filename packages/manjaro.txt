@@ -7,8 +7,6 @@ git
 curl
 pass
 pass-otp
-keybase
-keybase-gui
 
 # tools
 fish
@@ -18,9 +16,7 @@ xclip
 imagemagick
 tree
 jq
-tig
-nnn
-htop
+btop
 postgresql
 docker
 docker-compose
@@ -29,7 +25,6 @@ aws-cli
 bat
 direnv
 lazygit
-pgcli
 
 # apps
 transmission-gtk
@@ -46,8 +41,6 @@ dconf-editor
 gnome-tweaks
 networkmanager-openvpn
 powerline-fonts
-gnome-shell-extension-gtile
-gnome-shell-extension-dash-to-dock
-caffeine-ng
+gnome-shell-extension-caffeine
 appimagelauncher
 
