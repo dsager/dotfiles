@@ -18,7 +18,6 @@ mkdir -p "${HOME}/.config/Code/User" \
          "${HOME}/.vim/bundle" \
          "${HOME}/.vim/backups" \
          "${HOME}/.vim/swaps" \
-         "${HOME}/.npm/packages" \
          "${HOME}/NAS/Pictures" \
          "${HOME}/NAS/Archive" \
          "${HOME}/NAS/Videos" \
@@ -45,7 +44,6 @@ ln -sT "${BASEDIR}/curlrc"                                    "${HOME}/.curlrc" 
 ln -sT "${BASEDIR}/psqlrc"                                    "${HOME}/.psqlrc"                                     || true
 ln -sT "${BASEDIR}/vimrc"                                     "${HOME}/.vimrc"                                      || true
 ln -sT "${BASEDIR}/irbrc"                                     "${HOME}/.irbrc"                                      || true
-ln -sT "${BASEDIR}/npmrc"                                     "${HOME}/.npmrc"                                      || true
 ln -sT "${BASEDIR}/irbrc"                                     "${HOME}/.pryrc"                                      || true
 ln -sT "${BASEDIR}/projects.gws"                              "${HOME}/.projects.gws"                               || true
 ln -sT "${BASEDIR}/scripts/commands/update_system.sh"         "${HOME}/.local/bin/update"                           || true
