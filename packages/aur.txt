@@ -2,6 +2,7 @@
 dropbox
 gnome-shell-extension-gtile
 gws
+keybase-bin
 lazydocker
 postman-bin
 slack-desktop
