@@ -15,7 +15,7 @@ tar -cz ~/.ssh | gpg --yes -c -o ./ssh-backup.tgz.gpg
 - Backup GPG keys & config
 ```
 cd <backup folder>
-tar -cz ~/.gnupg | gpg --yes -c -o ./gnupg-backup.tgz.gp
+tar -cz ~/.gnupg | gpg --yes -c -o ./gnupg-backup.tgz.gpg
 ```
 - Backup other settings (e.g. RubyMine, DataGrip, ...)
 - Check git repos for uncommited stuff:
@@ -29,14 +29,14 @@ tar -cz ~/.gnupg | gpg --yes -c -o ./gnupg-backup.tgz.gp
 ```
 cd ~
 rm -rf .ssh
-gpg -d <backup-folder>/ssh-backup.tgz.gpg | tar xz
+gpg -d <backup-folder>/ssh-backup.tgz.gpg | tar -xz --directory=/
 rm <backup-folder>/ssh-backup.tgz.gpg
 ```
 - Restore GPG keys & config
 ```
 cd ~
 rm -rf .gnupg
-gpg -d <backup-folder>/gnupg-backup.tgz.gpg | tar xz
+gpg -d <backup-folder>/gnupg-backup.tgz.gpg | tar -xz --directory=/
 rm <backup-folder>/gnupg-backup.tgz.gpg
 ```
 - Setup Password manager:
