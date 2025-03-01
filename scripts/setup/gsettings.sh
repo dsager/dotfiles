@@ -78,6 +78,12 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys    screensaver       
 gsettings set org.gnome.settings-daemon.plugins.media-keys    home                          "['<Super>h']"
 gsettings set org.gnome.settings-daemon.plugins.media-keys    calculator                    "['<Super>c']"
 
+DCONF_PATH="/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/"
+gsettings set org.gnome.settings-daemon.plugins.media-keys                                  custom-keybindings  "['${DCONF_PATH}']"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:${DCONF_PATH}  name                "ulauncher"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:${DCONF_PATH}  command             "ulauncher-toggle"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:${DCONF_PATH}  binding             "<Alt>space"
+
 gsettings set org.gnome.desktop.interface                clock-show-seconds                 "true"
 gsettings set org.gnome.desktop.interface                clock-show-weekday                 "true"
 gsettings set org.gnome.desktop.interface                clock-show-date                    "true"
