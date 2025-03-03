@@ -110,7 +110,8 @@ gsettings set org.gnome.shell.extensions.dash-to-dock    disable-overview-on-sta
 gsettings set org.gnome.shell.extensions.dash-to-dock    hot-keys                           "true"
 gsettings set org.gnome.shell.extensions.dash-to-dock    hotkeys-overlay                    "true"
 gsettings set org.gnome.shell.extensions.dash-to-dock    hotkeys-show-dock                  "true"
-gsettings set org.gnome.shell.extensions.dash-to-dock    multi-monitor                      "true"
+gsettings set org.gnome.shell.extensions.dash-to-dock    multi-monitor                      "false"
+gsettings set org.gnome.shell.extensions.dash-to-dock    isolate-monitors                   "false"
 gsettings set org.gnome.shell.extensions.dash-to-dock    scroll-action                      "'do-nothing'"
 gsettings set org.gnome.shell.extensions.dash-to-dock    scroll-switch-workspace            "true"
 gsettings set org.gnome.shell.extensions.dash-to-dock    scroll-to-focused-application      "true"
@@ -128,6 +129,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock    show-show-apps-button  
 gsettings set org.gnome.shell.extensions.dash-to-dock    show-trash                         "true"
 gsettings set org.gnome.shell.extensions.dash-to-dock    show-windows-preview               "false"
 gsettings set org.gnome.shell.extensions.dash-to-dock    activate-single-window             "true"
+gsettings set org.gnome.shell.extensions.dash-to-dock    dock-position                      "LEFT"
 
 gsettings set org.gnome.shell.extensions.gtile           insets-primary-left                "0"
 gsettings set org.gnome.shell.extensions.gtile           show-toggle-tiling                 "['<Super>t']"
