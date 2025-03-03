@@ -4,6 +4,7 @@ gnome-shell-extension-gtile
 gws
 keybase-bin
 lazydocker
+mozillavpn
 postman-bin
 slack-desktop
 spotify
