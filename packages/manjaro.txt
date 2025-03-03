@@ -9,6 +9,7 @@ pass
 pass-otp
 
 # tools
+drawing
 fish
 fisher
 github-cli
