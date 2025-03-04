@@ -13,7 +13,6 @@ drawing
 fish
 fisher
 github-cli
-xclip
 imagemagick
 tree
 jq
@@ -26,6 +25,7 @@ aws-cli
 bat
 direnv
 lazygit
+solaar
 
 # apps
 transmission-gtk
@@ -44,4 +44,5 @@ networkmanager-openvpn
 powerline-fonts
 gnome-shell-extension-caffeine
 appimagelauncher
+wl-clipboard
 
