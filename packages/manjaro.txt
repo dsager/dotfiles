@@ -21,6 +21,7 @@ gnome-tweaks
 gnupg
 imagemagick
 jq
+kubectl
 lazygit
 mplayer
 networkmanager-openvpn
