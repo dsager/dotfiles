@@ -9,6 +9,7 @@ printf "\n======================================================================
 printf "\n======================================================================\nCREATE DIRECTORIES\n"
 mkdir -p "${HOME}/.config/Code/User" \
          "${HOME}/.config/fish" \
+         "${HOME}/.kube" \
          "${HOME}/.local/bin" \
          "${HOME}/.local/share" \
          "${HOME}/.local/fonts" \
@@ -47,7 +48,6 @@ ln -sT "${BASEDIR}/irbrc"                                     "${HOME}/.irbrc"  
 ln -sT "${BASEDIR}/irbrc"                                     "${HOME}/.pryrc"                                      || true
 ln -sT "${BASEDIR}/projects.gws"                              "${HOME}/.projects.gws"                               || true
 ln -sT "${BASEDIR}/scripts/commands/update_system.sh"         "${HOME}/.local/bin/update"                           || true
-ln -sT "${BASEDIR}/scripts/commands/friday_links.sh"          "${HOME}/.local/bin/friday_links"                     || true
 ln -sT "${BASEDIR}/scripts/commands/devex_pull_request.sh"    "${HOME}/.local/bin/ghpr"                             || true
 ln -sT "${BASEDIR}/scripts/commands/mount_nas.sh"             "${HOME}/.local/bin/mount_nas"                        || true
 ln -sT "${BASEDIR}/config/Code/settings.json"                 "${HOME}/.config/Code/User/settings.json"             || true
