@@ -54,6 +54,11 @@ cd ~/.dotfiles
 ```
 cd ~/src && gws update
 ```
+- Set up AWS CLI
+```
+aws configure
+```
+- Set up `kubectl` by adding the config file `~/.kube/config`
 
 ## Notes
 
