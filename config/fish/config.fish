@@ -46,6 +46,10 @@ abbr -a dcr "docker-compose restart"
 abbr -a dcu "docker-compose up -d"
 abbr -a dirb "docker run -it --rm ruby:latest irb"
 
+abbr -a kd "kubectl --context develop.k8s.local -n develop"
+abbr -a km "kubectl --context master.k8s.local -n master"
+abbr -a kp "kubectl --context prod.k8s.local -n production"
+
 # Theme config
 set -g theme_display_git yes
 set -g theme_display_git_dirty yes
