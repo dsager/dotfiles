@@ -1,13 +1,26 @@
 #! /usr/bin/env sh
 
-gsettings set org.gnome.desktop.wm.preferences          mouse-button-modifier               "'<Alt>'"
-gsettings set org.gnome.desktop.wm.preferences          resize-with-right-button            "true"
-
 gsettings set org.gnome.desktop.background              show-desktop-icons                  "false"
 
 gsettings set org.gnome.desktop.calendar                show-weekdate                       "true"
 
 gsettings set org.gnome.desktop.input-sources           xkb-options                         "['compose:caps']"
+
+gsettings set org.gnome.desktop.interface                clock-show-seconds                 "true"
+gsettings set org.gnome.desktop.interface                clock-show-weekday                 "true"
+gsettings set org.gnome.desktop.interface                clock-show-date                    "true"
+gsettings set org.gnome.desktop.interface                enable-animations                  "false"
+
+gsettings set org.gnome.desktop.screensaver              lock-delay                         "uint32 3600"
+
+gsettings set org.gnome.desktop.search-providers         disable-external                   "true"
+
+gsettings set org.gnome.desktop.privacy                  remove-old-temp-files              "true"
+gsettings set org.gnome.desktop.privacy                  old-files-age                      "uint32 14"
+gsettings set org.gnome.desktop.privacy                  remove-old-trash-files             "true"
+
+gsettings set org.gnome.desktop.wm.preferences          mouse-button-modifier               "'<Alt>'"
+gsettings set org.gnome.desktop.wm.preferences          resize-with-right-button            "true"
 
 gsettings set org.gnome.desktop.wm.keybindings          switch-to-workspace-1               "[]"
 gsettings set org.gnome.desktop.wm.keybindings          switch-to-workspace-2               "[]"
@@ -83,18 +96,6 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys                      
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:${DCONF_PATH}  name                "ulauncher"
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:${DCONF_PATH}  command             "ulauncher-toggle"
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:${DCONF_PATH}  binding             "<Alt>space"
-
-gsettings set org.gnome.desktop.interface                clock-show-seconds                 "true"
-gsettings set org.gnome.desktop.interface                clock-show-weekday                 "true"
-gsettings set org.gnome.desktop.interface                clock-show-date                    "true"
-
-gsettings set org.gnome.desktop.screensaver              lock-delay                         "uint32 3600"
-
-gsettings set org.gnome.desktop.search-providers         disable-external                   "true"
-
-gsettings set org.gnome.desktop.privacy                  remove-old-temp-files              "true"
-gsettings set org.gnome.desktop.privacy                  old-files-age                      "uint32 14"
-gsettings set org.gnome.desktop.privacy                  remove-old-trash-files             "true"
 
 gsettings set org.gnome.shell.extensions.dash-to-dock    app-hotkey-1                       "['<Super>1']"
 gsettings set org.gnome.shell.extensions.dash-to-dock    app-hotkey-2                       "['<Super>2']"
