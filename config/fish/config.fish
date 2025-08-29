@@ -23,6 +23,8 @@ alias pbpaste='xclip -selection clipboard -o'
 alias ssh='env TERM=xterm-256color ssh'
 alias passqr="head -n1 | tr -d '\n' | qrencode -tUTF8 -o-"
 
+alias git_touched='git ls-files --others --exclude-standard && git diff --name-only --diff-filter=ACMR'
+
 abbr -a diskusage "du -h --max-depth=1"
 
 abbr -a .. "cd .."
@@ -34,13 +36,15 @@ abbr -a timestamp 'date +%s'
 
 abbr -a gst "git status"
 abbr -a gp "git push"
+abbr -a gpf "git push --force-with-lease"
 abbr -a gf "git fetch --prune --prune-tags"
-abbr -a gb "git --no-pager branch"
+abbr -a gb "git branch"
 abbr -a gcd "git checkout develop"
 abbr -a gcm "git checkout master"
 
 abbr -a dc "docker-compose"
 abbr -a dcb "docker-compose build"
+abbr -a dcl "docker-compose logs"
 abbr -a dcp "docker-compose ps"
 abbr -a dcr "docker-compose restart"
 abbr -a dcu "docker-compose up -d"
