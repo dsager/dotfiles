@@ -24,12 +24,6 @@
   # list commits in reverse order, usefule for PR descriptions when invoked w/ a limit
   commits = log --pretty=format:%B --reverse
 
-  # Remove merged branches
-  cleanup = "!f() { git checkout master; git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d; }; f"
-
-  # Update all branches by rebasing onto master
-  update-branches = "!f() { git branch --no-merged | cut -c 3- | for branch in $(cat); do git rebase master $branch; done; git checkout master; }; f"
-
   # Find commits by source code
   fc = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short -S$1; }; f"
 
@@ -82,16 +76,20 @@
 
   check = true
 
-[includeIf "gitdir:~/src/work/"]
-  path = ~/.gitconfig_devex
-
 [pull]
-	ff = only
+
+  ff = only
+
 [credential "https://github.com"]
-	helper =
-	helper = !/usr/bin/gh auth git-credential
+
+  helper =
+  helper = !/usr/bin/gh auth git-credential
+
 [credential "https://gist.github.com"]
-	helper =
-	helper = !/usr/bin/gh auth git-credential
+
+  helper =
+  helper = !/usr/bin/gh auth git-credential
+
 [init]
-	defaultBranch = main
+
+  defaultBranch = main

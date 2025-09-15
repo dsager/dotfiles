@@ -39,7 +39,6 @@ sudo cp "${BASEDIR}/config/etc/sysctl.d/99-sysctl.conf" /etc/sysctl.d/99-sysctl.
 printf "\n======================================================================\nSET UP SYMLINKS\n"
 ln -sT "${BASEDIR}/gitignore_global"                          "${HOME}/.gitignore_global"                           || true
 ln -sT "${BASEDIR}/gitconfig"                                 "${HOME}/.gitconfig"                                  || true
-ln -sT "${BASEDIR}/gitconfig_devex"                           "${HOME}/.gitconfig_devex"                            || true
 ln -sT "${BASEDIR}/wgetrc"                                    "${HOME}/.wgetrc"                                     || true
 ln -sT "${BASEDIR}/curlrc"                                    "${HOME}/.curlrc"                                     || true
 ln -sT "${BASEDIR}/psqlrc"                                    "${HOME}/.psqlrc"                                     || true
@@ -48,7 +47,6 @@ ln -sT "${BASEDIR}/irbrc"                                     "${HOME}/.irbrc"  
 ln -sT "${BASEDIR}/irbrc"                                     "${HOME}/.pryrc"                                      || true
 ln -sT "${BASEDIR}/projects.gws"                              "${HOME}/.projects.gws"                               || true
 ln -sT "${BASEDIR}/scripts/commands/update_system.sh"         "${HOME}/.local/bin/update"                           || true
-ln -sT "${BASEDIR}/scripts/commands/devex_pull_request.sh"    "${HOME}/.local/bin/ghpr"                             || true
 ln -sT "${BASEDIR}/scripts/commands/mount_nas.sh"             "${HOME}/.local/bin/mount_nas"                        || true
 ln -sT "${BASEDIR}/config/Code/settings.json"                 "${HOME}/.config/Code/User/settings.json"             || true
 ln -sT "${BASEDIR}/config/Code/keybindings.json"              "${HOME}/.config/Code/User/keybindings.json"          || true

@@ -27,21 +27,6 @@
     "regexes",
     "Rubocop"
   ],
-  "gitlens.autolinks": [
-    {
-      "prefix": "DVX-",
-      "url": "https://mydevex.atlassian.net/browse/DVX-<num>"
-    },
-    {
-      "prefix": "BAN-",
-      "url": "https://mydevex.atlassian.net/browse/BAN-<num>"
-    },
-    {
-      "prefix": "NUT-",
-      "url": "https://mydevex.atlassian.net/browse/NUT-<num>"
-    }
-  ],
-  "gitlens.graph.minimap.enabled": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontFamily": "Hack",
   "terminal.integrated.profiles.linux": {
