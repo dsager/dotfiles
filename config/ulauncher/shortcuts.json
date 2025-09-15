@@ -29,16 +29,6 @@
         "run_without_argument": false,
         "added": 1644576634.078844
     },
-    "a9c24b75-e1c9-46d9-a876-d8e50c481ac4": {
-        "id": "a9c24b75-e1c9-46d9-a876-d8e50c481ac4",
-        "name": "Jira",
-        "keyword": "jira",
-        "cmd": "https://mydevex.atlassian.net/browse/%s",
-        "icon": null,
-        "is_default_search": false,
-        "run_without_argument": false,
-        "added": 1644576863.331098
-    },
     "5c309b01-c52c-416b-b645-21ee34bd664c": {
         "id": "5c309b01-c52c-416b-b645-21ee34bd664c",
         "name": "Schmierzettel",
