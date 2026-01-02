@@ -19,6 +19,7 @@ mkdir -p "${HOME}/.config/Code/User" \
          "${HOME}/.vim/bundle" \
          "${HOME}/.vim/backups" \
          "${HOME}/.vim/swaps" \
+         "${HOME}/.ssh" \
          "${HOME}/NAS/Pictures" \
          "${HOME}/NAS/Archive" \
          "${HOME}/NAS/Videos" \
@@ -52,6 +53,7 @@ ln -sT "${BASEDIR}/config/Code/settings.json"                 "${HOME}/.config/C
 ln -sT "${BASEDIR}/config/Code/keybindings.json"              "${HOME}/.config/Code/User/keybindings.json"          || true
 ln -sT "${BASEDIR}/config/fish/config.fish"                   "${HOME}/.config/fish/config.fish"                    || true
 ln -sT "${BASEDIR}/config/fish/fish_plugins"                  "${HOME}/.config/fish/fish_plugins"                   || true
+ln -sT "${BASEDIR}/ssh/config"                                "${HOME}/.ssh/config"                                 || true
 ln -sT "${BASEDIR}/config/ulauncher"                          "${HOME}/.config/ulauncher"                           || true
 ln -sT "${HOME}/Dropbox/notes/idid.log"                       "${HOME}/.idid.log"                                   || true
 

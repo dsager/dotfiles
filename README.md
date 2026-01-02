@@ -7,7 +7,7 @@ This is a constant work-in-progress, but feel to look around for anything useful
 
 ### Prepare on existing system
 
-- Backup SSH keys & config
+- Backup SSH keys & config (recommended only for reinstalling the same machine)
 ```
 cd <backup folder>
 tar -cz ~/.ssh | gpg --yes -c -o ./ssh-backup.tgz.gpg
@@ -25,7 +25,11 @@ tar -cz ~/.gnupg | gpg --yes -c -o ./gnupg-backup.tgz.gpg
 
 ### Setup new environment
 
-- Restore SSH keys & config
+- Generate a new SSH key (recommended for new machines)
+```
+ssh-keygen -t ed25519 -a 64 -C "your.email@example.com"
+```
+- Restore SSH keys & config (only if reinstalling the same machine)
 ```
 cd ~
 rm -rf .ssh
