@@ -12,10 +12,14 @@ This is a constant work-in-progress, but feel to look around for anything useful
 cd <backup folder>
 tar -cz ~/.ssh | gpg --yes -c -o ./ssh-backup.tgz.gpg
 ```
-- Backup GPG keys & config
+- Backup pass key only (recommended minimal option for pass)
 ```
-cd <backup folder>
-tar -cz ~/.gnupg | gpg --yes -c -o ./gnupg-backup.tgz.gpg
+gpg --export-secret-keys --armor "password-store" > pass-key.asc
+gpg --export-ownertrust > ownertrust.txt
+```
+If you want to keep the primary key offline:
+```
+gpg --export-secret-subkeys --armor "password-store" > pass-subkeys.asc
 ```
 - Backup other settings (e.g. RubyMine, DataGrip, ...)
 - Check git repos for uncommited stuff:
@@ -36,12 +40,10 @@ rm -rf .ssh
 gpg -d <backup-folder>/ssh-backup.tgz.gpg | tar -xz --directory=/
 rm <backup-folder>/ssh-backup.tgz.gpg
 ```
-- Restore GPG keys & config
+- Restore pass key only (recommended minimal option for pass)
 ```
-cd ~
-rm -rf .gnupg
-gpg -d <backup-folder>/gnupg-backup.tgz.gpg | tar -xz --directory=/
-rm <backup-folder>/gnupg-backup.tgz.gpg
+gpg --import pass-key.asc
+gpg --import-ownertrust ownertrust.txt
 ```
 - Setup Password manager:
 ```
