@@ -93,3 +93,7 @@
 [init]
 
   defaultBranch = main
+
+[includeIf "gitdir:~/src/work/"]
+
+  path = ~/.gitconfig_vwdh

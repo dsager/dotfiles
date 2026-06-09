@@ -40,6 +40,7 @@ sudo cp "${BASEDIR}/config/etc/sysctl.d/99-sysctl.conf" /etc/sysctl.d/99-sysctl.
 printf "\n======================================================================\nSET UP SYMLINKS\n"
 ln -sT "${BASEDIR}/gitignore_global"                          "${HOME}/.gitignore_global"                           || true
 ln -sT "${BASEDIR}/gitconfig"                                 "${HOME}/.gitconfig"                                  || true
+ln -sT "${BASEDIR}/gitconfig_vwdh"                            "${HOME}/.gitconfig_vwdh"                             || true
 ln -sT "${BASEDIR}/wgetrc"                                    "${HOME}/.wgetrc"                                     || true
 ln -sT "${BASEDIR}/curlrc"                                    "${HOME}/.curlrc"                                     || true
 ln -sT "${BASEDIR}/psqlrc"                                    "${HOME}/.psqlrc"                                     || true
